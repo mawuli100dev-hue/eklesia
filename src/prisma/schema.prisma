@@ -1,0 +1,18 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+model Reading_FR {
+  id          Int      @id @default(autoincrement())
+  weekday     String
+  date        String
+  label       String?
+  theme       String
+  text        String[]
+}

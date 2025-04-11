@@ -1,0 +1,217 @@
+
+
+{
+    "title": "Octobre 2025",
+    "days": [
+        {
+            "day": "Mer.",
+            "theme": "Avec foi, va au Seigneur qui guérit",
+            "text": "Mt 8, 1-13",
+            "id": 1
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Crois et glorifie le Seigneur qui pardonne et guérit",
+            "text": "Mt 9, 1-8",
+            "id": 2
+        },
+        {
+            "day": "Ven.",
+            "theme": "Sois le Seigneur, porteur de la nouvelle doctrine",
+            "text": "Mt 9, 9-17",
+            "id": 3
+        },
+        {
+            "day": "Sam.",
+            "theme": "Approche-toi du Seigneur dans la détresse",
+            "text": "Mt 9, 18-26",
+            "id": 4
+        },
+        {
+            "day": "Dim. 40",
+            "label": "DIX SEPTIEME DIMANCHE APRES PENTECÔTE (TRINITE 16). Journée universelle de la sainte cène",
+            "text": [
+                "Ps 23",
+                "Es 25, 6-9",
+                "Ph 4, 12-14",
+                "Mt 22, 1-14"
+            ],
+            "theme": "ACCEPTE DE PORTER LA JUSTICE DU SEIGNEUR POUR PARTICIPER A LA NOCE",
+            "id": 5
+        },
+        {
+            "day": "Lun.",
+            "theme": "Prèche la parole du Seigneur dans l’adversité et reste-lui fidèle",
+            "text": "Mt 10, 26-33",
+            "id": 6
+        },
+        {
+            "day": "Mar.",
+            "theme": "Viens au Seigneur qui te révèle le Père et qui allège ton fardeau",
+            "text": "Mt 11, 25-30",
+            "id": 7
+        },
+        {
+            "day": "Mer.",
+            "theme": "Fais du bien et évite de tendre un piège à ton prochain",
+            "text": "Mt 12, 9-14",
+            "id": 8
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Garde-toi de nier la puissance du Saint-Esprit",
+            "text": "Mt 12, 22-32",
+            "id": 9
+        },
+        {
+            "day": "Ven.",
+            "theme": "Aie confiance en le Seigneur et fixe ton regard sur lui",
+            "text": "Mt 14, 22-33",
+            "id": 10
+        },
+        {
+            "day": "Sam.",
+            "theme": "Donne priorité à l’Evangile et honore le Seigneur avec des pensées saines",
+            "text": "Mt 15, 1-20",
+            "id": 11
+        },
+        {
+            "day": "Dim. 41",
+            "label": "DIX HUITIEME DIMANCHE APRES PENTECÔTE (TRINITE 17)",
+            "text": [
+                "Ps 96, 1-3",
+                "Es 45, 1-6",
+                "Tl. 1, 1-5",
+                "Mt 22, 15-21"
+            ],
+            "theme": "DEMEURE FERME DANS LA FOI ET ACCOMPLIS TON DEVOIR DE CITOYEN(NE)",
+            "id": 12
+        },
+        {
+            "day": "Lun.",
+            "theme": "Humilie-toi et évite les scandales",
+            "text": "Mt 18, 1-9",
+            "id": 13
+        },
+        {
+            "day": "Mar.",
+            "theme": "Accepte l’indissolubilité du mariage",
+            "text": "Mt 19, 3-12",
+            "id": 14
+        },
+        {
+            "day": "Mer.",
+            "theme": "Loue le Seigneur qui domine sa création",
+            "text": "Ps 104, 1-9",
+            "id": 15
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Obéis à l’ordre du Seigneur",
+            "text": "Gn 7, 1-12",
+            "id": 16
+        },
+        {
+            "day": "Ven.",
+            "theme": "Offre des actions de grâce au Seigneur qui scelle une alliance avec la création",
+            "text": "Gn 8, 13-22",
+            "id": 17
+        },
+        {
+            "day": "Sam.",
+            "theme": "Obéis au Seigneur qui veille sur la mission",
+            "text": "Jon 1, 1-16",
+            "id": 18
+        },
+        {
+            "day": "Dim. 42",
+            "label": "DIX NEUVIEME DIMANCHE APRES PENTECÔTE (TRINITE 18)",
+            "text": [
+                "Ps 18, 3+4",
+                "Ex 22, 20-26",
+                "Tl. 1, 6-10",
+                "Mt 22, 34-40"
+            ],
+            "theme": "EXPRIME TON AMOUR AU SEIGNEUR ET A TON PROCHAIN",
+            "id": 19
+        },
+        {
+            "day": "Lun.",
+            "theme": "Dans les détresses, souviens-toi des hauts faits du Seigneur",
+            "text": "Ps 77, 11-20",
+            "id": 20
+        },
+        {
+            "day": "Mar.",
+            "theme": "Sois sans crainte, crois en le Seigneur qui apaise la tempête",
+            "text": "Lc 8, 22-25",
+            "id": 21
+        },
+        {
+            "day": "Mer.",
+            "theme": "Reconnais que c’est le Seigneur qui t’a formé(e) et qui t’a donné vie",
+            "text": "Gn 2, 4-9",
+            "id": 22
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Choisis la voie du juste et tu auras du succès",
+            "text": "Ps 1",
+            "id": 23
+        },
+        {
+            "day": "Ven.",
+            "theme": "Obéis au Seigneur et dis la vérité même face aux intimidations",
+            "text": "Ac 5, 27-32",
+            "id": 24
+        },
+        {
+            "day": "Sam.",
+            "theme": "Efforce-toi d’entrer dans la joie du Seigneur",
+            "text": "Ap 22, 1-5",
+            "id": 25
+        },
+        {
+            "day": "Dim. 43",
+            "label": "VINGTIEME DIMANCHE APRES PENTECÔTE (TRINITE 19). Dimanche de la Réforme",
+            "text": [
+                "Ps 131",
+                "Mt 1, 14 + 2, 8-10",
+                "Tl. 2, 7-9",
+                "Mt 23, 1-12"
+            ],
+            "theme": "RESPECTE LES PRÉCEPTES DU SEIGNEUR ET SOIS UN MODÈLE POUR TON PROCHAIN",
+            "id": 26
+        },
+        {
+            "day": "Lun.",
+            "theme": "Manifeste ta compassion envers ton prochain",
+            "text": "Lc 13, 8-19",
+            "id": 27
+        },
+        {
+            "day": "Mar.",
+            "theme": "Recherche la communion personnelle avec le Seigneur et glorifie-le",
+            "text": "Ps 63",
+            "id": 28
+        },
+        {
+            "day": "Mer.",
+            "theme": "Prends conscience du caractère éphémère de la vie et vis sagement",
+            "text": "Ps 90, 1-12",
+            "id": 29
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Exprime ta reconnaissance au Seigneur pour ses bénédictions",
+            "text": "Ps 103, 1-14",
+            "id": 30
+        },
+        {
+            "day": "Ven.",
+            "theme": "Compatis à la détresse de ton peuple et implore le Seigneur",
+            "text": "Jr 14, 1-10",
+            "id": 31
+        }
+    ]
+}

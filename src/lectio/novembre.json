@@ -1,0 +1,217 @@
+
+
+{
+    "title": "Novembre 2025",
+    "days": [
+        {
+            "day": "Sam.",
+            "theme": "Donne au Seigneur la gloire de sa puissance et de sa bonté",
+            "text": "Ps 65",
+            "id": 1
+        },
+        {
+            "day": "Dim. 44",
+            "label": "VINGT ET UNIEME DIMANCHE APRES PENTECÔTE (TRINITE 20). Evangelisation dans chaque paroisse",
+            "text": [
+                "Ps 107, 1-7",
+                "Jos 3, 7-17",
+                "1 Th 4, 13-18",
+                "Mt 25, 1-13"
+            ],
+            "theme": "TU ES HONORÉ(E) EN CHRIST, SOIS SAGE DANS LA MISSION",
+            "id": 2
+        },
+        {
+            "day": "Lun.",
+            "theme": "Sois indulgent(e) envers ton semblable",
+            "text": "Jn 8, 1-11",
+            "id": 3
+        },
+        {
+            "day": "Mar.",
+            "theme": "Fais attention aux enseignants usurpateurs",
+            "text": "Mt 23, 1-12",
+            "id": 4
+        },
+        {
+            "day": "Mer.",
+            "theme": "Reste loin de l’hypocrisie",
+            "text": "Mt 23, 13-22",
+            "id": 5
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Sois fidèle dans l’obéissance des préceptes du Seigneur",
+            "text": "Mt 23, 23-28",
+            "id": 6
+        },
+        {
+            "day": "Ven.",
+            "theme": "Cesse de marcher sur les mauvaises traces de tes parents",
+            "text": "Mt 23, 29-39",
+            "id": 7
+        },
+        {
+            "day": "Sam.",
+            "theme": "Efforce-toi de comprendre les signes des temps et persévère dans la foi",
+            "text": "Mt 24, 1-14",
+            "id": 8
+        },
+        {
+            "day": "Dim. 45",
+            "label": "VINGT DEUXIEME DIMANCHE APRES PENTECÔTE (TRINITE 21)",
+            "text": [
+                "Ps 128, 1-6",
+                "Pr 31, 10-13+30+31",
+                "1 Th 5, 1-6",
+                "Mt 25, 14-30"
+            ],
+            "theme": "ENFANT DE LUMIÈRE, AIE CONFIANCE AU SEIGNEUR ET FRUCTIFIE TES TALENTS",
+            "id": 9
+        },
+        {
+            "day": "Lun.",
+            "theme": "Veille et prie pour échapper aux désastres du temps",
+            "text": "Mt 24, 15-28",
+            "id": 10
+        },
+        {
+            "day": "Mar.",
+            "theme": "Accomplis fidèlement ta tâche, le Seigneur revient",
+            "text": "Mt 24, 36-51",
+            "id": 11
+        },
+        {
+            "day": "Mer.",
+            "theme": "Prends toutes les dispositions nécessaires pour accueillir ton Seigneur",
+            "text": "Mt 25, 1-13",
+            "id": 12
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Sois fidèle dans la gestion des biens du Seigneur",
+            "text": "Mt 25, 14-30",
+            "id": 13
+        },
+        {
+            "day": "Ven.",
+            "theme": "Pratique l’amour altruiste pour entrer dans la vie éternelle",
+            "text": "Mt 25, 31-46",
+            "id": 14
+        },
+        {
+            "day": "Sam.",
+            "theme": "Rends à chacun ce qui lui est digne",
+            "text": "Mt 22, 15-22",
+            "id": 15
+        },
+        {
+            "day": "Dim. 46",
+            "label": "VINGT TROISIEME DIMANCHE APRES PENTECÔTE (TRINITE 22)",
+            "text": [
+                "Ps 123",
+                "Ez 34, 11-17",
+                "1 Co 15, 20-28",
+                "Mt 25, 31-46"
+            ],
+            "theme": "COMPTE SUR LE BON BERGER QUI TE CONNAIT ET QUI T’ACCUEILLE DANS SON ROYAUME",
+            "id": 16
+        },
+        {
+            "day": "Lun.",
+            "theme": "Aime le Seigneur de tous les temps et ton prochain de tout ton être",
+            "text": "Mt 22, 34-40",
+            "id": 17
+        },
+        {
+            "day": "Mar.",
+            "theme": "Loue le Seigneur pour ce qu’il est et ce qu’il fait",
+            "text": "Ps 150",
+            "id": 18
+        },
+        {
+            "day": "Mer.",
+            "theme": "Exalte le Seigneur qui t’a délivré(e) par sa puissance",
+            "text": "Ez 15, 1-21",
+            "id": 19
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Adore le seul et vrai Seigneur",
+            "text": "Dn 3, 1-12",
+            "id": 20
+        },
+        {
+            "day": "Ven.",
+            "theme": "Repens-toi pour éviter le châtiment du Seigneur",
+            "text": "Ez 26, 7-14",
+            "id": 21
+        },
+        {
+            "day": "Sam.",
+            "theme": "Respecte les consignes du Seigneur pour bénéficier des dons de l’Esprit",
+            "text": "1 S 10, 1-8",
+            "id": 22
+        },
+        {
+            "day": "Dim. 47",
+            "label": "VINGT QUATRIEME DIMANCHE APRES PENTECÔTE (TRINITE 23). Dernier dimanche de l’année ecclésiastique : pensée à la mémoire des morts durant l’année dans chaque paroisse",
+            "text": [
+                "Ps 1",
+                "Ez 59, 16-21",
+                "Ep 6, 10-20",
+                "Mc 14, 1-9"
+            ],
+            "theme": "POSE DES ACTES QUI CONCOURENT À L’ANNONCE DE LA BONNE NOUVELLE",
+            "id": 23
+        },
+        {
+            "day": "Lun.",
+            "theme": "Respecte la hiérarchie dans tes fonctions",
+            "text": "1 Ch 25, 1-7",
+            "id": 24
+        },
+        {
+            "day": "Mar.",
+            "theme": "Laisse tes enfants mettre leurs talents au service du Seigneur",
+            "text": "1 S 16, 14-23",
+            "id": 25
+        },
+        {
+            "day": "Mer.",
+            "theme": "Réjouis-toi avec ton peuple en la présence du Seigneur",
+            "text": "2 S 6, 1-5",
+            "id": 26
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Célèbre la gloire du Seigneur en communion avec les autres",
+            "text": "2 Ch 5, 2-14",
+            "id": 27
+        },
+        {
+            "day": "Ven.",
+            "theme": "Rassemble ton peuple pour le culte du Seigneur",
+            "text": "2 Ch 29, 20-30",
+            "id": 28
+        },
+        {
+            "day": "Sam.",
+            "theme": "Vis dans la plénitude du Saint-Esprit",
+            "text": "Ep 5, 15-20",
+            "id": 29
+        },
+        {
+            "day": "Dim. 48",
+            "label": "PREMIER DIMANCHE DE L’AVENT : PREMIER DIMANCHE DE L’ANNEE ECCLESIASTIQUE",
+            "text": [
+                "Ps 122",
+                "Ez 2, 1-5",
+                "Rm 13, 11-14",
+                "Mt 25, 37-46"
+            ],
+            "theme": "CONNAISSANT LES VOIES DU SEIGNEUR, PRÉPARE-TOI POUR LE JUGEMENT DERNIER",
+            "id": 30
+        }
+    ]
+}

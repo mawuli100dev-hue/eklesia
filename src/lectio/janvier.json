@@ -1,0 +1,230 @@
+
+{
+    "title": "Janvier 2025",
+    "days": [
+        {
+            "day": "Mer.",
+            "label": "NOUVEL AN",
+            "text": [
+                "Ps 66, 1-4",
+                "Nb 6, 22-27",
+                "Ga 4, 1-7",
+                "Lc 2, 15-21"
+            ],
+            "theme": "ANNONCE LA GRÂCE DU SAUVEUR QUI EST NÉ",
+            "id": 1
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Reste vigilant(e) en toutes circonstances",
+            "text": "S 19, 8-18",
+            "id": 2
+        },
+        {
+            "day": "Ven.",
+            "theme": "Compte toujours sur le Seigneur",
+            "text": "R 19, 1-18",
+            "id": 3
+        },
+        {
+            "day": "Sam.",
+            "theme": "Préserve la vie",
+            "text": "Jr 29, 4-9",
+            "id": 4
+        },
+        {
+            "day": "Dim. 1",
+            "label": "DEUXIÈME DIMANCHE APRES NOEL ; PREMIER DIMANCHE DE L’ANNÉE CIVILE. Journée de la Bible dans chaque paroisse",
+            "text": [
+                "Ps 72, 1-7",
+                "Es 60, 1-6",
+                "Ep 3, 1-6",
+                "Mt 2, 1-12"
+            ],
+            "theme": "CHERCHE À COMPRENDRE LE MYSTÈRE DE DIEU EN JÉSUS-CHRIST",
+            "id": 5
+        },
+        {
+            "day": "Lun.",
+            "label": "LA REVELATION DE JESUS-CHRIST (EPIPHANIE)",
+            "text": [
+                "Ps 146, 142-55",
+                "Ps 147, 1-3",
+                "Ep 1, 15-19",
+                "Jn 1, 1-12"
+            ],
+            "theme": "RENDS GRÂCE AU SEIGNEUR QUI FAIT DE TOI SON ENFANT PAR JÉSUS - CHRIST",
+            "id": 6
+        },
+        {
+            "day": "Mar.",
+            "theme": "Garde-toi d’être cité(e) négativement",
+            "text": "Jr 29, 21-23",
+            "id": 7
+        },
+        {
+            "day": "Mer.",
+            "theme": "Sois prudent(e) dans tes décisions",
+            "text": "Jr 40, 7-16",
+            "id": 8
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Sois le refuge de ceux/celles qui sont en difficulté",
+            "text": "Es 16, 1-5",
+            "id": 9
+        },
+        {
+            "day": "Ven.",
+            "theme": "Fais preuve de miséricorde envers les démuni(e)s",
+            "text": "Dt 24, 17-22",
+            "id": 10
+        },
+        {
+            "day": "Sam.",
+            "theme": "Fais preuve de courtoisie et d’hospitalité envers les étrangers",
+            "text": "Gn 18, 1-8",
+            "id": 11
+        },
+        {
+            "day": "Dim. 2",
+            "label": "I EPIPHANIE : PREMIER DIMANCHE APRES LA REVELATION",
+            "text": [
+                "Ps 29, 1-4",
+                "Es 42, 1-9",
+                "Ac 10, 34-43",
+                "Mt 3, 13-17"
+            ],
+            "theme": "FAIS CONFIANCE AU SEIGNEUR",
+            "id": 12
+        },
+        {
+            "day": "Lun.",
+            "theme": "Sois humble et reconnaissant(e)",
+            "text": "Rt 2, 1-13",
+            "id": 13
+        },
+        {
+            "day": "Mar.",
+            "theme": "Permets que la grâce du Seigneur soit manifestée à tous/toutes",
+            "text": "Nb 15, 14-16",
+            "id": 14
+        },
+        {
+            "day": "Mer.",
+            "theme": "Tiens-toi à la brèche pour ramener ton peuple à la repentance",
+            "text": "Ez 22, 23-31",
+            "id": 15
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Prépare-toi pour le jugement dernier",
+            "text": "Mt 25, 31-46",
+            "id": 16
+        },
+        {
+            "day": "Ven.",
+            "theme": "Sois hospitalier(ère) et solidaire avec les autres",
+            "text": "He 13, 1-3",
+            "id": 17
+        },
+        {
+            "day": "Sam.",
+            "theme": "Entretiens de bonnes relations avec les autres",
+            "text": "Rm 12, 9-16",
+            "label": "Début de la semaine de prière pour l’unité des chrétiens",
+            "id": 18
+        },
+        {
+            "day": "Dim. 3",
+            "label": "II EPIPHANIE : DEUXIÈME DIMANCHE APRES LA REVELATION",
+            "text": [
+                "Ps 40, 2-5",
+                "Es 49, 1-7",
+                "1 Co 1, 1-9",
+                "Jn 1, 29-42"
+            ],
+            "theme": "ACCEPTE ET RENDS TÉMOIGNAGE DU PLAN DE SALUT DE DIEU RÉALISÉ EN JÉSUS-CHRIST",
+            "id": 19
+        },
+        {
+            "day": "Lun.",
+            "theme": "Evite de te laisser animer par l’esprit de vengeance",
+            "text": "Ps 137",
+            "id": 20
+        },
+        {
+            "day": "Mar.",
+            "theme": "Exerce la miséricorde envers ton prochain",
+            "text": "Lc 10, 25-37",
+            "id": 21
+        },
+        {
+            "day": "Mer.",
+            "theme": "Ecoute et pratique la Parole du Seigneur",
+            "text": "Lc 16, 19-31",
+            "id": 22
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Dis le droit tel qu’il est",
+            "text": "Dt 1, 16-18",
+            "id": 23
+        },
+        {
+            "day": "Ven.",
+            "theme": "Mets en pratique les commandements du Seigneur, source de sagesse",
+            "text": "Dt 4, 5-14",
+            "id": 24
+        },
+        {
+            "day": "Sam.",
+            "theme": "Respecte l’alliance que le Seigneur a conclue avec toi",
+            "text": "Dt 5, 1-21",
+            "label": "Fin de la semaine de prière pour l’unité des chrétiens",
+            "id": 25
+        },
+        {
+            "day": "Dim. 4",
+            "label": "III EPIPHANIE : TROISIÈME DIMANCHE APRES LA REVELATION",
+            "text": [
+                "Ps 27, 4-9",
+                "Es 8, 23-9, 1-3",
+                "1 Co 1, 10-17",
+                "Mt 4, 12-23"
+            ],
+            "theme": "VIENS À LA LUMIÈRE ET PRATIQUE L’UNITÉ",
+            "id": 26
+        },
+        {
+            "day": "Lun.",
+            "theme": "Garde-toi d’oublier le Seigneur, sois-hui fidèle",
+            "text": "Dt 6, 10-25",
+            "id": 27
+        },
+        {
+            "day": "Mar.",
+            "theme": "Observe les commandements du Seigneur et tu seras béni(e)",
+            "text": "Dt 7, 7-16",
+            "id": 28
+        },
+        {
+            "day": "Mer.",
+            "theme": "Garde-toi d’irriter le Seigneur qui t’aime",
+            "text": "Dt 9, 6-21",
+            "id": 29
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Fais fidèlement ce que le Seigneur t’a prescrit",
+            "text": "Dt 10, 1-5",
+            "id": 30
+        },
+        {
+            "day": "Ven.",
+            "theme": "Sers fidèlement le Seigneur pour jouir des bénédictions promises",
+            "text": "Dt 11, 8-17",
+            "id": 31
+        }
+    ]
+}

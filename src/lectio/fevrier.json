@@ -1,0 +1,197 @@
+{
+    "title": "Février 2025",
+    "days": [
+        {
+            "day": "Sam.",
+            "theme": "Obéis à la loi du Seigneur dans ses dimensions culturelles",
+            "text": "Dt 12, 1-12",
+            "id": 1
+        },
+        {
+            "day": "Dim. 5",
+            "label": "IV EPIPHANIE : QUATRIÈME DIMANCHE APRÈS LA RÉVÉLATION. Journée du CEPROFOIRE",
+            "text": [
+                "Ps 146, 6-10",
+                "So 3, 12+13",
+                "1 Co. 1, 26-31",
+                "Mt 5, 1-12"
+            ],
+            "theme": "LUTTE POUR ÊTRE DE LA COMMUNAUTÉ RESTAURÉE",
+            "id": 2
+        },
+        {
+            "day": "Lun.",
+            "theme": "Evite de donner satisfaction aux appétits pervers",
+            "text": "Dt 14, 3-20",
+            "id": 3
+        },
+        {
+            "day": "Mar.",
+            "theme": "Œuvre pour la réduction de l’extrême pauvreté dans ta communauté",
+            "text": "Dt 15, 1-11",
+            "id": 4
+        },
+        {
+            "day": "Mer.",
+            "theme": "Honore par tes offrandes volontaires le Seigneur qui t’a libéré(e)",
+            "text": "Dt 16, 1-15",
+            "id": 5
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Reconnais tes péchés et confesse-les",
+            "text": "Ps 51",
+            "id": 6
+        },
+        {
+            "day": "Ven.",
+            "theme": "Restitué à ton prochain ce qu’il a perdu et respecté l’ordre créationnel",
+            "text": "Dt 22, 1-8",
+            "id": 7
+        },
+        {
+            "day": "Sam.",
+            "theme": "Choisis et obéis à la loi du Seigneur",
+            "text": "Dt 30, 11-20",
+            "id": 8
+        },
+        {
+            "day": "Dim. 6",
+            "label": "V EPIPHANIE : CINQUIEME DIMANCHE APRÈS LA RÉVÉLATION",
+            "text": [
+                "Ps 111, 1-3",
+                "Es 58, 6-10",
+                "1 Co. 2, 1-5",
+                "Mt 5, 17-26"
+            ],
+            "theme": "OBÉIS À LA LOI ET A SON ESPRIT TELLE QU’ELLE EST PRESCRITE",
+            "id": 9
+        },
+        {
+            "day": "Lun.",
+            "theme": "Fuis la tentation de vaines gloires",
+            "text": "Mt 6, 1-6",
+            "id": 10
+        },
+        {
+            "day": "Mar.",
+            "theme": "Résisté à la tentation par la maîtrise de la Parole de Dieu",
+            "text": "Mt 4, 1+2+5-7",
+            "id": 11
+        },
+        {
+            "day": "Mer.",
+            "theme": "Repens-toi et cherche la face du Seigneur",
+            "text": "So 2, 1-11",
+            "id": 12
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Evite d’initier des projets égoïstes",
+            "text": "Gn 11, 1-9",
+            "id": 13
+        },
+        {
+            "day": "Ven.",
+            "theme": "Exalte le Seigneur qui t’a fait de grandes choses",
+            "text": "Lc 1, 46-55",
+            "id": 14
+        },
+        {
+            "day": "Sam.",
+            "theme": "Evite la colère irréfléchie et réconcilié-toi avec ton prochain",
+            "text": "Mt 5, 21-26",
+            "id": 15
+        },
+        {
+            "day": "Dim. 7",
+            "label": "VI EPIPHANIE : SIXIEME DIMANCHE APRÈS LA RÉVÉLATION SEPTUAGESIME : 70 jours avant la Résurrection de Jésus-Christ. Début de la semaine de l’œuvre scolaire dans chaque paroisse",
+            "text": [
+                "Ps 99, 1-3",
+                "Ex 24, 12-18",
+                "1 Co. 2, 6-10",
+                "Mt 5, 27-37"
+            ],
+            "theme": "AIE CONFIANCE EN LE SEIGNEUR ET PRATIQUE LA DROITURE",
+            "id": 16
+        },
+        {
+            "day": "Lun.",
+            "theme": "Préserve un avenir meilleur à l’enfant par une bonne éducation",
+            "text": "Pr 22, 6",
+            "id": 17
+        },
+        {
+            "day": "Mar.",
+            "theme": "Crains le Seigneur, il te bénira toi et ta postérité",
+            "text": "Ps 112, 1-4",
+            "id": 18
+        },
+        {
+            "day": "Mer.",
+            "theme": "Transmets l’enseignement du Seigneur à ta postérité",
+            "text": "Ps 78, 4-7",
+            "id": 19
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Le Seigneur t’a choisi(e), instruis toute ta maisonnée",
+            "text": "Gn 18, 19",
+            "id": 20
+        },
+        {
+            "day": "Ven.",
+            "theme": "Lutte pour la maturité de tous les chrétiens",
+            "text": "Col 2, 1-3",
+            "id": 21
+        },
+        {
+            "day": "Sam.",
+            "theme": "Attache-toi à l’Écriture inspirée de Dieu afin d’accomplir les œuvres bonnes",
+            "text": "2 Tim 3, 14-17",
+            "id": 22
+        },
+        {
+            "day": "Dim. 8",
+            "label": "VII EPIPHANIE : SEPTIEME DIMANCHE APRÈS LA RÉVÉLATION SEXAGESIME : 60 jours avant la Résurrection de Jésus-Christ. Fin de la semaine de l’œuvre scolaire dans chaque paroisse",
+            "text": [
+                "Ps 103, 1-5",
+                "Lv 19, 17+18",
+                "1 Co. 3, 16-23",
+                "Mt 5, 38-48"
+            ],
+            "theme": "TU ES LE TEMPLE DE DIEU, GARDE-TOI DE RÉPLIQUER AU MAL PAR LE MAL",
+            "id": 23
+        },
+        {
+            "day": "Lun.",
+            "theme": "Reconnais tes péchés et cherche la purification auprès du Seigneur",
+            "text": "Lv 4, 25-32",
+            "id": 24
+        },
+        {
+            "day": "Mar.",
+            "theme": "Aie confiance en Dieu et ne te préoccupe pas des méchants qui prospèrent",
+            "text": "Ps 37, 1-9",
+            "id": 25
+        },
+        {
+            "day": "Mer.",
+            "theme": "Maîtrise-toi dans toutes les situations",
+            "text": "Pr 30, 10-14+32+33",
+            "id": 26
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Préserve la vie de ton prochain et évite la violence",
+            "text": "Gn 4, 1-14",
+            "id": 27
+        },
+        {
+            "day": "Ven.",
+            "theme": "Cherche la pureté du cœur",
+            "text": "Ep 4, 25-32",
+            "id": 28
+        }
+    ]
+}

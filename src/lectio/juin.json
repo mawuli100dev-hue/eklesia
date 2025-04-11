@@ -1,0 +1,222 @@
+
+{
+    "title": "Juin 2025",
+    "days": [
+        {
+            "day": "Dim. 22",
+            "label": "SIXIEME DIMANCHE APRES PAQUES. EXAUDI : Ecoute (Ps 27, 7). Journée du partenariat",
+            "text": [
+                "Ps 27, 1-3",
+                "Ac 1, 12-14",
+                "1 P. 4, 12-16",
+                "Jn 17, 1-11"
+            ],
+            "theme": "NOIS SANS CRAINTE, LE SEIGNEUR INTERCÈDE POUR TOI DANS TA MISSION",
+            "id": 1
+        },
+        {
+            "day": "Lun.",
+            "theme": "Dans les difficultés, invoque le Seigneur",
+            "text": "Ps 57",
+            "id": 2
+        },
+        {
+            "day": "Mar.",
+            "theme": "Incline-toi devant la toute puissance du Seigneur",
+            "text": "Jb 9, 1-12",
+            "id": 3
+        },
+        {
+            "day": "Mer.",
+            "theme": "Réjouis-toi, le Seigneur exauce tes prières",
+            "text": "Lc 1, 5-14",
+            "id": 4
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Chante la gloire du Seigneur qui tient ses promesses",
+            "text": "Lc 1, 67-79",
+            "id": 5
+        },
+        {
+            "day": "Ven.",
+            "theme": "Bénis le Seigneur pour sa bonté",
+            "text": "Ps 66, 8-20",
+            "id": 6
+        },
+        {
+            "day": "Sam.",
+            "theme": "Reçois le témoignage du Seigneur descendu du ciel",
+            "text": "Jn 3, 11-17",
+            "id": 7
+        },
+        {
+            "day": "Dim. 23",
+            "label": "DIMANCHE DE PENTECÔTE (50 jours après Pâques)",
+            "text": [
+                "Ps 104, 1-4",
+                "Ac 2, 1-11",
+                "1 Co. 12, 3-13",
+                "Jn 20, 19-23"
+            ],
+            "theme": "REÇOIS LE SAINT ESPRIT QUI DISPENSE LES DONS POUR L’ÉDIFICATION DE L’ÉGLISE",
+            "id": 8
+        },
+        {
+            "day": "Lun.",
+            "label": "LUNDI DE PENTECÔTE",
+            "text": [
+                "Ps 104, 24",
+                "Gn 1, 1-5",
+                "Ap 2, 1-13",
+                "Jn 15, 26-16, 1-4"
+            ],
+            "theme": "REPENS-TOI ET RENDS TÉMOIGNAGE AU SEIGNEUR, LUMIÈRE DU MONDE",
+            "id": 9
+        },
+        {
+            "day": "Mar.",
+            "theme": "Crois en le Seigneur qui se révèle à toi et te rappelle ses promesses",
+            "text": "Gn 28, 10-17",
+            "id": 10
+        },
+        {
+            "day": "Mer.",
+            "theme": "Aspire aux choses spirituelles",
+            "text": "2 R. 2, 9-14",
+            "id": 11
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Ecoute la parole du Seigneur qui redonne vie",
+            "text": "Ez 37, 1-14",
+            "id": 12
+        },
+        {
+            "day": "Ven.",
+            "theme": "Fixe le regard sur le Seigneur et reste ferme dans la foi",
+            "text": "He 12, 1-3",
+            "id": 13
+        },
+        {
+            "day": "Sam.",
+            "theme": "Accepte de souffrir pour Christ afin de prendre part à sa gloire",
+            "text": "1 P. 4, 12-14",
+            "id": 14
+        },
+        {
+            "day": "Dim. 24",
+            "label": "PREMIER DIMANCHE APRES PENTECÔTE (TRINITE)",
+            "text": [
+                "Ps 88, 2-6",
+                "Ex 34, 4-9",
+                "2 Co. 13, 11-13",
+                "Jn 3, 16-18"
+            ],
+            "theme": "CROIS A LA GRÂCE DU SEIGNEUR MANIFESTÉE EN SON FILS",
+            "id": 15
+        },
+        {
+            "day": "Lun.",
+            "theme": "Rends grâce au Seigneur qui a fait de toi un sacrificateur pour Dieu",
+            "text": "Ap 1, 4-8",
+            "id": 16
+        },
+        {
+            "day": "Mar.",
+            "theme": "Obéis au Seigneur qui te restaure",
+            "text": "Ez 11, 17-20",
+            "id": 17
+        },
+        {
+            "day": "Mer.",
+            "theme": "Amène ton prochain à la rencontre du Seigneur",
+            "text": "Jn 1, 43-51",
+            "id": 18
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Réjouis-toi, le Seigneur met fin à tes souffrances",
+            "text": "Jl 2, 23-27",
+            "id": 19
+        },
+        {
+            "day": "Ven.",
+            "theme": "Tu es passé(e) de la mort à la vie, marche sous la conduite du Saint Esprit",
+            "text": "Rm 8, 1-17",
+            "id": 20
+        },
+        {
+            "day": "Sam.",
+            "theme": "Ressuscité(e) avec Christ, recherche les choses d’en haut",
+            "text": "Col 3, 1-11",
+            "id": 21
+        },
+        {
+            "day": "Dim. 25",
+            "label": "DEUXIEME DIMANCHE APRES PENTECÔTE (TRINITE 1)",
+            "text": [
+                "Ps 147, 12-14",
+                "Dt 8, 2+3+11-14",
+                "1 Co. 10, 16+17",
+                "Jn 6, 51-58"
+            ],
+            "theme": "MANGE LE PAIN DE VIE AVEC FOI ET TU VIVRAS",
+            "id": 22
+        },
+        {
+            "day": "Lun.",
+            "theme": "Repens-toi et participe à la vie de ta communauté",
+            "text": "Ac 2, 37-47",
+            "id": 23
+        },
+        {
+            "day": "Mar.",
+            "theme": "Proclame la parole sans crainte, le Seigneur promet être avec toi",
+            "text": "Ac 18, 4-11",
+            "id": 24
+        },
+        {
+            "day": "Mer.",
+            "theme": "Attache-toi fermement au Seigneur et appuie l’œuvre d’évangélisation",
+            "text": "Ac 11, 19-26",
+            "id": 25
+        },
+        {
+            "day": "Jeu.",
+            "theme": "Laisse l’Esprit te conduire dans toute la vérité",
+            "text": "Jn 16, 7-15",
+            "id": 26
+        },
+        {
+            "day": "Ven.",
+            "theme": "Sois fidèle dans ta tâche et conforme-toi aux recommandations du Seigneur",
+            "text": "2 Ch. 34, 14-21",
+            "id": 27
+        },
+        {
+            "day": "Sam.",
+            "theme": "Accomplis la mission sous l’inspiration du Saint Esprit",
+            "text": "Za 4, 1-7",
+            "id": 28
+        },
+        {
+            "day": "Dim. 26",
+            "label": "TROISIEME DIMANCHE APRES PENTECÔTE (TRINITE 2)",
+            "text": [
+                "Ps 145, 1-9",
+                "Za 9, 9+10",
+                "Rm 8, 11-13",
+                "Mt 11, 25-30"
+            ],
+            "theme": "RÉJOUIS-TOI, LE SEIGNEUR REND FACILE TA VIE PAR L’ESPRIT",
+            "id": 29
+        },
+        {
+            "day": "Lun.",
+            "theme": "Sois dans l’allégresse, le Seigneur change ta situation",
+            "text": "Jr 31, 7-14",
+            "id": 30
+        }
+    ]
+}
