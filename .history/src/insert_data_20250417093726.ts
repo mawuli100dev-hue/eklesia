@@ -39,7 +39,7 @@ class lectureManager {
        }
     }
 
-//const fileName: string = './lectio/decembre.json'
+const fileName: string = './lectio/aop.json'
 fs.readFile(fileName, 'utf8', (err, data)=> {
     //console.log(data);
 

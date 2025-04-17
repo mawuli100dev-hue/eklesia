@@ -58,7 +58,7 @@ var lectureManager = /** @class */ (function () {
                         _a.trys.push([1, 3, , 4]);
                         return [4 /*yield*/, prisma.reading_FR.create({ data: {
                                     weekday: jour.day,
-                                    date: String(jour.id) + ' ' + this.titre, //month: this.titre,
+                                    date: String(jour.id) + ' ' + this.titre,
                                     label: jour.label,
                                     theme: jour.theme,
                                     text: texte
