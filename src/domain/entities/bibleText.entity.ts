@@ -1,4 +1,4 @@
-import { BibleReading } from './BibleReading';
+import { BibleReading } from './bibleReading.entity';
 
 export class BibleText {
     id: number;

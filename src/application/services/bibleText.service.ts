@@ -1,10 +1,18 @@
 import { BaseService } from './base.service';
 import prisma from '../../../prisma/client/prisma.service';
-import { BibleText } from '../../domain/entities/BibleText';
+import { BibleText } from '../../domain/entities/bibleText.entity';
 
-export class BibleTextService extends BaseService<BibleText> {
+class BibleTextService extends BaseService<BibleText> {
+    private static instance: BibleTextService;
     constructor() {
         super(prisma.bibleText);
+    }
+
+    public static getInstance(): BibleTextService {
+        if (!BibleTextService.instance) {
+            BibleTextService.instance = new BibleTextService();
+        }
+        return BibleTextService.instance;
     }
 
     private prismaToModel(prismaBibleText: any): BibleText {
@@ -51,4 +59,6 @@ export class BibleTextService extends BaseService<BibleText> {
         });
         return texts.map(text => this.prismaToModel(text));
     }
-} 
+}
+
+export default BibleTextService.getInstance();

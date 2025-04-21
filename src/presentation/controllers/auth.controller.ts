@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import passport from '../../application/config/passport.config';
 import authService from '../../application/services/auth.service';
 import jwt from 'jsonwebtoken';
+import { User } from '../../domain/entities/user.entity';
 
 class AuthController {
     private readonly CLIENT_URL: string;
@@ -49,12 +50,53 @@ class AuthController {
         res.redirect(`${this.CLIENT_URL}/dashboard`);
     }
 
+    public sign = async (req: Request, res: Response): Promise<void> => {
+        const data: User = req.body;
+        console.log("object: ", data);
+        try {
+            const user = await authService.sign(data);
+            console.log('✅ User créé avec succès:', user);
+
+            if (!user || !user.id) {
+                throw new Error('ID utilisateur invalide');
+            }
+
+
+            const tokens = authService.generateToken(user.id.toString(), user.email);
+            console.log('token: ', tokens);
+            // Stockage du refresh token dans un cookie sécurisé
+            res.cookie("refreshToken", tokens.refreshToken, {
+                httpOnly: true,
+                secure: false, // Assurez-vous d'utiliser HTTPS
+                sameSite: "strict",
+                maxAge: 7 * 24 * 60 * 60 * 1000, // 7 jours
+            });
+
+            res.cookie("accessToken", tokens.accessToken, {
+                httpOnly: true, // Assurez-vous qu'il n'est pas accessible par JavaScript
+                secure: false,  // Passez à true en production
+                sameSite: "strict",
+                maxAge: 60 * 60 * 1000, // 1 heure
+            });
+
+            res.status(201).json(user);
+        } catch (error: unknown) {
+            if (error instanceof Error) {
+                console.log("error: ", error.message);
+                res.status(401).json({ message: error.message });
+            } else {
+                res.status(500).json({ message: 'Unknown error occurred' });
+            }
+        }
+    }
+
     public login = async (req: Request, res: Response): Promise<void> => {
+        console.log('login request body:', req.body);
         const { email, password } = req.body;
         console.log("login", email, password);
         try {
             const user = await authService.login(email, password);
-            const tokens = authService.generateToken(user._id, user.email);
+            const tokens = authService.generateToken(user.id.toString(), user.email);
 
             // Stockage du refresh token dans un cookie sécurisé
             res.cookie("refreshToken", tokens.refreshToken, {

@@ -1,10 +1,20 @@
 import { BaseService } from './base.service';
-import { Forum } from '../../domain/entities/forum';
+import { Forum } from '../../domain/entities/forum.entity';
 import prisma from '../../../prisma/client/prisma.service';
+import e from 'express';
 
-export class ForumService extends BaseService<Forum> {
+class ForumService extends BaseService<Forum> {
+    private static instance: ForumService;
+
     constructor() {
         super(prisma.forum);
+    }
+
+    public static getInstance(): ForumService {
+        if (!ForumService.instance) {
+            ForumService.instance = new ForumService();
+        }
+        return ForumService.instance;
     }
 
     private prismaToModel(prismaForum: any): Forum {
@@ -44,4 +54,6 @@ export class ForumService extends BaseService<Forum> {
         });
         return forums.map(forum => this.prismaToModel(forum));
     }
-} 
+}
+
+export default ForumService.getInstance();

@@ -6,6 +6,9 @@ import * as dotenv from "dotenv";
 import router from "../../presentation/routes/readingRoute";
 import passport from "../../application/config/passport.config";
 
+import authRoutes from '../../presentation/routes/auth.routes';
+
+
 dotenv.config();
 const app = express();
 app.use(cors());
@@ -39,7 +42,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Routes
-
+app.use('/api/auth', authRoutes);
 app.use('/api/lections', router)
 
 export default app;

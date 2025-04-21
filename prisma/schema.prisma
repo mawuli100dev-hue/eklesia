@@ -29,14 +29,13 @@ model Reading_FR {
 
 model User {
   id             Int       @id @default(autoincrement())
-  firstName      String?
-  lastName       String?
+  name          String
   email          String    @unique
   password       String?   // nullable because Google users may not have one
   language       String?
   role           Role     @default(USER)
   provider       AuthProvider @default(CREDENTIALS)
-  providerId     String?   // ID from Google or another provider (e.g., Google user ID)
+  googleId     String?   @unique // ID from Google or another provider (e.g., Google user ID)
 
   // Relations
   events         Event[]   @relation("UserEvents")

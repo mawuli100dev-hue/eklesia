@@ -1,6 +1,6 @@
-import { User } from './user';
-import { Event } from './event';
-import { Forum } from './forum';
+import { User } from './user.entity';
+import { Event } from './event.entity';
+import { Forum } from './forum.entity';
 
 export class Message {
     id: number;

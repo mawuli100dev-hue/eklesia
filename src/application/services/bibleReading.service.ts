@@ -1,10 +1,19 @@
 import { BaseService } from './base.service';
-import { BibleReading } from '../../domain/entities/bibleReading';
+import { BibleReading } from '../../domain/entities/bibleReading.entity';
 import prisma from '../../../prisma/client/prisma.service';
 
-export class BibleReadingService extends BaseService<BibleReading> {
-    constructor() {
+class BibleReadingService extends BaseService<BibleReading> {
+    private static instance: BibleReadingService;
+
+    private constructor() {
         super(prisma.bibleReading);
+    }
+
+    public static getInstance(): BibleReadingService {
+        if (!BibleReadingService.instance) {
+            BibleReadingService.instance = new BibleReadingService();
+        }
+        return BibleReadingService.instance;
     }
 
     private prismaToModel(prismaBibleReading: any): BibleReading {
@@ -51,4 +60,6 @@ export class BibleReadingService extends BaseService<BibleReading> {
         });
         return readings.map(reading => this.prismaToModel(reading));
     }
-} 
+}
+
+export default BibleReadingService.getInstance();

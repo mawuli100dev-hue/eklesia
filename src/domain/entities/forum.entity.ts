@@ -1,5 +1,5 @@
-import { User } from './User';
-import { Message } from './Message';
+import { User } from './user.entity';
+import { Message } from './message.entity';
 
 export class Forum {
     id: number;

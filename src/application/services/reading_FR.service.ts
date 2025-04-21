@@ -2,9 +2,18 @@ import { BaseService } from './base.service';
 import { Reading_FR } from '../../domain/entities/reading_FR';
 import prisma from '../../../prisma/client/prisma.service';
 
-export class Reading_FRService extends BaseService<Reading_FR> {
+class Reading_FRService extends BaseService<Reading_FR> {
+    private static instance: Reading_FRService;
+
     constructor() {
         super(prisma.reading_FR);
+    }
+
+    public static getInstance(): Reading_FRService {
+        if (!Reading_FRService.instance) {
+            Reading_FRService.instance = new Reading_FRService();
+        }
+        return Reading_FRService.instance;
     }
 
     private prismaToModel(prismaReading: any): Reading_FR {
@@ -48,4 +57,6 @@ export class Reading_FRService extends BaseService<Reading_FR> {
         });
         return readings.map(reading => this.prismaToModel(reading));
     }
-} 
+}
+
+export default Reading_FRService.getInstance();

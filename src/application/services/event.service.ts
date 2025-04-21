@@ -1,10 +1,19 @@
 import { BaseService } from './base.service';
-import { Event } from '../../domain/entities/event';
+import { Event } from '../../domain/entities/event.entity';
 import prisma from '../../../prisma/client/prisma.service';
 
-export class EventService extends BaseService<Event> {
+class EventService extends BaseService<Event> {
+    private static instance: EventService;
+
     constructor() {
         super(prisma.event);
+    }
+
+    public static getInstance(): EventService {
+        if (!EventService.instance) {
+            EventService.instance = new EventService();
+        }
+        return EventService.instance;
     }
 
     private prismaToModel(prismaEvent: any): Event {
@@ -52,4 +61,6 @@ export class EventService extends BaseService<Event> {
         });
         return events.map(event => this.prismaToModel(event));
     }
-} 
+}
+
+export default EventService.getInstance();

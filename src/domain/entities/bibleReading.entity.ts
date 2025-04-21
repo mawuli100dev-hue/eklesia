@@ -1,4 +1,4 @@
-import { BibleText } from "./BibleText";
+import { BibleText } from "./bibleText.entity";
 
 export class BibleReading {
     id: number;

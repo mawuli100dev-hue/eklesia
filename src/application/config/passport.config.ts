@@ -2,7 +2,9 @@ import { Strategy as JwtStrategy, ExtractJwt, VerifyCallback } from 'passport-jw
 import { Strategy as GoogleStrategy } from 'passport-google-oauth20';
 import passport from 'passport';
 import dotenv from 'dotenv';
-import { User } from '../../domain/entities/user';
+import { User } from '../../domain/entities/user.entity';
+import userService from '../services/user.service';
+import { AuthProvider } from '../../domain/enums/AuthProvider';
 
 dotenv.config();
 
@@ -27,7 +29,7 @@ type CustomVerifyCallback = (error: any, user?: User | false, info?: any) => voi
 
 passport.use(new JwtStrategy(jwtOptions, async (jwtPayload: JwtPayload, done: CustomVerifyCallback) => {
     try {
-        const user = await userService.getUserById(jwtPayload.id);
+        const user = await userService.findById(Number(jwtPayload.id));
         if (user) {
             return done(null, user);
         } else {
@@ -58,7 +60,7 @@ passport.use(new GoogleStrategy({
         // console.log('Refresh Token:', refreshToken);
 
         // Vérifier si l'utilisateur existe déjà
-        let _user = await userService.findOne({ googleId: profile.id });
+        let _user = await userService.findBygoogleId(profile.id);
         if (_user) {
             return done(null, _user);
         }
@@ -67,9 +69,10 @@ passport.use(new GoogleStrategy({
         let user = {
             googleId: profile.id,
             name: profile.displayName,
+            provider: AuthProvider.GOOGLE,
             email: profile.emails && profile.emails.length > 0 ? profile.emails[0].value : '',
         };
-        const userCreated = await userService.createUser(user);
+        const userCreated = await userService.create(user);
         return done(null, userCreated);
     } catch (error) {
         return done(error, false);
@@ -82,7 +85,7 @@ passport.serializeUser((user, done) => {
 
 passport.deserializeUser(async (id, done) => {
     try {
-        const user = await userService.findById(id); // Utilisez votre modèle utilisateur ici
+        const user = await userService.findById(Number(id)); // Utilisez votre modèle utilisateur ici
         done(null, user);
     } catch (error) {
         done(error, null);

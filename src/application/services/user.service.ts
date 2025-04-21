@@ -1,27 +1,41 @@
 import { BaseService } from './base.service';
-import { User } from '../../domain/entities/user';
+import { User } from '../../domain/entities/user.entity';
 import prisma from '../../../prisma/client/prisma.service';
+import { comparePassword } from '../helper/hash-compare-pwd';
 
-export class UserService extends BaseService<User> {
+class UserService extends BaseService<User> {
+    private static instance: UserService;
+
     constructor() {
         super(prisma.user);
+    }
+
+    public static getInstance(): UserService {
+        if (!UserService.instance) {
+            UserService.instance = new UserService();
+        }
+        return UserService.instance;
     }
 
     private prismaToModel(prismaUser: any): User {
         return new User({
             id: prismaUser.id,
-            firstName: prismaUser.firstName || undefined,
-            lastName: prismaUser.lastName || undefined,
+            name: prismaUser.name || undefined,
             email: prismaUser.email,
             password: prismaUser.password || undefined,
             language: prismaUser.language || undefined,
             role: prismaUser.role,
             provider: prismaUser.provider,
-            providerId: prismaUser.providerId || undefined,
+            googleId: prismaUser.googleId || undefined,
             events: prismaUser.events,
             forums: prismaUser.forums,
             messages: prismaUser.messages
         });
+    }
+
+    async create(user: any): Promise<User> {
+        const createdUser = await super.create(user);
+        return this.prismaToModel(createdUser);
     }
 
     async findAll(): Promise<User[]> {
@@ -31,6 +45,13 @@ export class UserService extends BaseService<User> {
 
     async findById(id: number): Promise<User | null> {
         const user = await super.findById(id);
+        return user ? this.prismaToModel(user) : null;
+    }
+
+    async findBygoogleId(googleId: string): Promise<User | null> {
+        const user = await prisma.user.findUnique({
+            where: { googleId }
+        });
         return user ? this.prismaToModel(user) : null;
     }
 
@@ -52,4 +73,11 @@ export class UserService extends BaseService<User> {
         });
         return user ? this.prismaToModel(user) : null;
     }
-} 
+
+    public async validateUserPassword(user: any, password: string): Promise<boolean> {
+        return user?.password ? await comparePassword(password, user.password) : false;
+    }
+
+}
+
+export default UserService.getInstance();

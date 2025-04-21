@@ -19,7 +19,7 @@ router.get(
 );
 
 
-// Route pour l'authentification par email et mot de passe
+router.post('/sign', authController.sign);
 router.post('/login', authController.login);
 
 // Middleware pour protéger les routes

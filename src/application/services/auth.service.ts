@@ -1,5 +1,7 @@
 import jwt from 'jsonwebtoken';
-import UserService from './user.service';
+import userService from './user.service';
+import { User } from '../../domain/entities/user.entity';
+import { hashPassword } from '../helper/hash-compare-pwd';
 
 class AuthService {
     private static instance: AuthService;
@@ -12,10 +14,20 @@ class AuthService {
         }
         return AuthService.instance;
     }
+
+    public async sign(user: User) {
+        user.password = await hashPassword(user.password!);
+        const userCreated = await userService.create(user);
+        console.log("user", JSON.stringify(userCreated));
+        return userCreated;
+    }
+
+
     public async login(email: string, password: string) {
-        const user = await UserService.findUserByEmail(email);
+        const user = await userService.findByEmail(email);
         console.log("user", JSON.stringify(user));
-        if (!user || !(await UserService.validateUserPassword(user, password))) {
+        console.log('userService.validateUserPassword(user, password)', await userService.validateUserPassword(user, password));
+        if (!user || !(await userService.validateUserPassword(user, password))) {
             throw new Error('Invalid credentials');
         }
         return user;

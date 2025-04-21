@@ -1,10 +1,19 @@
 import { BaseService } from './base.service';
-import { Media } from '../../domain/entities/media';
+import { Media } from '../../domain/entities/media.entity';
 import prisma from '../../../prisma/client/prisma.service';
 
-export class MediaService extends BaseService<Media> {
+class MediaService extends BaseService<Media> {
+    private static instance: MediaService;
+
     constructor() {
         super(prisma.media);
+    }
+
+    public static getInstance(): MediaService {
+        if (!MediaService.instance) {
+            MediaService.instance = new MediaService();
+        }
+        return MediaService.instance;
     }
 
     private prismaToModel(prismaMedia: any): Media {
@@ -40,4 +49,6 @@ export class MediaService extends BaseService<Media> {
         });
         return media.map(item => this.prismaToModel(item));
     }
-} 
+}
+
+export default MediaService.getInstance();

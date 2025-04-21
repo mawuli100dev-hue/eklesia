@@ -1,10 +1,19 @@
 import { BaseService } from './base.service';
-import { Message } from '../../domain/entities/message';
+import { Message } from '../../domain/entities/message.entity';
 import prisma from '../../../prisma/client/prisma.service';
 
 export class MessageService extends BaseService<Message> {
+    private static instance: MessageService;
+
     constructor() {
         super(prisma.message);
+    }
+
+    public static getInstance(): MessageService {
+        if (!MessageService.instance) {
+            MessageService.instance = new MessageService();
+        }
+        return MessageService.instance;
     }
 
     private prismaToModel(prismaMessage: any): Message {
@@ -56,4 +65,6 @@ export class MessageService extends BaseService<Message> {
         });
         return messages.map(message => this.prismaToModel(message));
     }
-} 
+}
+
+export default MessageService.getInstance();
