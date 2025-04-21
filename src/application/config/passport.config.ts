@@ -2,7 +2,7 @@ import { Strategy as JwtStrategy, ExtractJwt, VerifyCallback } from 'passport-jw
 import { Strategy as GoogleStrategy } from 'passport-google-oauth20';
 import passport from 'passport';
 import dotenv from 'dotenv';
-import { User } from '../../domain/entities/User';
+import { User } from '../../domain/entities/user';
 
 dotenv.config();
 

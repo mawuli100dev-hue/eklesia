@@ -1,7 +1,7 @@
 import { Role } from '../enums/Role';
 import { AuthProvider } from '../enums/AuthProvider';
-import { Event } from './Event';
-import { Forum } from './Forum';
+import { Event } from './event';
+import { Forum } from './forum';
 import { Message } from './Message';
 
 export class User {

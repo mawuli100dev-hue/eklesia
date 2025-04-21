@@ -1,6 +1,6 @@
-import { User } from './User';
-import { Event } from './Event';
-import { Forum } from './Forum';
+import { User } from './user';
+import { Event } from './event';
+import { Forum } from './forum';
 
 export class Message {
     id: number;
