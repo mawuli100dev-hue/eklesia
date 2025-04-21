@@ -8,6 +8,16 @@ datasource db {
 }
 
 
+enum AuthProvider {
+  CREDENTIALS
+  GOOGLE
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
 model Reading_FR {
   id          Int      @id @default(autoincrement())
   weekday     String
@@ -15,4 +25,90 @@ model Reading_FR {
   label       String?
   theme       String
   text        String[]
+}
+
+model User {
+  id             Int       @id @default(autoincrement())
+  firstName      String?
+  lastName       String?
+  email          String    @unique
+  password       String?   // nullable because Google users may not have one
+  language       String?
+  role           Role     @default(USER)
+  provider       AuthProvider @default(CREDENTIALS)
+  providerId     String?   // ID from Google or another provider (e.g., Google user ID)
+
+  // Relations
+  events         Event[]   @relation("UserEvents")
+  forums         Forum[]   @relation("ForumMembers")
+  messages       Message[]
+}
+
+model Event {
+  id          Int       @id @default(autoincrement())
+  title       String
+  description String
+  date        DateTime
+  location    String
+  language    String
+
+  // Relations
+  users     User[]     @relation("UserEvents")
+  messages  Message[]
+}
+
+model Forum {
+  id      Int     @id @default(autoincrement())
+  name    String
+  type    String
+
+  // Relations
+  members   User[]    @relation("ForumMembers")
+  messages  Message[]
+}
+
+model Message {
+  id          Int       @id @default(autoincrement())
+  content     String
+  timestamp   DateTime  @default(now())
+
+  // Relations
+  eventId     Int?
+  event       Event?     @relation(fields: [eventId], references: [id])
+
+  forumId     Int?
+  forum       Forum?     @relation(fields: [forumId], references: [id])
+
+  userId      Int?
+  user        User?      @relation(fields: [userId], references: [id])
+}
+
+model BibleReading {
+  id          Int       @id @default(autoincrement())
+  date        DateTime
+  theme       String
+  description String
+  language    String
+
+  // Relations
+  texts     BibleText[]
+}
+
+model BibleText {
+  id               Int            @id @default(autoincrement())
+  reference        String
+  content          String
+  language         String
+
+  // Relations
+  readingId        Int?
+  bibleReading     BibleReading? @relation(fields: [readingId], references: [id])
+}
+
+model Media {
+  id          Int     @id @default(autoincrement())
+  type        String
+  url         String
+  title       String
+  description String
 }
