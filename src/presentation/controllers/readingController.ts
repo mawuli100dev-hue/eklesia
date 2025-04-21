@@ -2,7 +2,7 @@
 import * as dotenv from "dotenv";
 dotenv.config();
 import { Request, Response } from "express"; // Import des types pour req et res
-import lectureManager from "../services/readingService";
+import lectureManager from "../../application/services/readingService";
 
 // Exemple de valeurs par défaut pour `jour` et `titre` (à adapter selon votre logique)
 const defaultJour = {
@@ -45,7 +45,7 @@ const getAllReading = async (req: Request, res: Response) => {
 const getReadingByDate = async (req: Request, res: Response) => {
     const jour = req.body; // Extraction de `jour` depuis le corps de la requête
     try {
-        const data =await manager.getReadingByDate(jour);
+        const data = await manager.getReadingByDate(jour);
         res.status(200).json(data);
     } catch (error) {
         console.error("Erreur de récupération:", error);
@@ -84,11 +84,11 @@ const deleteReading = async (req: Request, res: Response) => {
     } catch (error) {
         console.error("Erreur de suppression:", error);
         res.status(500).json({ error: "Error server." });
-        
+
     }
 }
 
-export { 
+export {
     createReading,
     getAllReading,
     getReadingByDate,

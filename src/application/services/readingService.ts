@@ -41,8 +41,8 @@ class lectureManager {
         })
     }
     async getReadingByDate(data: fixData) {
-        return await prisma.reading_FR.findFirst({ 
-            where: { 
+        return await prisma.reading_FR.findFirst({
+            where: {
                 date: data.date
             },
             select: {
@@ -57,7 +57,7 @@ class lectureManager {
     }
     async getReadingById(id: number) {
         return await prisma.reading_FR.findUnique({
-            where: { id : id},
+            where: { id: id },
             select: {
                 id: true,
                 weekday: true,
@@ -75,18 +75,20 @@ class lectureManager {
         this.getReadingByDate(mydata).then((lecture) => {
             if (!lecture) {
                 let texte = typeof jour.text === 'string' ? [jour.text] : jour.text;
-                const data = prisma.reading_FR.create({ data: {
-                    weekday: jour.weekday,                    
-                    date: jour.date,
-                    label: jour.label,
-                    theme: jour.theme,
-                    text: texte
-                } }); return data 
+                const data = prisma.reading_FR.create({
+                    data: {
+                        weekday: jour.weekday,
+                        date: jour.date,
+                        label: jour.label,
+                        theme: jour.theme,
+                        text: texte
+                    }
+                }); return data
             } else {
                 console.log("Lecture already exist in database.");
             }
         })
-       }
+    }
     async updateReading(jour: lecture) {
         const mydata: fixData = {
             date: jour.date
@@ -94,13 +96,15 @@ class lectureManager {
         this.getReadingByDate(mydata).then((lecture) => {
             if (lecture) {
                 let texte = typeof jour.text === 'string' ? [jour.text] : jour.text;
-                return prisma.reading_FR.update({ where: { id: lecture.id }, data: {
-                    weekday: jour.weekday,                    
-                    date: jour.date,
-                    label: jour.label,
-                    theme: jour.theme,
-                    text: texte
-                } });
+                return prisma.reading_FR.update({
+                    where: { id: lecture.id }, data: {
+                        weekday: jour.weekday,
+                        date: jour.date,
+                        label: jour.label,
+                        theme: jour.theme,
+                        text: texte
+                    }
+                });
             } else {
                 console.log("Lecture not found for the given date and month.");
             }
