@@ -1,5 +1,5 @@
 import favoriteBibleReadingService from '../../application/services/favorite-bibleReading.service';
-
+import { Response } from 'express';
 
 class FavoriteBibleReadingController {
     private static instance: FavoriteBibleReadingController;
