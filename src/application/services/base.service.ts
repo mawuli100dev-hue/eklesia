@@ -30,7 +30,7 @@ export class BaseService<T> {
         });
     }
 
-    async delete(id: number): Promise<T> {
+    async delete(id: number): Promise<boolean> {
         return this.model.delete({
             where: { id }
         });

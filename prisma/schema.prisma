@@ -41,6 +41,7 @@ model User {
   events         Event[]   @relation("UserEvents")
   forums         Forum[]   @relation("ForumMembers")
   messages       Message[]
+  favoriteBibleReadings FavoriteBibleReading[]
 }
 
 model Event {
@@ -91,6 +92,17 @@ model BibleReading {
 
   // Relations
   texts     BibleText[]
+  favoriteBibleReadings FavoriteBibleReading[]
+}
+
+model FavoriteBibleReading {
+  id          Int       @id @default(autoincrement())
+  userId      Int
+  user        User     @relation(fields: [userId], references: [id])
+
+  bibleReadingId Int
+  bibleReading BibleReading @relation(fields: [bibleReadingId], references: [id])
+  createdAt   DateTime  @default(now())
 }
 
 model BibleText {
