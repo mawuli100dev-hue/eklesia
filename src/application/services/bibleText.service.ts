@@ -1,6 +1,7 @@
 import { BaseService } from './base.service';
 import prisma from '../../../prisma/client/prisma.service';
 import { BibleText } from '../../domain/entities/bibleText.entity';
+import { Prisma } from '@prisma/client';
 
 class BibleTextService extends BaseService<BibleText> {
     private static instance: BibleTextService;
@@ -58,6 +59,17 @@ class BibleTextService extends BaseService<BibleText> {
             where: { language }
         });
         return texts.map(text => this.prismaToModel(text));
+    }
+
+    async create(data: Partial<BibleText>): Promise<BibleText> {
+        const { bibleReading, id, ...textData } = data;
+        if (!textData.reference) {
+            throw new Error('Reference est obligatoire pour créer un texte biblique');
+        }
+        const text = await prisma.bibleText.create({
+            data: textData as Prisma.BibleTextCreateInput,
+        });
+        return this.prismaToModel(text);
     }
 }
 

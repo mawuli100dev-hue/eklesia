@@ -31,6 +31,23 @@ class FavoriteBibleReadingService extends BaseService<FavoriteBibleReading> {
         return favorites.map(text => this.prismaToModel(text));
     }
 
+    async findByUserIdWithBibleReading(userId: number): Promise<FavoriteBibleReading[]> {
+        const favorites = await prisma.favoriteBibleReading.findMany({
+            where: { userId },
+            include: {
+                bibleReading: true
+            }
+        });
+        return favorites.map((favorite: FavoriteBibleReading) => this.prismaToModel(favorite));
+    }
+
+    async findByUserId(userId: number): Promise<FavoriteBibleReading[]> {
+        const favorites = await prisma.favoriteBibleReading.findMany({
+            where: { userId },
+        });
+        return favorites.map((favorite: FavoriteBibleReading) => this.prismaToModel(favorite));
+    }
+
     async findById(id: number): Promise<FavoriteBibleReading | null> {
         const favorite = await super.findById(id);
         return favorite ? this.prismaToModel(favorite) : null;

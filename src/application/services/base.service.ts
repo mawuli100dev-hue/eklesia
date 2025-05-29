@@ -18,15 +18,17 @@ export class BaseService<T> {
     }
 
     async create(data: Partial<T>): Promise<T> {
+        const { texts, ...dataWithoutRelations } = data as any;
         return this.model.create({
-            data
+            data: dataWithoutRelations
         });
     }
 
     async update(id: number, data: Partial<T>): Promise<T> {
+        const { texts, ...dataWithoutRelations } = data as any;
         return this.model.update({
             where: { id },
-            data
+            data: dataWithoutRelations
         });
     }
 

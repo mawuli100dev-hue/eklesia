@@ -3,9 +3,8 @@ import { Response } from 'express';
 
 class FavoriteBibleReadingController {
     private static instance: FavoriteBibleReadingController;
-    constructor() {
 
-    }
+    private constructor() { }
 
     public static getInstance(): FavoriteBibleReadingController {
         if (!FavoriteBibleReadingController.instance) {
@@ -14,42 +13,99 @@ class FavoriteBibleReadingController {
         return FavoriteBibleReadingController.instance;
     }
 
-    // Method to handle favorite Bible reading
-    public handleFavoriteReading = async (req: any, res: Response): Promise<void> => {
-        const { userId, bibleReadingId } = req.body;
+    public getAllFavorites = async (req: any, res: Response): Promise<void> => {
+        try {
+            const favorites = await favoriteBibleReadingService.findAll();
+            res.status(200).json(favorites);
+        } catch (error) {
+            console.error('Erreur lors de la récupération des favoris:', error);
+            res.status(500).json({ error: 'Erreur interne du serveur' });
+        }
+    }
 
+    public getFavoriteById = async (req: any, res: Response): Promise<void> => {
+        const { id } = req.params;
+        try {
+            const favorite = await favoriteBibleReadingService.findById(parseInt(id));
+            if (favorite) {
+                res.status(200).json(favorite);
+            } else {
+                res.status(404).json({ error: 'Favori non trouvé' });
+            }
+        } catch (error) {
+            console.error('Erreur lors de la récupération du favori:', error);
+            res.status(500).json({ error: 'Erreur interne du serveur' });
+        }
+    }
+
+    public getFavoriteWithRelations = async (req: any, res: Response): Promise<void> => {
+        const { id } = req.params;
+        try {
+            const favorite = await favoriteBibleReadingService.findWithRelations(parseInt(id));
+            if (favorite) {
+                res.status(200).json(favorite);
+            } else {
+                res.status(404).json({ error: 'Favori non trouvé' });
+            }
+        } catch (error) {
+            console.error('Erreur lors de la récupération du favori avec relations:', error);
+            res.status(500).json({ error: 'Erreur interne du serveur' });
+        }
+    }
+
+    public getFavoritesByUserId = async (req: any, res: Response): Promise<void> => {
+        const { userId } = req.params;
+        try {
+            const favorites = await favoriteBibleReadingService.findByUserId(parseInt(userId));
+            res.status(200).json(favorites);
+        } catch (error) {
+            console.error('Erreur lors de la récupération des favoris de l\'utilisateur:', error);
+            res.status(500).json({ error: 'Erreur interne du serveur' });
+        }
+    }
+
+    public getFavoritesByUserIdWithBibleReading = async (req: any, res: Response): Promise<void> => {
+        const { userId } = req.params;
+        try {
+            const favorites = await favoriteBibleReadingService.findByUserIdWithBibleReading(parseInt(userId));
+            res.status(200).json(favorites);
+        } catch (error) {
+            console.error('Erreur lors de la récupération des favoris avec lectures:', error);
+            res.status(500).json({ error: 'Erreur interne du serveur' });
+        }
+    }
+
+    public createFavorite = async (req: any, res: Response): Promise<void> => {
+        const { userId, bibleReadingId } = req.body;
         try {
             const favorite = await favoriteBibleReadingService.create({
                 userId,
                 bibleReadingId
             });
-
-            console.log('✅ Favorite Bible reading created successfully:', favorite);
+            console.log('Favori créé avec succès:', favorite);
             res.status(201).json(favorite);
         } catch (error) {
-            console.error('Error creating favorite Bible reading:', error);
-            res.status(500).json({ error: 'Internal server error' });
+            console.error('Erreur lors de la création du favori:', error);
+            res.status(500).json({ error: 'Erreur interne du serveur' });
         }
     }
 
-    public deleteFavoriteReading = async (req: any, res: Response): Promise<void> => {
+    public deleteFavorite = async (req: any, res: Response): Promise<void> => {
         const { id } = req.params;
-
         try {
-            const deletedFavorite = await favoriteBibleReadingService.delete(id);
-            if (deletedFavorite) {
-                console.log('✅ Favorite Bible reading deleted successfully:', deletedFavorite);
-                res.status(200).json({ message: 'Favorite Bible reading deleted successfully' });
+            const deleted = await favoriteBibleReadingService.delete(parseInt(id));
+            if (deleted) {
+                console.log('Favori supprimé avec succès');
+                res.status(200).json({ message: 'Favori supprimé avec succès' });
             } else {
-                console.log('❌ Favorite Bible reading not found');
-                res.status(404).json({ error: 'Favorite Bible reading not found' });
+                console.log('Favori non trouvé');
+                res.status(404).json({ error: 'Favori non trouvé' });
             }
         } catch (error) {
-            console.error('Error deleting favorite Bible reading:', error);
-            res.status(500).json({ error: 'Internal server error' });
+            console.error('Erreur lors de la suppression du favori:', error);
+            res.status(500).json({ error: 'Erreur interne du serveur' });
         }
     }
-
 }
 
 export default FavoriteBibleReadingController.getInstance();

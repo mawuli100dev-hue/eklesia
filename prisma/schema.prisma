@@ -18,15 +18,6 @@ enum Role {
   ADMIN
 }
 
-model Reading_FR {
-  id          Int      @id @default(autoincrement())
-  weekday     String
-  date        String
-  label       String?
-  theme       String
-  text        String[]
-}
-
 model User {
   id             Int       @id @default(autoincrement())
   name          String
@@ -85,7 +76,7 @@ model Message {
 
 model BibleReading {
   id          Int       @id @default(autoincrement())
-  date        DateTime
+  date        DateTime  @unique
   theme       String
   description String
   language    String
@@ -108,7 +99,7 @@ model FavoriteBibleReading {
 model BibleText {
   id               Int            @id @default(autoincrement())
   reference        String
-  content          String
+  content          String?
   language         String
 
   // Relations

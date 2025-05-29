@@ -55,7 +55,7 @@ class AuthController {
         console.log("object: ", data);
         try {
             const user = await authService.sign(data);
-            console.log('✅ User créé avec succès:', user);
+            console.log('User créé avec succès:', user);
 
             if (!user || !user.id) {
                 throw new Error('ID utilisateur invalide');

@@ -3,3 +3,4 @@ node_modules
 .env
 .history
 prisma/migrations
+package-lock.json
