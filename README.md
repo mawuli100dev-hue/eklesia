@@ -10,7 +10,7 @@
 
 # Documentation des Routes API
 
-**Base-url: http//:localhost:5000/api**
+**Base-url: http//:localhost:5000/**
 
 ## Routes d'Authentification (`/auth`)
 
@@ -97,7 +97,7 @@
   "theme": "string",
   "description": "string",
   "language": "string",
-  "texts": [ (peut être null ou vide)
+  "texts (peut être null ou vide)": [
     {
       "id": "number",
       "reference": "string",
@@ -328,7 +328,7 @@
 
 ```json
 {
-  "reference": "string", // Obligatoire
+  "reference": "string",
   "content": "string",
   "language": "string",
   "readingId": "number"
@@ -375,9 +375,9 @@
 - 404: Texte non trouvé
 - 500: Erreur serveur
 
-## Routes des Lectures Favorites (`/favorite-bible-readings`)
+## Routes des Lectures Favorites (`/favorites`)
 
-### GET `/favorite-bible-readings`
+### GET `/favorites`
 
 **Description**: Récupère toutes les lectures favorites
 **Réponse**:
@@ -404,7 +404,7 @@
 ]
 ```
 
-### GET `/favorite-bible-readings/:id`
+### GET `/favorites/:id`
 
 **Description**: Récupère une lecture favorite spécifique
 **Paramètres**:
@@ -416,7 +416,7 @@
 - 404: Lecture favorite non trouvée
 - 500: Erreur serveur
 
-### GET `/favorite-bible-readings/:id/relations`
+### GET `/favorites/:id/relations`
 
 **Description**: Récupère une lecture favorite avec toutes ses relations
 **Paramètres**:
@@ -428,7 +428,7 @@
 - 404: Lecture favorite non trouvée
 - 500: Erreur serveur
 
-### GET `/favorite-bible-readings/user/:userId`
+### GET `/favorites/user/:userId`
 
 **Description**: Récupère toutes les lectures favorites d'un utilisateur spécifique
 **Paramètres**:
@@ -439,7 +439,7 @@
 - 200: Lectures favorites trouvées
 - 500: Erreur serveur
 
-### GET `/favorite-bible-readings/user/:userId/with-readings`
+### GET `/favorites/user/:userId/with-readings`
 
 **Description**: Récupère toutes les lectures favorites d'un utilisateur avec les détails des lectures bibliques associées
 **Paramètres**:
@@ -450,7 +450,7 @@
 - 200: Lectures favorites trouvées avec détails
 - 500: Erreur serveur
 
-### POST `/favorite-bible-readings`
+### POST `/favorites`
 
 **Description**: Crée une nouvelle lecture favorite
 **Body**:
@@ -468,7 +468,7 @@
 - 201: Lecture favorite créée avec succès
 - 500: Erreur serveur
 
-### DELETE `/favorite-bible-readings/:id`
+### DELETE `/favorites/:id`
 
 **Description**: Supprime une lecture favorite
 **Paramètres**:
@@ -488,9 +488,9 @@
 - 404: Lecture favorite non trouvée
 - 500: Erreur serveur
 
-## Route d'Insertion de Lecture par JSON (`/insert-bible-reading`)
+## Route d'Insertion de Lecture par JSON (`/insert-readings`)
 
-### POST `/insert-bible-reading`
+### POST `/insert-readings`
 
 **Description**: Insère plusieurs lectures bibliques à partir d'un tableau de données JSON
 **Body**:
@@ -525,6 +525,7 @@
       "beginDay": 1,
       "days": [
         {
+          "day": "Mer.",
           "description": "NOUVEL AN",
           "references": [
             "Ps 66, 1-4",
@@ -532,11 +533,14 @@
             "Ga 4, 1-7",
             "Lc 2, 15-21"
           ],
-          "theme": "ANNONCE LA GRÂCE DU SAUVEUR QUI EST NÉ"
+          "theme": "ANNONCE LA GRÂCE DU SAUVEUR QUI EST NÉ",
+          "id": 1
         },
         {
+          "day": "Jeu.",
           "theme": "Reste vigilant(e) en toutes circonstances",
-          "references": "S 19, 8-18"
+          "references": "S 19, 8-18",
+          "id": 2
         }
       ]
     }
@@ -550,7 +554,7 @@
 - Le champ `lang` est obligatoire et spécifie la langue des lectures
 - Chaque lecture doit avoir une date, un thème, une description et peut avoir des textes associés
 - Les textes sont optionnels et peuvent être vides
-- Toutes les routes nécessitent une authentification sauf `/auth/register` et `/auth/login`
+- Toutes les routes nécessitent une authentification sauf `/auth/sign` et `/auth/login`
 
 **Réponses**:
 

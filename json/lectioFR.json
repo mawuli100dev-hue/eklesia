@@ -5,165 +5,180 @@
     "days": [
       {
         "day": "Mer.",
-        "label": "NOUVEL AN",
-        "text": ["Ps 66, 1-4", "Nb 6, 22-27", "Ga 4, 1-7", "Lc 2, 15-21"],
+        "description": "NOUVEL AN",
+        "references": ["Ps 66, 1-4", "Nb 6, 22-27", "Ga 4, 1-7", "Lc 2, 15-21"],
         "theme": "ANNONCE LA GRÂCE DU SAUVEUR QUI EST NÉ",
         "id": 1
       },
       {
         "day": "Jeu.",
         "theme": "Reste vigilant(e) en toutes circonstances",
-        "text": "S 19, 8-18",
+        "references": "S 19, 8-18",
         "id": 2
       },
       {
         "day": "Ven.",
         "theme": "Compte toujours sur le Seigneur",
-        "text": "R 19, 1-18",
+        "references": "R 19, 1-18",
         "id": 3
       },
       {
         "day": "Sam.",
         "theme": "Préserve la vie",
-        "text": "Jr 29, 4-9",
+        "references": "Jr 29, 4-9",
         "id": 4
       },
       {
         "day": "Dim. 1",
-        "label": "DEUXIÈME DIMANCHE APRES NOEL ; PREMIER DIMANCHE DE L’ANNÉE CIVILE. Journée de la Bible dans chaque paroisse",
-        "text": ["Ps 72, 1-7", "Es 60, 1-6", "Ep 3, 1-6", "Mt 2, 1-12"],
+        "description": "DEUXIÈME DIMANCHE APRES NOEL ; PREMIER DIMANCHE DE L’ANNÉE CIVILE. Journée de la Bible dans chaque paroisse",
+        "references": ["Ps 72, 1-7", "Es 60, 1-6", "Ep 3, 1-6", "Mt 2, 1-12"],
         "theme": "CHERCHE À COMPRENDRE LE MYSTÈRE DE DIEU EN JÉSUS-CHRIST",
         "id": 5
       },
       {
         "day": "Lun.",
-        "label": "LA REVELATION DE JESUS-CHRIST (EPIPHANIE)",
-        "text": ["Ps 146, 142-55", "Ps 147, 1-3", "Ep 1, 15-19", "Jn 1, 1-12"],
+        "description": "LA REVELATION DE JESUS-CHRIST (EPIPHANIE)",
+        "references": [
+          "Ps 146, 142-55",
+          "Ps 147, 1-3",
+          "Ep 1, 15-19",
+          "Jn 1, 1-12"
+        ],
         "theme": "RENDS GRÂCE AU SEIGNEUR QUI FAIT DE TOI SON ENFANT PAR JÉSUS - CHRIST",
         "id": 6
       },
       {
         "day": "Mar.",
         "theme": "Garde-toi d’être cité(e) négativement",
-        "text": "Jr 29, 21-23",
+        "references": "Jr 29, 21-23",
         "id": 7
       },
       {
         "day": "Mer.",
         "theme": "Sois prudent(e) dans tes décisions",
-        "text": "Jr 40, 7-16",
+        "references": "Jr 40, 7-16",
         "id": 8
       },
       {
         "day": "Jeu.",
         "theme": "Sois le refuge de ceux/celles qui sont en difficulté",
-        "text": "Es 16, 1-5",
+        "references": "Es 16, 1-5",
         "id": 9
       },
       {
         "day": "Ven.",
         "theme": "Fais preuve de miséricorde envers les démuni(e)s",
-        "text": "Dt 24, 17-22",
+        "references": "Dt 24, 17-22",
         "id": 10
       },
       {
         "day": "Sam.",
         "theme": "Fais preuve de courtoisie et d’hospitalité envers les étrangers",
-        "text": "Gn 18, 1-8",
+        "references": "Gn 18, 1-8",
         "id": 11
       },
       {
         "day": "Dim. 2",
-        "label": "I EPIPHANIE : PREMIER DIMANCHE APRES LA REVELATION",
-        "text": ["Ps 29, 1-4", "Es 42, 1-9", "Ac 10, 34-43", "Mt 3, 13-17"],
+        "description": "I EPIPHANIE : PREMIER DIMANCHE APRES LA REVELATION",
+        "references": [
+          "Ps 29, 1-4",
+          "Es 42, 1-9",
+          "Ac 10, 34-43",
+          "Mt 3, 13-17"
+        ],
         "theme": "FAIS CONFIANCE AU SEIGNEUR",
         "id": 12
       },
       {
         "day": "Lun.",
         "theme": "Sois humble et reconnaissant(e)",
-        "text": "Rt 2, 1-13",
+        "references": "Rt 2, 1-13",
         "id": 13
       },
       {
         "day": "Mar.",
         "theme": "Permets que la grâce du Seigneur soit manifestée à tous/toutes",
-        "text": "Nb 15, 14-16",
+        "references": "Nb 15, 14-16",
         "id": 14
       },
       {
         "day": "Mer.",
         "theme": "Tiens-toi à la brèche pour ramener ton peuple à la repentance",
-        "text": "Ez 22, 23-31",
+        "references": "Ez 22, 23-31",
         "id": 15
       },
       {
         "day": "Jeu.",
         "theme": "Prépare-toi pour le jugement dernier",
-        "text": "Mt 25, 31-46",
+        "references": "Mt 25, 31-46",
         "id": 16
       },
       {
         "day": "Ven.",
         "theme": "Sois hospitalier(ère) et solidaire avec les autres",
-        "text": "He 13, 1-3",
+        "references": "He 13, 1-3",
         "id": 17
       },
       {
         "day": "Sam.",
         "theme": "Entretiens de bonnes relations avec les autres",
-        "text": "Rm 12, 9-16",
-        "label": "Début de la semaine de prière pour l’unité des chrétiens",
+        "references": "Rm 12, 9-16",
+        "description": "Début de la semaine de prière pour l’unité des chrétiens",
         "id": 18
       },
       {
         "day": "Dim. 3",
-        "label": "II EPIPHANIE : DEUXIÈME DIMANCHE APRES LA REVELATION",
-        "text": ["Ps 40, 2-5", "Es 49, 1-7", "1 Co 1, 1-9", "Jn 1, 29-42"],
+        "description": "II EPIPHANIE : DEUXIÈME DIMANCHE APRES LA REVELATION",
+        "references": [
+          "Ps 40, 2-5",
+          "Es 49, 1-7",
+          "1 Co 1, 1-9",
+          "Jn 1, 29-42"
+        ],
         "theme": "ACCEPTE ET RENDS TÉMOIGNAGE DU PLAN DE SALUT DE DIEU RÉALISÉ EN JÉSUS-CHRIST",
         "id": 19
       },
       {
         "day": "Lun.",
         "theme": "Evite de te laisser animer par l’esprit de vengeance",
-        "text": "Ps 137",
+        "references": "Ps 137",
         "id": 20
       },
       {
         "day": "Mar.",
         "theme": "Exerce la miséricorde envers ton prochain",
-        "text": "Lc 10, 25-37",
+        "references": "Lc 10, 25-37",
         "id": 21
       },
       {
         "day": "Mer.",
         "theme": "Ecoute et pratique la Parole du Seigneur",
-        "text": "Lc 16, 19-31",
+        "references": "Lc 16, 19-31",
         "id": 22
       },
       {
         "day": "Jeu.",
         "theme": "Dis le droit tel qu’il est",
-        "text": "Dt 1, 16-18",
+        "references": "Dt 1, 16-18",
         "id": 23
       },
       {
         "day": "Ven.",
         "theme": "Mets en pratique les commandements du Seigneur, source de sagesse",
-        "text": "Dt 4, 5-14",
+        "references": "Dt 4, 5-14",
         "id": 24
       },
       {
         "day": "Sam.",
         "theme": "Respecte l’alliance que le Seigneur a conclue avec toi",
-        "text": "Dt 5, 1-21",
-        "label": "Fin de la semaine de prière pour l’unité des chrétiens",
+        "references": "Dt 5, 1-21",
+        "description": "Fin de la semaine de prière pour l’unité des chrétiens",
         "id": 25
       },
       {
         "day": "Dim. 4",
-        "label": "III EPIPHANIE : TROISIÈME DIMANCHE APRES LA REVELATION",
-        "text": [
+        "description": "III EPIPHANIE : TROISIÈME DIMANCHE APRES LA REVELATION",
+        "references": [
           "Ps 27, 4-9",
           "Es 8, 23-9, 1-3",
           "1 Co 1, 10-17",
@@ -175,31 +190,31 @@
       {
         "day": "Lun.",
         "theme": "Garde-toi d’oublier le Seigneur, sois-hui fidèle",
-        "text": "Dt 6, 10-25",
+        "references": "Dt 6, 10-25",
         "id": 27
       },
       {
         "day": "Mar.",
         "theme": "Observe les commandements du Seigneur et tu seras béni(e)",
-        "text": "Dt 7, 7-16",
+        "references": "Dt 7, 7-16",
         "id": 28
       },
       {
         "day": "Mer.",
         "theme": "Garde-toi d’irriter le Seigneur qui t’aime",
-        "text": "Dt 9, 6-21",
+        "references": "Dt 9, 6-21",
         "id": 29
       },
       {
         "day": "Jeu.",
         "theme": "Fais fidèlement ce que le Seigneur t’a prescrit",
-        "text": "Dt 10, 1-5",
+        "references": "Dt 10, 1-5",
         "id": 30
       },
       {
         "day": "Ven.",
         "theme": "Sers fidèlement le Seigneur pour jouir des bénédictions promises",
-        "text": "Dt 11, 8-17",
+        "references": "Dt 11, 8-17",
         "id": 31
       }
     ]
@@ -211,142 +226,157 @@
       {
         "day": "Sam.",
         "theme": "Obéis à la loi du Seigneur dans ses dimensions culturelles",
-        "text": "Dt 12, 1-12",
+        "references": "Dt 12, 1-12",
         "id": 1
       },
       {
         "day": "Dim. 5",
-        "label": "IV EPIPHANIE : QUATRIÈME DIMANCHE APRÈS LA RÉVÉLATION. Journée du CEPROFOIRE",
-        "text": ["Ps 146, 6-10", "So 3, 12+13", "1 Co. 1, 26-31", "Mt 5, 1-12"],
+        "description": "IV EPIPHANIE : QUATRIÈME DIMANCHE APRÈS LA RÉVÉLATION. Journée du CEPROFOIRE",
+        "references": [
+          "Ps 146, 6-10",
+          "So 3, 12+13",
+          "1 Co. 1, 26-31",
+          "Mt 5, 1-12"
+        ],
         "theme": "LUTTE POUR ÊTRE DE LA COMMUNAUTÉ RESTAURÉE",
         "id": 2
       },
       {
         "day": "Lun.",
         "theme": "Evite de donner satisfaction aux appétits pervers",
-        "text": "Dt 14, 3-20",
+        "references": "Dt 14, 3-20",
         "id": 3
       },
       {
         "day": "Mar.",
         "theme": "Œuvre pour la réduction de l’extrême pauvreté dans ta communauté",
-        "text": "Dt 15, 1-11",
+        "references": "Dt 15, 1-11",
         "id": 4
       },
       {
         "day": "Mer.",
         "theme": "Honore par tes offrandes volontaires le Seigneur qui t’a libéré(e)",
-        "text": "Dt 16, 1-15",
+        "references": "Dt 16, 1-15",
         "id": 5
       },
       {
         "day": "Jeu.",
         "theme": "Reconnais tes péchés et confesse-les",
-        "text": "Ps 51",
+        "references": "Ps 51",
         "id": 6
       },
       {
         "day": "Ven.",
         "theme": "Restitué à ton prochain ce qu’il a perdu et respecté l’ordre créationnel",
-        "text": "Dt 22, 1-8",
+        "references": "Dt 22, 1-8",
         "id": 7
       },
       {
         "day": "Sam.",
         "theme": "Choisis et obéis à la loi du Seigneur",
-        "text": "Dt 30, 11-20",
+        "references": "Dt 30, 11-20",
         "id": 8
       },
       {
         "day": "Dim. 6",
-        "label": "V EPIPHANIE : CINQUIEME DIMANCHE APRÈS LA RÉVÉLATION",
-        "text": ["Ps 111, 1-3", "Es 58, 6-10", "1 Co. 2, 1-5", "Mt 5, 17-26"],
+        "description": "V EPIPHANIE : CINQUIEME DIMANCHE APRÈS LA RÉVÉLATION",
+        "references": [
+          "Ps 111, 1-3",
+          "Es 58, 6-10",
+          "1 Co. 2, 1-5",
+          "Mt 5, 17-26"
+        ],
         "theme": "OBÉIS À LA LOI ET A SON ESPRIT TELLE QU’ELLE EST PRESCRITE",
         "id": 9
       },
       {
         "day": "Lun.",
         "theme": "Fuis la tentation de vaines gloires",
-        "text": "Mt 6, 1-6",
+        "references": "Mt 6, 1-6",
         "id": 10
       },
       {
         "day": "Mar.",
         "theme": "Résisté à la tentation par la maîtrise de la Parole de Dieu",
-        "text": "Mt 4, 1+2+5-7",
+        "references": "Mt 4, 1+2+5-7",
         "id": 11
       },
       {
         "day": "Mer.",
         "theme": "Repens-toi et cherche la face du Seigneur",
-        "text": "So 2, 1-11",
+        "references": "So 2, 1-11",
         "id": 12
       },
       {
         "day": "Jeu.",
         "theme": "Evite d’initier des projets égoïstes",
-        "text": "Gn 11, 1-9",
+        "references": "Gn 11, 1-9",
         "id": 13
       },
       {
         "day": "Ven.",
         "theme": "Exalte le Seigneur qui t’a fait de grandes choses",
-        "text": "Lc 1, 46-55",
+        "references": "Lc 1, 46-55",
         "id": 14
       },
       {
         "day": "Sam.",
         "theme": "Evite la colère irréfléchie et réconcilié-toi avec ton prochain",
-        "text": "Mt 5, 21-26",
+        "references": "Mt 5, 21-26",
         "id": 15
       },
       {
         "day": "Dim. 7",
-        "label": "VI EPIPHANIE : SIXIEME DIMANCHE APRÈS LA RÉVÉLATION SEPTUAGESIME : 70 jours avant la Résurrection de Jésus-Christ. Début de la semaine de l’œuvre scolaire dans chaque paroisse",
-        "text": ["Ps 99, 1-3", "Ex 24, 12-18", "1 Co. 2, 6-10", "Mt 5, 27-37"],
+        "description": "VI EPIPHANIE : SIXIEME DIMANCHE APRÈS LA RÉVÉLATION SEPTUAGESIME : 70 jours avant la Résurrection de Jésus-Christ. Début de la semaine de l’œuvre scolaire dans chaque paroisse",
+        "references": [
+          "Ps 99, 1-3",
+          "Ex 24, 12-18",
+          "1 Co. 2, 6-10",
+          "Mt 5, 27-37"
+        ],
         "theme": "AIE CONFIANCE EN LE SEIGNEUR ET PRATIQUE LA DROITURE",
         "id": 16
       },
       {
         "day": "Lun.",
         "theme": "Préserve un avenir meilleur à l’enfant par une bonne éducation",
-        "text": "Pr 22, 6",
+        "references": "Pr 22, 6",
         "id": 17
       },
       {
         "day": "Mar.",
         "theme": "Crains le Seigneur, il te bénira toi et ta postérité",
-        "text": "Ps 112, 1-4",
+        "references": "Ps 112, 1-4",
         "id": 18
       },
       {
         "day": "Mer.",
         "theme": "Transmets l’enseignement du Seigneur à ta postérité",
-        "text": "Ps 78, 4-7",
+        "references": "Ps 78, 4-7",
         "id": 19
       },
       {
         "day": "Jeu.",
         "theme": "Le Seigneur t’a choisi(e), instruis toute ta maisonnée",
-        "text": "Gn 18, 19",
+        "references": "Gn 18, 19",
         "id": 20
       },
       {
         "day": "Ven.",
         "theme": "Lutte pour la maturité de tous les chrétiens",
-        "text": "Col 2, 1-3",
+        "references": "Col 2, 1-3",
         "id": 21
       },
       {
         "day": "Sam.",
         "theme": "Attache-toi à l’Écriture inspirée de Dieu afin d’accomplir les œuvres bonnes",
-        "text": "2 Tim 3, 14-17",
+        "references": "2 Tim 3, 14-17",
         "id": 22
       },
       {
         "day": "Dim. 8",
-        "label": "VII EPIPHANIE : SEPTIEME DIMANCHE APRÈS LA RÉVÉLATION SEXAGESIME : 60 jours avant la Résurrection de Jésus-Christ. Fin de la semaine de l’œuvre scolaire dans chaque paroisse",
-        "text": [
+        "description": "VII EPIPHANIE : SEPTIEME DIMANCHE APRÈS LA RÉVÉLATION SEXAGESIME : 60 jours avant la Résurrection de Jésus-Christ. Fin de la semaine de l’œuvre scolaire dans chaque paroisse",
+        "references": [
           "Ps 103, 1-5",
           "Lv 19, 17+18",
           "1 Co. 3, 16-23",
@@ -358,31 +388,31 @@
       {
         "day": "Lun.",
         "theme": "Reconnais tes péchés et cherche la purification auprès du Seigneur",
-        "text": "Lv 4, 25-32",
+        "references": "Lv 4, 25-32",
         "id": 24
       },
       {
         "day": "Mar.",
         "theme": "Aie confiance en Dieu et ne te préoccupe pas des méchants qui prospèrent",
-        "text": "Ps 37, 1-9",
+        "references": "Ps 37, 1-9",
         "id": 25
       },
       {
         "day": "Mer.",
         "theme": "Maîtrise-toi dans toutes les situations",
-        "text": "Pr 30, 10-14+32+33",
+        "references": "Pr 30, 10-14+32+33",
         "id": 26
       },
       {
         "day": "Jeu.",
         "theme": "Préserve la vie de ton prochain et évite la violence",
-        "text": "Gn 4, 1-14",
+        "references": "Gn 4, 1-14",
         "id": 27
       },
       {
         "day": "Ven.",
         "theme": "Cherche la pureté du cœur",
-        "text": "Ep 4, 25-32",
+        "references": "Ep 4, 25-32",
         "id": 28
       }
     ]
@@ -394,193 +424,208 @@
       {
         "day": "Sam.",
         "theme": "Reconnais la grandeur du Seigneur et sois humble",
-        "text": "Fs 2, 9-19",
+        "references": "Fs 2, 9-19",
         "id": 1
       },
       {
         "day": "Dim. 9",
-        "label": "VIII EPIPHANIE : HUITIEME DIMANCHE APRES LA REVELATION PENTECOSTEM : 50 jours avant la Résurrection de Jésus-Christ ESTOMIHI : Sois mon bouclier (Ps 18, 31). Journée des jeunes dans chaque paroisse",
-        "text": ["Ps 62, 2+3", "Es 49, 14+15", "1 Co. 4, 1-5", "Mt 6, 24-34"],
+        "description": "VIII EPIPHANIE : HUITIEME DIMANCHE APRES LA REVELATION PENTECOSTEM : 50 jours avant la Résurrection de Jésus-Christ ESTOMIHI : Sois mon bouclier (Ps 18, 31). Journée des jeunes dans chaque paroisse",
+        "references": [
+          "Ps 62, 2+3",
+          "Es 49, 14+15",
+          "1 Co. 4, 1-5",
+          "Mt 6, 24-34"
+        ],
         "theme": "SOIS FIDÈLE AU SEIGNEUR QUI S'OCCUPE DE TOI",
         "id": 2
       },
       {
         "day": "Lun.",
         "theme": "Vis selon la volonté du Seigneur",
-        "text": "Mt 6, 19-21+33",
+        "references": "Mt 6, 19-21+33",
         "id": 3
       },
       {
         "day": "Mar.",
         "theme": "Réponds à l'appel du Seigneur",
-        "text": "Mt 4, 18-22",
+        "references": "Mt 4, 18-22",
         "id": 4
       },
       {
         "day": "Mer.",
         "theme": "Confie tes projets au Seigneur et traite bien ton prochain",
-        "text": "Jc 4, 13-5, 1-6",
+        "references": "Jc 4, 13-5, 1-6",
         "id": 5
       },
       {
         "day": "Jeu.",
         "theme": "Donne la priorité à la recherche de la vie éternelle",
-        "text": "I Tm 6, 3-12",
+        "references": "I Tm 6, 3-12",
         "id": 6
       },
       {
         "day": "Ven.",
         "theme": "Dis la vérité en toutes circonstances",
-        "text": "Ac 5, 1-10",
-        "label": "Journée universelle de prière",
+        "references": "Ac 5, 1-10",
+        "description": "Journée universelle de prière",
         "id": 7
       },
       {
         "day": "Sam.",
         "theme": "Agis selon la justice en toutes choses",
-        "text": "Ps 112",
+        "references": "Ps 112",
         "id": 8
       },
       {
         "day": "Dim. 10",
-        "label": "PREMIER DIMANCHE DE LA PASSION INVOCANT : II m’appellera (Ps 91, 15)",
-        "text": ["Ps 51, 13+14", "Gn 2, 15-17", "Rm 5, 12-19", "Mt 4, 1-11"],
+        "description": "PREMIER DIMANCHE DE LA PASSION INVOCANT : II m’appellera (Ps 91, 15)",
+        "references": [
+          "Ps 51, 13+14",
+          "Gn 2, 15-17",
+          "Rm 5, 12-19",
+          "Mt 4, 1-11"
+        ],
         "theme": "RÉSISTE A LA TENTATION PAR LA PRATIQUE DE LA PAROLE DU SEIGNEUR",
         "id": 9
       },
       {
         "day": "Lun.",
         "theme": "Revêts-toi des armes spirituelles du Seigneur pour le combat",
-        "text": "Ep 6, 10-20",
+        "references": "Ep 6, 10-20",
         "id": 10
       },
       {
         "day": "Mar.",
         "theme": "Crains le Seigneur dans les relations interpersonnelles",
-        "text": "Col 3, 18-4, 1",
+        "references": "Col 3, 18-4, 1",
         "id": 11
       },
       {
         "day": "Mer.",
         "theme": "Reçois l’Esprit Saint pour la mission",
-        "text": "Jn 20, 21-23",
+        "references": "Jn 20, 21-23",
         "id": 12
       },
       {
         "day": "Jeu.",
         "theme": "Sois ambassadeur de Christ pour la réconciliation",
-        "text": "2 Co 5, 11-21",
+        "references": "2 Co 5, 11-21",
         "id": 13
       },
       {
         "day": "Ven.",
         "theme": "Attache-toi au Seigneur plus qu’aux hommes",
-        "text": "1 Co 3, 4-13",
+        "references": "1 Co 3, 4-13",
         "id": 14
       },
       {
         "day": "Sam.",
         "theme": "Revêts-toi du nouvel homme, image du Christ",
-        "text": "Col 3, 1-17",
+        "references": "Col 3, 1-17",
         "id": 15
       },
       {
         "day": "Dim. 11",
-        "label": "DEUXIEME DIMANCHE DE LA PASSION REMINISCERE : Souviens-toi (Ps 25, 6)",
-        "text": ["Ps 33, 1-3", "Gn 12, 1-4", "2 Th. 1, 3-10", "Mt 17, 1-9"],
+        "description": "DEUXIEME DIMANCHE DE LA PASSION REMINISCERE : Souviens-toi (Ps 25, 6)",
+        "references": [
+          "Ps 33, 1-3",
+          "Gn 12, 1-4",
+          "2 Th. 1, 3-10",
+          "Mt 17, 1-9"
+        ],
         "theme": "ÉCOUTE LE SEIGNEUR ET OBÉIS-LUI",
         "id": 16
       },
       {
         "day": "Lun.",
         "theme": "Glorifie le Seigneur par tes œuvres bonnes",
-        "text": "Mt 5, 13-20",
+        "references": "Mt 5, 13-20",
         "id": 17
       },
       {
         "day": "Mar.",
         "theme": "Sois sage et apprends à travailler pour éviter la pauvreté",
-        "text": "Pr 6, 6-11",
+        "references": "Pr 6, 6-11",
         "id": 18
       },
       {
         "day": "Mer.",
         "theme": "Tiens-toi prêt(e) pour le retour du Seigneur",
-        "text": "Mt 24, 42-51",
+        "references": "Mt 24, 42-51",
         "id": 19
       },
       {
         "day": "Jeu.",
         "theme": "Tiens-toi ferme dans la foi pour le combat",
-        "text": "Ep 6, 10-18",
+        "references": "Ep 6, 10-18",
         "id": 20
       },
       {
         "day": "Ven.",
         "theme": "Prie et attends la volonté du Seigneur",
-        "text": "Lc 22, 39-46",
+        "references": "Lc 22, 39-46",
         "id": 21
       },
       {
         "day": "Sam.",
         "theme": "Enfant de lumière ! Sois vigilant pour le retour du Seigneur",
-        "text": "1 Th 5, 1-11",
+        "references": "1 Th 5, 1-11",
         "id": 22
       },
       {
         "day": "Dim. 12",
-        "label": "TROISIEME DIMANCHE DE LA PASSION OCULI : Mes yeux (Ps 25, 15)",
-        "text": ["Ps 95, 6-8", "Ex 17, 1-7", "Rm 5, 1-11", "Jn 4, 5-14"],
+        "description": "TROISIEME DIMANCHE DE LA PASSION OCULI : Mes yeux (Ps 25, 15)",
+        "references": ["Ps 95, 6-8", "Ex 17, 1-7", "Rm 5, 1-11", "Jn 4, 5-14"],
         "theme": "VIENS AU SEIGNEUR, SOURCE D’EAU VIVE",
         "id": 23
       },
       {
         "day": "Lun.",
         "theme": "Evite les déviances sexuelles",
-        "text": "Mt 5, 27-32",
+        "references": "Mt 5, 27-32",
         "id": 24
       },
       {
         "day": "Mar.",
         "theme": "Nourris-toi de la parole de Dieu",
-        "text": "Mt 4, 1-4",
+        "references": "Mt 4, 1-4",
         "id": 25
       },
       {
         "day": "Mer.",
         "theme": "Pratique le jeûne qui convient au Seigneur",
-        "text": "Es 58, 1-9",
+        "references": "Es 58, 1-9",
         "id": 26
       },
       {
         "day": "Jeu.",
         "theme": "Enfant de Dieu, même une vie sainte",
-        "text": "Ep 5, 1-9",
+        "references": "Ep 5, 1-9",
         "id": 27
       },
       {
         "day": "Ven.",
         "theme": "Recours au Seigneur dans la détresse",
-        "text": "1 S. 11, 1-7",
+        "references": "1 S. 11, 1-7",
         "id": 28
       },
       {
         "day": "Sam.",
         "theme": "Rends grâce au Seigneur qui t’a délivré(e)",
-        "text": "1 S. 11, 8-15",
+        "references": "1 S. 11, 8-15",
         "id": 29
       },
       {
         "day": "Dim. 13",
-        "label": "QUATRIEME DIMANCHE DE LA PASSION LECTARE : Réjouissez-vous (Es 66, 10)",
-        "text": ["Ps 23", "1 S. 16, 10-13", "Ep 5, 8-14", "Jn 9, 1-12"],
+        "description": "QUATRIEME DIMANCHE DE LA PASSION LECTARE : Réjouissez-vous (Es 66, 10)",
+        "references": ["Ps 23", "1 S. 16, 10-13", "Ep 5, 8-14", "Jn 9, 1-12"],
         "theme": "ACCEPTE LE PLAN DU SEIGNEUR QUI CHANGE TON HISTOIRE",
         "id": 30
       },
       {
         "day": "Lun.",
         "theme": "Fais des compliments à ton/la conjoint(e)",
-        "text": "Ct 1, 1-17",
+        "references": "Ct 1, 1-17",
         "id": 31
       }
     ]
@@ -592,187 +637,207 @@
       {
         "day": "Mar.",
         "theme": "Mène une vie de chasteté avant le mariage",
-        "text": "C12, I-7",
+        "references": "C12, I-7",
         "id": 1
       },
       {
         "day": "Mer.",
         "theme": "Choisis le bon moment pour agir",
-        "text": "C12,8-17",
+        "references": "C12,8-17",
         "id": 2
       },
       {
         "day": "Jeu.",
         "theme": "Persévère dans la recherche du Seigneur et jouis de sa présence",
-        "text": "C13",
+        "references": "C13",
         "id": 3
       },
       {
         "day": "Ven.",
         "theme": "Exalte la beauté de la créature du Seigneur",
-        "text": "C14",
+        "references": "C14",
         "id": 4
       },
       {
         "day": "Sam.",
         "theme": "Ouvre ton cœur au Seigneur au bon moment",
-        "text": "C15, I-8",
+        "references": "C15, I-8",
         "id": 5
       },
       {
         "day": "Dim. 14",
-        "label": "CINQUIEME DIMANCHE DE LA PASSION JUDICA : Rends justice (Ps 43, 1)",
-        "text": ["Ps 130", "Ex 15, 9-18", "Rm 8, 5-11", "Jn 11, 17-27"],
+        "description": "CINQUIEME DIMANCHE DE LA PASSION JUDICA : Rends justice (Ps 43, 1)",
+        "references": ["Ps 130", "Ex 15, 9-18", "Rm 8, 5-11", "Jn 11, 17-27"],
         "theme": "CROIS EN LA PUISSANCE LIBÉRATRICE DU SEIGNEUR",
         "id": 6
       },
       {
         "day": "Lun.",
         "theme": "Reconnais les marques distinctives de ton /ta conjoint(e)",
-        "text": "C15, 9-6, I-3",
+        "references": "C15, 9-6, I-3",
         "id": 7
       },
       {
         "day": "Mar.",
         "theme": "Attache-toi seulement à celui/celle que tu aimes",
-        "text": "C16, 4-12",
+        "references": "C16, 4-12",
         "id": 8
       },
       {
         "day": "Mer.",
         "theme": "Sois reconnaissant(e) au Seigneur pour la beauté de la création",
-        "text": "C17, 1-10",
+        "references": "C17, 1-10",
         "id": 9
       },
       {
         "day": "Jeu.",
         "theme": "Trouve un temps de promenade pour faire plaisir à ton/ta conjoint(e)",
-        "text": "C17, 11-8, I-4",
+        "references": "C17, 11-8, I-4",
         "id": 10
       },
       {
         "day": "Ven.",
         "theme": "Sache que l’amour ne s’achète pas, il se donne",
-        "text": "C18, 5-14",
+        "references": "C18, 5-14",
         "id": 11
       },
       {
         "day": "Sam.",
         "theme": "Fais du Seigneur ton refuge pour ta sécurité",
-        "text": "Ps 16",
+        "references": "Ps 16",
         "id": 12
       },
       {
         "day": "Dim. 15",
-        "label": "DIMANCHE DES RAMEAUX (PALMARUM) : Mt 21, 8",
-        "text": ["Ps 88, 2+3", "Es 50, 4-9", "Ph 2, 5-11", "Mt 21, 1-11"],
+        "description": "DIMANCHE DES RAMEAUX (PALMARUM) : Mt 21, 8",
+        "references": ["Ps 88, 2+3", "Es 50, 4-9", "Ph 2, 5-11", "Mt 21, 1-11"],
         "theme": "ACCEPTE LA CONDITION D’HUMBLE SERVITEUR",
         "id": 13
       },
       {
         "day": "Lun.",
         "theme": "Sois ce à quoi tu es destiné(e) pour l’édification de l’Eglise",
-        "text": "Ep. 9-16",
+        "references": "Ep. 9-16",
         "id": 14
       },
       {
         "day": "Mar.",
         "theme": "Pratique les œuvres bonnes au moment opportun",
-        "text": "Mt 26, 1-13",
+        "references": "Mt 26, 1-13",
         "id": 15
       },
       {
         "day": "Mer.",
         "theme": "Près sans cesse pour la croissance spirituelle de ta communauté",
-        "text": "Col 1, 9-11",
+        "references": "Col 1, 9-11",
         "id": 16
       },
       {
         "day": "Jeu.",
         "theme": "Evite de nourrir de mauvaises intentions contre ton prochain",
-        "text": "Mt 26, 14-19",
+        "references": "Mt 26, 14-19",
         "id": 17
       },
       {
         "day": "Ven.",
-        "label": "VENDREDI SAINT",
-        "text": ["Ps 22, 2-6", "Es 53, 1-6", "He 10, 16-25", "Jn 18, 1-9"],
+        "description": "VENDREDI SAINT",
+        "references": [
+          "Ps 22, 2-6",
+          "Es 53, 1-6",
+          "He 10, 16-25",
+          "Jn 18, 1-9"
+        ],
         "theme": "ENTRE DANS LA NOUVELLE ALLIANCE INAUGURÉE PAR JÉSUS-CHRIST",
         "id": 18
       },
       {
         "day": "Sam.",
         "theme": "Cède ton bien au Seigneur qui est mort pour toi",
-        "text": "Mt 27, 57-66",
+        "references": "Mt 27, 57-66",
         "id": 19
       },
       {
         "day": "Dim. 16",
-        "label": "DIMANCHE DE PAQUES : RESURRECTION DE JESUS-CHRIST",
-        "text": ["Ps 118, 14-17", "Jr 31, 1-14", "Col 3, 1-4", "Jn 20, 1-9"],
+        "description": "DIMANCHE DE PAQUES : RESURRECTION DE JESUS-CHRIST",
+        "references": [
+          "Ps 118, 14-17",
+          "Jr 31, 1-14",
+          "Col 3, 1-4",
+          "Jn 20, 1-9"
+        ],
         "theme": "LA RESURRECTION TE REDONNE LA VIE, AFFECTIONNE LES CHOSES SPIRITUELLES",
         "id": 20
       },
       {
         "day": "Lun.",
-        "label": "LUNDI DE PAQUES",
-        "text": ["Ps 118, 24+25", "Ex 15, 1-3", "2 Tm. 2, 1-13", "Mt 28, 1-10"],
+        "description": "LUNDI DE PAQUES",
+        "references": [
+          "Ps 118, 24+25",
+          "Ex 15, 1-3",
+          "2 Tm. 2, 1-13",
+          "Mt 28, 1-10"
+        ],
         "theme": "RÉJOUIS-TOI ET APPORTE LA NOUVELLE DE LA RÉSURRECTION AUX AUTRES",
         "id": 21
       },
       {
         "day": "Mar.",
         "theme": "Libéré(e) du péché, fais-toi l’instrument de la justice",
-        "text": "Rm 6, 12-23",
+        "references": "Rm 6, 12-23",
         "id": 22
       },
       {
         "day": "Mer.",
         "theme": "Fais du temple ton lieu de prière et de louange",
-        "text": "Mt 21, 12-17",
+        "references": "Mt 21, 12-17",
         "id": 23
       },
       {
         "day": "Jeu.",
         "theme": "Sois rempli(e) du Saint Esprit et rends grâce au Seigneur",
-        "text": "Ep 5, 15-20",
+        "references": "Ep 5, 15-20",
         "id": 24
       },
       {
         "day": "Ven.",
         "theme": "Vis selon la vérité de l’Evangile",
-        "text": "Ga 2, 11-21",
+        "references": "Ga 2, 11-21",
         "id": 25
       },
       {
         "day": "Sam.",
         "theme": "Aime le Seigneur et accomplis tes vœux",
-        "text": "Ps 116, 1-2+12-19",
+        "references": "Ps 116, 1-2+12-19",
         "id": 26
       },
       {
         "day": "Dim. 17",
-        "label": "PREMIER DIMANCHE APRES PAQUES QUASIMODO GENETI : La nouvelle naissance (1 P 1, 3)",
-        "text": ["Ps 118, 28+29", "Ex 15, 8-12", "1 P 1, 3-9", "Jn 20, 19-3"],
+        "description": "PREMIER DIMANCHE APRES PAQUES QUASIMODO GENETI : La nouvelle naissance (1 P 1, 3)",
+        "references": [
+          "Ps 118, 28+29",
+          "Ex 15, 8-12",
+          "1 P 1, 3-9",
+          "Jn 20, 19-3"
+        ],
         "theme": "CROIS ET RENDS GRÂCE AU SEIGNEUR, SAUVEUR ET RESSUSCITÉ",
         "id": 27
       },
       {
         "day": "Lun.",
         "theme": "Ressuscité(e) avec Christ, marche dans la nouveauté de vie",
-        "text": "Rm 6, 1-11",
+        "references": "Rm 6, 1-11",
         "id": 28
       },
       {
         "day": "Mar.",
         "theme": "Réponds à l’appel du Seigneur avec foi",
-        "text": "Mt 22, 1-14",
+        "references": "Mt 22, 1-14",
         "id": 29
       },
       {
         "day": "Mer.",
         "theme": "Essaie de comprendre les Ecritures et la puissance du Seigneur",
-        "text": "Mt 22, 23-33",
+        "references": "Mt 22, 23-33",
         "id": 30
       }
     ]
@@ -784,192 +849,212 @@
       {
         "day": "Jeu.",
         "theme": "Renonce à toi-même et suis le Seigneur",
-        "text": "Mt 16, 24-28",
+        "references": "Mt 16, 24-28",
         "id": 1
       },
       {
         "day": "Ven.",
         "theme": "Contente-toi de ton solde",
-        "text": "Mt 20, 1-16",
+        "references": "Mt 20, 1-16",
         "id": 2
       },
       {
         "day": "Sam.",
         "theme": "Laisse le Seigneur t’élever",
-        "text": "Mt 20, 20-28",
+        "references": "Mt 20, 20-28",
         "id": 3
       },
       {
         "day": "Dim. 18",
-        "label": "DEUXIEME DIMANCHE APRES PÂQUES MISERICORDIA-DOMINI : La miséricorde de Dieu",
-        "text": ["Ps 16, 1-6", "Lv 26, 1-13", "1 P. 1, 17-23", "Lc 24, 13-35"],
+        "description": "DEUXIEME DIMANCHE APRES PÂQUES MISERICORDIA-DOMINI : La miséricorde de Dieu",
+        "references": [
+          "Ps 16, 1-6",
+          "Lv 26, 1-13",
+          "1 P. 1, 17-23",
+          "Lc 24, 13-35"
+        ],
         "theme": "DÉCOUVRE QUE LE SEIGNEUR EST VIVANT ET OBÉIS-LUI",
         "id": 4
       },
       {
         "day": "Lun.",
         "theme": "Conforme-toi à la volonté du Seigneur",
-        "text": "Gn 21, 8-19",
+        "references": "Gn 21, 8-19",
         "id": 5
       },
       {
         "day": "Mar.",
         "theme": "Accepte d’offrir ton bien le plus précieux au Seigneur",
-        "text": "Gn 22, 1-13",
+        "references": "Gn 22, 1-13",
         "id": 6
       },
       {
         "day": "Mer.",
         "theme": "Rends témoignage des bienfaits du Seigneur dans ta vie",
-        "text": "Gn 48, 1-11",
+        "references": "Gn 48, 1-11",
         "id": 7
       },
       {
         "day": "Jeu.",
         "theme": "Prends l’initiative pour préserver la vie de ton prochain",
-        "text": "Ex 2, 1-10",
+        "references": "Ex 2, 1-10",
         "id": 8
       },
       {
         "day": "Ven.",
         "theme": "Participe au plan de salut du Seigneur",
-        "text": "Rt 4, 13-17",
+        "references": "Rt 4, 13-17",
         "id": 9
       },
       {
         "day": "Sam.",
         "theme": "Donne à tes enfants l’éducation qui honore le Seigneur",
-        "text": "1 S. 3, 1-21",
+        "references": "1 S. 3, 1-21",
         "id": 10
       },
       {
         "day": "Dim. 19",
-        "label": "TROISIEME DIMANCHE APRES PÂQUES JUBILATE : Criez de joie (Ps 95, 1)",
-        "text": ["Ps 23", "Ex 34, 1-6", "1 P. 2, 20-25", "Jn 10, 1-10"],
+        "description": "TROISIEME DIMANCHE APRES PÂQUES JUBILATE : Criez de joie (Ps 95, 1)",
+        "references": ["Ps 23", "Ex 34, 1-6", "1 P. 2, 20-25", "Jn 10, 1-10"],
         "theme": "SUIS LE BON BERGER QUI ASSURE TON SALUT",
         "id": 11
       },
       {
         "day": "Lun.",
         "theme": "Evite les plaisirs immoraux",
-        "text": "Pr 31, 1-9",
+        "references": "Pr 31, 1-9",
         "id": 12
       },
       {
         "day": "Mar.",
         "theme": "Découvre en Jésus le Christ de Dieu et confesse-le",
-        "text": "Lc 9, 18-27",
+        "references": "Lc 9, 18-27",
         "id": 13
       },
       {
         "day": "Mer.",
         "theme": "Rends heureuse ta maisonnée par tes œuvres",
-        "text": "Pr 31, 10-20",
+        "references": "Pr 31, 10-20",
         "id": 14
       },
       {
         "day": "Jeu.",
         "theme": "Aie confiance en le Seigneur qui pourvoit à tes besoins",
-        "text": "Jn 6, 1-15",
+        "references": "Jn 6, 1-15",
         "id": 15
       },
       {
         "day": "Ven.",
         "theme": "Repens-toi et reçois le Saint-Esprit",
-        "text": "Ac 2, 14+36-39",
+        "references": "Ac 2, 14+36-39",
         "id": 16
       },
       {
         "day": "Sam.",
         "theme": "Donne la priorité au Seigneur qui bénit",
-        "text": "Ps 127",
+        "references": "Ps 127",
         "id": 17
       },
       {
         "day": "Dim. 20",
-        "label": "QUATRIEME DIMANCHE APRES PÂQUES CANTATE : Louez le Seigneur (Ps 96, 1). Journée de la Division Femmes et Enfants",
-        "text": ["Ps 31, 2+3", "Ac 2, 42-47", "1 P. 2, 2-4", "Jn 14, 1-14"],
+        "description": "QUATRIEME DIMANCHE APRES PÂQUES CANTATE : Louez le Seigneur (Ps 96, 1). Journée de la Division Femmes et Enfants",
+        "references": [
+          "Ps 31, 2+3",
+          "Ac 2, 42-47",
+          "1 P. 2, 2-4",
+          "Jn 14, 1-14"
+        ],
         "theme": "PERSÉVÈRE DANS LA PAROLE, LE CHEMIN QUI MÈNE AU PÈRE",
         "id": 18
       },
       {
         "day": "Lun.",
         "theme": "Demeure dans la Parole pour ta maturité spirituelle",
-        "text": "Lc 2, 39-52",
+        "references": "Lc 2, 39-52",
         "id": 19
       },
       {
         "day": "Mar.",
         "theme": "Crois en la Parole du Seigneur qui guérit",
-        "text": "Jn 4, 46-54",
+        "references": "Jn 4, 46-54",
         "id": 20
       },
       {
         "day": "Mer.",
         "theme": "Sois le/la conjoint(e) qui craint le Seigneur",
-        "text": "Pr 31, 21-31",
+        "references": "Pr 31, 21-31",
         "id": 21
       },
       {
         "day": "Jeu.",
         "theme": "Construis ta vie sur Jésus-Christ, le rocher",
-        "text": "Mt 7, 24-27",
+        "references": "Mt 7, 24-27",
         "id": 22
       },
       {
         "day": "Ven.",
         "theme": "Médite et mets fidèlement en pratique la Parole",
-        "text": "Jos 1, 8",
+        "references": "Jos 1, 8",
         "id": 23
       },
       {
         "day": "Sam.",
         "theme": "A cause de Christ, fais régner le respect dans la famille",
-        "text": "Ep 6, 1-4",
+        "references": "Ep 6, 1-4",
         "id": 24
       },
       {
         "day": "Dim. 21",
-        "label": "CINQUIEME DIMANCHE APRES PÂQUES ROGATE : Demandez (Jn 16, 24)",
-        "text": ["Ps 33, 1-3", "Dr 6, 1-9", "1 P. 3, 13-22", "Jn 14, 15-24"],
+        "description": "CINQUIEME DIMANCHE APRES PÂQUES ROGATE : Demandez (Jn 16, 24)",
+        "references": [
+          "Ps 33, 1-3",
+          "Dr 6, 1-9",
+          "1 P. 3, 13-22",
+          "Jn 14, 15-24"
+        ],
         "theme": "AIME LE SEIGNEUR, OBÉIS-LUI ET AGIS SELON LA PAROLE",
         "id": 25
       },
       {
         "day": "Lun.",
         "theme": "Exprime tes angoisses au Seigneur",
-        "text": "Ps 88, 2-10",
+        "references": "Ps 88, 2-10",
         "id": 26
       },
       {
         "day": "Mar.",
         "theme": "Sois juste car le Seigneur rend justice",
-        "text": "Ps 58",
+        "references": "Ps 58",
         "id": 27
       },
       {
         "day": "Mer.",
         "theme": "Invoque et loue le Seigneur, ta force et ta délivrance",
-        "text": "Ps 28",
+        "references": "Ps 28",
         "id": 28
       },
       {
         "day": "Jeu.",
-        "label": "ASCENSION DU SEIGNEUR",
-        "text": ["Ps 47, 2+3", "2 R. 2, 8-11", "Ep 1, 15-23", "Mt 28, 16-20"],
+        "description": "ASCENSION DU SEIGNEUR",
+        "references": [
+          "Ps 47, 2+3",
+          "2 R. 2, 8-11",
+          "Ep 1, 15-23",
+          "Mt 28, 16-20"
+        ],
         "theme": "DEMANDE L’ESPRIT POUR LA MISSION",
         "id": 29
       },
       {
         "day": "Ven.",
         "theme": "Confie ton sort au Seigneur qui tient ta destinée",
-        "text": "Ps 31, 2-16",
+        "references": "Ps 31, 2-16",
         "id": 30
       },
       {
         "day": "Sam.",
         "theme": "Dans ton combat, garde confiance en le Seigneur",
-        "text": "Ps 56",
+        "references": "Ps 56",
         "id": 31
       }
     ]
@@ -980,138 +1065,158 @@
     "days": [
       {
         "day": "Dim. 22",
-        "label": "SIXIEME DIMANCHE APRES PAQUES. EXAUDI : Ecoute (Ps 27, 7). Journée du partenariat",
-        "text": ["Ps 27, 1-3", "Ac 1, 12-14", "1 P. 4, 12-16", "Jn 17, 1-11"],
+        "description": "SIXIEME DIMANCHE APRES PAQUES. EXAUDI : Ecoute (Ps 27, 7). Journée du partenariat",
+        "references": [
+          "Ps 27, 1-3",
+          "Ac 1, 12-14",
+          "1 P. 4, 12-16",
+          "Jn 17, 1-11"
+        ],
         "theme": "NOIS SANS CRAINTE, LE SEIGNEUR INTERCÈDE POUR TOI DANS TA MISSION",
         "id": 1
       },
       {
         "day": "Lun.",
         "theme": "Dans les difficultés, invoque le Seigneur",
-        "text": "Ps 57",
+        "references": "Ps 57",
         "id": 2
       },
       {
         "day": "Mar.",
         "theme": "Incline-toi devant la toute puissance du Seigneur",
-        "text": "Jb 9, 1-12",
+        "references": "Jb 9, 1-12",
         "id": 3
       },
       {
         "day": "Mer.",
         "theme": "Réjouis-toi, le Seigneur exauce tes prières",
-        "text": "Lc 1, 5-14",
+        "references": "Lc 1, 5-14",
         "id": 4
       },
       {
         "day": "Jeu.",
         "theme": "Chante la gloire du Seigneur qui tient ses promesses",
-        "text": "Lc 1, 67-79",
+        "references": "Lc 1, 67-79",
         "id": 5
       },
       {
         "day": "Ven.",
         "theme": "Bénis le Seigneur pour sa bonté",
-        "text": "Ps 66, 8-20",
+        "references": "Ps 66, 8-20",
         "id": 6
       },
       {
         "day": "Sam.",
         "theme": "Reçois le témoignage du Seigneur descendu du ciel",
-        "text": "Jn 3, 11-17",
+        "references": "Jn 3, 11-17",
         "id": 7
       },
       {
         "day": "Dim. 23",
-        "label": "DIMANCHE DE PENTECÔTE (50 jours après Pâques)",
-        "text": ["Ps 104, 1-4", "Ac 2, 1-11", "1 Co. 12, 3-13", "Jn 20, 19-23"],
+        "description": "DIMANCHE DE PENTECÔTE (50 jours après Pâques)",
+        "references": [
+          "Ps 104, 1-4",
+          "Ac 2, 1-11",
+          "1 Co. 12, 3-13",
+          "Jn 20, 19-23"
+        ],
         "theme": "REÇOIS LE SAINT ESPRIT QUI DISPENSE LES DONS POUR L’ÉDIFICATION DE L’ÉGLISE",
         "id": 8
       },
       {
         "day": "Lun.",
-        "label": "LUNDI DE PENTECÔTE",
-        "text": ["Ps 104, 24", "Gn 1, 1-5", "Ap 2, 1-13", "Jn 15, 26-16, 1-4"],
+        "description": "LUNDI DE PENTECÔTE",
+        "references": [
+          "Ps 104, 24",
+          "Gn 1, 1-5",
+          "Ap 2, 1-13",
+          "Jn 15, 26-16, 1-4"
+        ],
         "theme": "REPENS-TOI ET RENDS TÉMOIGNAGE AU SEIGNEUR, LUMIÈRE DU MONDE",
         "id": 9
       },
       {
         "day": "Mar.",
         "theme": "Crois en le Seigneur qui se révèle à toi et te rappelle ses promesses",
-        "text": "Gn 28, 10-17",
+        "references": "Gn 28, 10-17",
         "id": 10
       },
       {
         "day": "Mer.",
         "theme": "Aspire aux choses spirituelles",
-        "text": "2 R. 2, 9-14",
+        "references": "2 R. 2, 9-14",
         "id": 11
       },
       {
         "day": "Jeu.",
         "theme": "Ecoute la parole du Seigneur qui redonne vie",
-        "text": "Ez 37, 1-14",
+        "references": "Ez 37, 1-14",
         "id": 12
       },
       {
         "day": "Ven.",
         "theme": "Fixe le regard sur le Seigneur et reste ferme dans la foi",
-        "text": "He 12, 1-3",
+        "references": "He 12, 1-3",
         "id": 13
       },
       {
         "day": "Sam.",
         "theme": "Accepte de souffrir pour Christ afin de prendre part à sa gloire",
-        "text": "1 P. 4, 12-14",
+        "references": "1 P. 4, 12-14",
         "id": 14
       },
       {
         "day": "Dim. 24",
-        "label": "PREMIER DIMANCHE APRES PENTECÔTE (TRINITE)",
-        "text": ["Ps 88, 2-6", "Ex 34, 4-9", "2 Co. 13, 11-13", "Jn 3, 16-18"],
+        "description": "PREMIER DIMANCHE APRES PENTECÔTE (TRINITE)",
+        "references": [
+          "Ps 88, 2-6",
+          "Ex 34, 4-9",
+          "2 Co. 13, 11-13",
+          "Jn 3, 16-18"
+        ],
         "theme": "CROIS A LA GRÂCE DU SEIGNEUR MANIFESTÉE EN SON FILS",
         "id": 15
       },
       {
         "day": "Lun.",
         "theme": "Rends grâce au Seigneur qui a fait de toi un sacrificateur pour Dieu",
-        "text": "Ap 1, 4-8",
+        "references": "Ap 1, 4-8",
         "id": 16
       },
       {
         "day": "Mar.",
         "theme": "Obéis au Seigneur qui te restaure",
-        "text": "Ez 11, 17-20",
+        "references": "Ez 11, 17-20",
         "id": 17
       },
       {
         "day": "Mer.",
         "theme": "Amène ton prochain à la rencontre du Seigneur",
-        "text": "Jn 1, 43-51",
+        "references": "Jn 1, 43-51",
         "id": 18
       },
       {
         "day": "Jeu.",
         "theme": "Réjouis-toi, le Seigneur met fin à tes souffrances",
-        "text": "Jl 2, 23-27",
+        "references": "Jl 2, 23-27",
         "id": 19
       },
       {
         "day": "Ven.",
         "theme": "Tu es passé(e) de la mort à la vie, marche sous la conduite du Saint Esprit",
-        "text": "Rm 8, 1-17",
+        "references": "Rm 8, 1-17",
         "id": 20
       },
       {
         "day": "Sam.",
         "theme": "Ressuscité(e) avec Christ, recherche les choses d’en haut",
-        "text": "Col 3, 1-11",
+        "references": "Col 3, 1-11",
         "id": 21
       },
       {
         "day": "Dim. 25",
-        "label": "DEUXIEME DIMANCHE APRES PENTECÔTE (TRINITE 1)",
-        "text": [
+        "description": "DEUXIEME DIMANCHE APRES PENTECÔTE (TRINITE 1)",
+        "references": [
           "Ps 147, 12-14",
           "Dt 8, 2+3+11-14",
           "1 Co. 10, 16+17",
@@ -1123,50 +1228,55 @@
       {
         "day": "Lun.",
         "theme": "Repens-toi et participe à la vie de ta communauté",
-        "text": "Ac 2, 37-47",
+        "references": "Ac 2, 37-47",
         "id": 23
       },
       {
         "day": "Mar.",
         "theme": "Proclame la parole sans crainte, le Seigneur promet être avec toi",
-        "text": "Ac 18, 4-11",
+        "references": "Ac 18, 4-11",
         "id": 24
       },
       {
         "day": "Mer.",
         "theme": "Attache-toi fermement au Seigneur et appuie l’œuvre d’évangélisation",
-        "text": "Ac 11, 19-26",
+        "references": "Ac 11, 19-26",
         "id": 25
       },
       {
         "day": "Jeu.",
         "theme": "Laisse l’Esprit te conduire dans toute la vérité",
-        "text": "Jn 16, 7-15",
+        "references": "Jn 16, 7-15",
         "id": 26
       },
       {
         "day": "Ven.",
         "theme": "Sois fidèle dans ta tâche et conforme-toi aux recommandations du Seigneur",
-        "text": "2 Ch. 34, 14-21",
+        "references": "2 Ch. 34, 14-21",
         "id": 27
       },
       {
         "day": "Sam.",
         "theme": "Accomplis la mission sous l’inspiration du Saint Esprit",
-        "text": "Za 4, 1-7",
+        "references": "Za 4, 1-7",
         "id": 28
       },
       {
         "day": "Dim. 26",
-        "label": "TROISIEME DIMANCHE APRES PENTECÔTE (TRINITE 2)",
-        "text": ["Ps 145, 1-9", "Za 9, 9+10", "Rm 8, 11-13", "Mt 11, 25-30"],
+        "description": "TROISIEME DIMANCHE APRES PENTECÔTE (TRINITE 2)",
+        "references": [
+          "Ps 145, 1-9",
+          "Za 9, 9+10",
+          "Rm 8, 11-13",
+          "Mt 11, 25-30"
+        ],
         "theme": "RÉJOUIS-TOI, LE SEIGNEUR REND FACILE TA VIE PAR L’ESPRIT",
         "id": 29
       },
       {
         "day": "Lun.",
         "theme": "Sois dans l’allégresse, le Seigneur change ta situation",
-        "text": "Jr 31, 7-14",
+        "references": "Jr 31, 7-14",
         "id": 30
       }
     ]
@@ -1178,80 +1288,85 @@
       {
         "day": "Mar.",
         "theme": "Réjouis-toi, le Seigneur éloigne les ennemis de toi et te restaure",
-        "text": "So 3, 14-20",
+        "references": "So 3, 14-20",
         "id": 1
       },
       {
         "day": "Mer.",
         "theme": "Retourne au Seigneur qui te guérit",
-        "text": "Os 6, 1-3",
+        "references": "Os 6, 1-3",
         "id": 2
       },
       {
         "day": "Jeu.",
         "theme": "Avec foi, persévère dans l’annonce de l’Evangile",
-        "text": "2 Co. 4, 13-18",
+        "references": "2 Co. 4, 13-18",
         "id": 3
       },
       {
         "day": "Ven.",
         "theme": "Lève-toi promptement et va à la rencontre de ton Sauveur",
-        "text": "Lc 2, 8-20",
+        "references": "Lc 2, 8-20",
         "id": 4
       },
       {
         "day": "Sam.",
         "theme": "Crois en le Seigneur qui manifeste sa gloire",
-        "text": "Jn 2, 1-11",
+        "references": "Jn 2, 1-11",
         "id": 5
       },
       {
         "day": "Dim. 27",
-        "label": "QUATRIEME DIMANCHE APRES PENTECÔTE (TRINITE 3)",
-        "text": ["Ps 65, 5", "Es 55, 10+11", "Rm 8, 18-23", "Mt 13, 1-23"],
+        "description": "QUATRIEME DIMANCHE APRES PENTECÔTE (TRINITE 3)",
+        "references": [
+          "Ps 65, 5",
+          "Es 55, 10+11",
+          "Rm 8, 18-23",
+          "Mt 13, 1-23"
+        ],
         "theme": "REÇOIS LA PAROLE VIVANTE POUR PRODUIRE LES FRUITS ESCOMPTÉS",
         "id": 6
       },
       {
         "day": "Lun.",
         "theme": "Écoute Jésus, le Fils bien-aimé de Dieu",
-        "text": "Mt 17, 1-9",
+        "references": "Mt 17, 1-9",
         "id": 7
       },
       {
         "day": "Mar.",
         "theme": "Imite l’humilité du Seigneur et mets en pratique son enseignement",
-        "text": "Jn 13, 1-17",
+        "references": "Jn 13, 1-17",
         "id": 8
       },
       {
         "day": "Mer.",
         "theme": "Laisse-toi convaincre par le Seigneur en qui s’accomplit la loi",
-        "text": "Mc 3, 1-6",
+        "references": "Mc 3, 1-6",
         "id": 9
       },
       {
         "day": "Jeu.",
         "theme": "Compatis à la douleur de ton prochain",
-        "text": "Lc 10, 25-37",
+        "references": "Lc 10, 25-37",
         "id": 10
       },
       {
         "day": "Ven.",
         "theme": "Aie foi en le Seigneur qui a le pouvoir de pardonner et de guérir",
-        "text": "Mc 2, 1-12",
+        "references": "Mc 2, 1-12",
         "id": 11
       },
       {
         "day": "Sam.",
         "theme": "Pardonne de tout ton cœur à ton prochain comme le Seigneur t’a pardonné(e)",
-        "text": "Mt 18, 23-35",
+        "references": "Mt 18, 23-35",
         "id": 12
       },
       {
         "day": "Dim. 28",
-        "label": "CINQUIEME DIMANCHE APRES PENTECÔTE (TRINITE 4). Début de la semaine de la santé dans chaque paroisse",
-        "text": [
+        "description": "CINQUIEME DIMANCHE APRES PENTECÔTE (TRINITE 4). Début de la semaine de la santé dans chaque paroisse",
+        "references": [
           "Ps 139, 1+2+23+24",
           "Ez 44, 6-8",
           "Rm 8, 26+27",
@@ -1263,111 +1378,121 @@
       {
         "day": "Lun.",
         "theme": "Comme la bonne semence, accepte de coexister avec les autres",
-        "text": "Mt 13, 24-32",
+        "references": "Mt 13, 24-32",
         "id": 14
       },
       {
         "day": "Mar.",
         "theme": "Évite de t’estimer devant le Seigneur",
-        "text": "Lc 18, 9-14",
+        "references": "Lc 18, 9-14",
         "id": 15
       },
       {
         "day": "Mer.",
         "theme": "Suis les consignes du Seigneur dans la mission",
-        "text": "Lc 10, 1-13",
+        "references": "Lc 10, 1-13",
         "id": 16
       },
       {
         "day": "Jeu.",
         "theme": "Sois la bonne terre et produis du fruit",
-        "text": "Mt 13, 1-9",
+        "references": "Mt 13, 1-9",
         "id": 17
       },
       {
         "day": "Ven.",
         "theme": "Repens-toi et produis du bon fruit",
-        "text": "Mt 3, 7-12",
+        "references": "Mt 3, 7-12",
         "id": 18
       },
       {
         "day": "Sam.",
         "theme": "Dispose ton cœur à la réception et à la compréhension de la parole",
-        "text": "Mt 13, 18-23",
+        "references": "Mt 13, 18-23",
         "id": 19
       },
       {
         "day": "Dim. 29",
-        "label": "SIXIEME DIMANCHE APRES PENTECÔTE (TRINITE 5). Fin de la semaine de la santé dans chaque paroisse",
-        "text": ["Ps 119, 1+2", "1 R. 3, 7-12", "Rm 8, 28-30", "Mt 13, 44-51"],
+        "description": "SIXIEME DIMANCHE APRES PENTECÔTE (TRINITE 5). Fin de la semaine de la santé dans chaque paroisse",
+        "references": [
+          "Ps 119, 1+2",
+          "1 R. 3, 7-12",
+          "Rm 8, 28-30",
+          "Mt 13, 44-51"
+        ],
         "theme": "ACQUIERS LA SAGESSE DU SEIGNEUR POUR FAIRE SA VOLONTÉ",
         "id": 20
       },
       {
         "day": "Lun.",
         "theme": "Persévère dans la prière, le Seigneur fait justice",
-        "text": "Lc 18, 1-8",
+        "references": "Lc 18, 1-8",
         "id": 21
       },
       {
         "day": "Mar.",
         "theme": "Cherche à comprendre les paraboles de l’ivraie",
-        "text": "Mt 13, 33-43",
+        "references": "Mt 13, 33-43",
         "id": 22
       },
       {
         "day": "Mer.",
         "theme": "Investis-toi ardemment dans la recherche du royaume du Seigneur",
-        "text": "Mt 13, 44-52",
+        "references": "Mt 13, 44-52",
         "id": 23
       },
       {
         "day": "Jeu.",
         "theme": "Ecoute et applique le theme de la repentance",
-        "text": "Mt 3, 1-6",
+        "references": "Mt 3, 1-6",
         "id": 24
       },
       {
         "day": "Ven.",
         "theme": "Attache-toi au Seigneur qui te révèle les mystères du royaume des cieux",
-        "text": "Mt 13, 10-17",
+        "references": "Mt 13, 10-17",
         "id": 25
       },
       {
         "day": "Sam.",
         "theme": "Laisse s’accomplir tout ce qui est juste",
-        "text": "Mt 3, 13-17",
+        "references": "Mt 3, 13-17",
         "id": 26
       },
       {
         "day": "Dim. 30",
-        "label": "SEPTIEME DIMANCHE APRES PENTECÔTE (TRINITE 6)",
-        "text": ["Ps 145, 14-16", "Es 55, 1-3", "Rm 8, 35-39", "Mt 14, 13-21"],
+        "description": "SEPTIEME DIMANCHE APRES PENTECÔTE (TRINITE 6)",
+        "references": [
+          "Ps 145, 14-16",
+          "Es 55, 1-3",
+          "Rm 8, 35-39",
+          "Mt 14, 13-21"
+        ],
         "theme": "VIENS AU SEIGNEUR QUI T’ASSURE LA PLÉNITUDE DE LA VIE",
         "id": 27
       },
       {
         "day": "Lun.",
         "theme": "Reconnais que Jésus est le Messie annoncé",
-        "text": "Mt 11, 2-19",
+        "references": "Mt 11, 2-19",
         "id": 28
       },
       {
         "day": "Mar.",
         "theme": "Pose des actes qui répondent à la volonté du Seigneur",
-        "text": "Mt 21, 28-32",
+        "references": "Mt 21, 28-32",
         "id": 29
       },
       {
         "day": "Mer.",
         "theme": "Cherche à plaire au Seigneur et non aux hommes",
-        "text": "Mt 14, 1-12",
+        "references": "Mt 14, 1-12",
         "id": 30
       },
       {
         "day": "Jeu.",
         "theme": "Souviens ton prochain dans le combat physique et spirituel",
-        "text": "Ex 17, 8-16",
+        "references": "Ex 17, 8-16",
         "id": 31
       }
     ]
@@ -1379,62 +1504,67 @@
       {
         "day": "Ven.",
         "theme": "Sois sans crainte, le Seigneur combat pour toi",
-        "text": "Dt 20, 1-9",
+        "references": "Dt 20, 1-9",
         "id": 1
       },
       {
         "day": "Sam.",
         "theme": "En cas de conflit, recherche la paix et protège l’environnement",
-        "text": "Dt 20, 10-20",
+        "references": "Dt 20, 10-20",
         "id": 2
       },
       {
         "day": "Dim. 31",
-        "label": "HUITIEME DIMANCHE APRES PENTECÔTE (TRINITE 7)",
-        "text": ["Ps 85, 8", "1 R. 19, 9-13a", "Rm 9, 1-5", "Mt 14, 20-33"],
+        "description": "HUITIEME DIMANCHE APRES PENTECÔTE (TRINITE 7)",
+        "references": [
+          "Ps 85, 8",
+          "1 R. 19, 9-13a",
+          "Rm 9, 1-5",
+          "Mt 14, 20-33"
+        ],
         "theme": "GARDE LA FOI EN LE SEIGNEUR EN TOUTES CIRCONSTANCES",
         "id": 3
       },
       {
         "day": "Lun.",
         "theme": "Crois en le Seigneur qui donne la victoire",
-        "text": "Jg 7, 9-22",
+        "references": "Jg 7, 9-22",
         "id": 4
       },
       {
         "day": "Mar.",
         "theme": "Reviens au Seigneur qui combat pour toi",
-        "text": "1 S. 7, 1-17",
+        "references": "1 S. 7, 1-17",
         "id": 5
       },
       {
         "day": "Mer.",
         "theme": "Respecte la loi du Seigneur pour éviter son châtiment",
-        "text": "Ha 1, 1-11",
+        "references": "Ha 1, 1-11",
         "id": 6
       },
       {
         "day": "Jeu.",
         "theme": "Garde-toi de comploter contre ton prochain",
-        "text": "Gn 37, 12-28",
+        "references": "Gn 37, 12-28",
         "id": 7
       },
       {
         "day": "Ven.",
         "theme": "Invoque le Seigneur dans les moments difficiles",
-        "text": "Jg 16, 23-31",
+        "references": "Jg 16, 23-31",
         "id": 8
       },
       {
         "day": "Sam.",
         "theme": "Repens-toi pour être sauvé(e)",
-        "text": "Lc 13, 1-5",
+        "references": "Lc 13, 1-5",
         "id": 9
       },
       {
         "day": "Dim. 32",
-        "label": "NEUVIEME DIMANCHE APRES PENTECÔTE (TRINITE 8)",
-        "text": [
+        "description": "NEUVIEME DIMANCHE APRES PENTECÔTE (TRINITE 8)",
+        "references": [
           "Ps 67, 2+3",
           "Es 56, 1-7",
           "Rm 11, 13-15 + 29-32",
@@ -1446,129 +1576,144 @@
       {
         "day": "Lun.",
         "theme": "Crains le Seigneur afin de ne pas te venger",
-        "text": "1 S. 24, 1-15",
+        "references": "1 S. 24, 1-15",
         "id": 11
       },
       {
         "day": "Mar.",
         "theme": "Accepte de souffrir pour l’Évangile et prie pour le pardon des péchés de tes ennemis",
-        "text": "Ac 7, 54 - 8, 1-4",
+        "references": "Ac 7, 54 - 8, 1-4",
         "id": 12
       },
       {
         "day": "Mer.",
         "theme": "Laisse transparaître la gloire du Seigneur à travers tes actes",
-        "text": "Ac 14, 8-21",
+        "references": "Ac 14, 8-21",
         "id": 13
       },
       {
         "day": "Jeu.",
         "theme": "Viens au Seigneur et bénéficie de sa compassion",
-        "text": "Rm 9, 1-18",
+        "references": "Rm 9, 1-18",
         "id": 14
       },
       {
         "day": "Ven.",
         "theme": "Recherche la justice de Dieu par la foi",
-        "text": "Rm 9, 19-33",
+        "references": "Rm 9, 19-33",
         "id": 15
       },
       {
         "day": "Sam.",
         "theme": "Crois et confesse que Jésus-Christ est sauveur pour être sauvé(e)",
-        "text": "Rm 10, 1-13",
+        "references": "Rm 10, 1-13",
         "id": 16
       },
       {
         "day": "Dim. 33",
-        "label": "DIXIEME DIMANCHE APRES PENTECÔTE (TRINITE 9)",
-        "text": ["Ps 138, 4-6", "Gn 49, 1-9", "Rm 11, 33-36", "Mt 16, 13-20"],
+        "description": "DIXIEME DIMANCHE APRES PENTECÔTE (TRINITE 9)",
+        "references": [
+          "Ps 138, 4-6",
+          "Gn 49, 1-9",
+          "Rm 11, 33-36",
+          "Mt 16, 13-20"
+        ],
         "theme": "RECONNAIS ET AGIS SELON LA SOUVERAINETÉ DU SEIGNEUR QUI REND JUSTICE",
         "id": 17
       },
       {
         "day": "Lun.",
         "theme": "Crois et obéis à la bonne nouvelle pour être sauvé(e)",
-        "text": "Rm 10, 14-21",
+        "references": "Rm 10, 14-21",
         "id": 18
       },
       {
         "day": "Mar.",
         "theme": "Crois pour être parmi le reste fidèle en ce temps de grâce",
-        "text": "Rm 11, 1-12",
+        "references": "Rm 11, 1-12",
         "id": 19
       },
       {
         "day": "Mer.",
         "theme": "Sois fidèle et demeure ferme dans la bonté du Seigneur",
-        "text": "Rm 11, 13-24",
+        "references": "Rm 11, 13-24",
         "id": 20
       },
       {
         "day": "Jeu.",
         "theme": "Consacre-toi à ton ministère selon le don que tu as reçu",
-        "text": "Rm 12, 1-8",
+        "references": "Rm 12, 1-8",
         "id": 21
       },
       {
         "day": "Ven.",
         "theme": "Cherche à vivre en bons termes avec tout le monde",
-        "text": "Rm 12, 9-21",
+        "references": "Rm 12, 9-21",
         "id": 22
       },
       {
         "day": "Sam.",
         "theme": "Sois un(e) bon (ne) citoyen(ne)",
-        "text": "Rm 13, 1-7",
+        "references": "Rm 13, 1-7",
         "id": 23
       },
       {
         "day": "Dim. 34",
-        "label": "ONZIEME DIMANCHE APRES PENTECÔTE (TRINITE 10)",
-        "text": ["Ps 63, 2-4", "Jr 20, 2-9", "Rm 12, 1+2", "Mt 16, 21-27"],
+        "description": "ONZIEME DIMANCHE APRES PENTECÔTE (TRINITE 10)",
+        "references": [
+          "Ps 63, 2-4",
+          "Jr 20, 2-9",
+          "Rm 12, 1+2",
+          "Mt 16, 21-27"
+        ],
         "theme": "GARDE-TOI DE T’INTERPOSER AU PLAN DE SALUT DU SEIGNEUR",
         "id": 24
       },
       {
         "day": "Lun.",
         "theme": "Aime ton prochain et mène une vie selon la Parole du Seigneur",
-        "text": "Rm 13, 8-14",
+        "references": "Rm 13, 8-14",
         "id": 25
       },
       {
         "day": "Mar.",
         "theme": "Évite de mépriser ton prochain pour ses convictions",
-        "text": "Rm 14, 1-6",
+        "references": "Rm 14, 1-6",
         "id": 26
       },
       {
         "day": "Mer.",
         "theme": "Vis pour le Seigneur à qui tu rendras compte",
-        "text": "Rm 14, 7-12",
+        "references": "Rm 14, 7-12",
         "id": 27
       },
       {
         "day": "Jeu.",
         "theme": "En Christ, soucie-toi de ton prochain et loue le Seigneur",
-        "text": "Rm 15, 1-13",
+        "references": "Rm 15, 1-13",
         "id": 28
       },
       {
         "day": "Ven.",
         "theme": "Annonce aussi l’Évangile à ceux/celles qui ne l’ont pas encore écoutée",
-        "text": "Rm 15, 14-21",
+        "references": "Rm 15, 14-21",
         "id": 29
       },
       {
         "day": "Sam.",
         "theme": "Sois solidaire avec ton prochain qui est dans le besoin",
-        "text": "Rm 15, 22-29",
+        "references": "Rm 15, 22-29",
         "id": 30
       },
       {
         "day": "Dim. 35",
-        "label": "DOUZIEME DIMANCHE APRES PENTECÔTE (TRINITE 11)",
-        "text": ["Ps 95, 1+2", "Ex 33, 7-9", "Rm 13, 8-10", "Mt 18, 15-20"],
+        "description": "DOUZIEME DIMANCHE APRES PENTECÔTE (TRINITE 11)",
+        "references": [
+          "Ps 95, 1+2",
+          "Ex 33, 7-9",
+          "Rm 13, 8-10",
+          "Mt 18, 15-20"
+        ],
         "theme": "LE SEIGNEUR S’EST RECONCILIÉ AVEC SON PEUPLE, FAIS DE MÊME AVEC TON PROCHAIN",
         "id": 31
       }
@@ -1581,185 +1726,200 @@
       {
         "day": "Lun.",
         "theme": "Combats par la prière pour la réussite de la mission",
-        "text": "Rm 15, 30-33",
+        "references": "Rm 15, 30-33",
         "id": 1
       },
       {
         "day": "Mar.",
         "theme": "Exprime ton affection à tes collaborateurs dans la mission",
-        "text": "Rm 16, 1-16",
+        "references": "Rm 16, 1-16",
         "id": 2
       },
       {
         "day": "Mer.",
         "theme": "Éloigne-toi de ceux/celles qui sèment les divisions dans la communauté",
-        "text": "Rm 16, 17-27",
+        "references": "Rm 16, 17-27",
         "id": 3
       },
       {
         "day": "Jeu.",
         "theme": "Fuis les mauvaises compagnies",
-        "text": "Pr 1, 8-19",
+        "references": "Pr 1, 8-19",
         "id": 4
       },
       {
         "day": "Ven.",
         "theme": "Écoute et réponds à l’appel de la sagesse pour échapper aux mauvais jours",
-        "text": "Pr 1, 20-33",
+        "references": "Pr 1, 20-33",
         "id": 5
       },
       {
         "day": "Sam.",
         "theme": "Recherche la sagesse qui fait vivre dans la crainte du Seigneur",
-        "text": "Pr 2, 1-22",
+        "references": "Pr 2, 1-22",
         "id": 6
       },
       {
         "day": "Dim. 36",
-        "label": "TREIZIEME DIMANCHE APRES PENTECÔTE (TRINITE 12)",
-        "text": ["Ps 114", "Gn 50, 15-21", "Rm 14, 7-9", "Mt 18, 21-35"],
+        "description": "TREIZIEME DIMANCHE APRES PENTECÔTE (TRINITE 12)",
+        "references": ["Ps 114", "Gn 50, 15-21", "Rm 14, 7-9", "Mt 18, 21-35"],
         "theme": "LE SEIGNEUR T’A PARDONNÉ(E), TOI AUSSI PARDONNE",
         "id": 7
       },
       {
         "day": "Lun.",
         "theme": "Désire le Seigneur de tout ton cœur et il t’apprendra à vivre",
-        "text": "Pr 3, 1-12",
+        "references": "Pr 3, 1-12",
         "id": 8
       },
       {
         "day": "Mar.",
         "theme": "Sois en bons termes avec ton prochain et détourne-toi du méchant",
-        "text": "Pr 3, 27-35",
+        "references": "Pr 3, 27-35",
         "id": 9
       },
       {
         "day": "Mer.",
         "theme": "Trouve et aime les instructions de la sagesse",
-        "text": "Pr 8, 1-21",
+        "references": "Pr 8, 1-21",
         "id": 10
       },
       {
         "day": "Jeu.",
         "theme": "Choisis la voie de la sagesse pour devenir sage",
-        "text": "Pr 10, 1-17",
+        "references": "Pr 10, 1-17",
         "id": 11
       },
       {
         "day": "Ven.",
         "theme": "Aime la réprimande et la science sera de ton côté",
-        "text": "Pr 12, 1-28",
+        "references": "Pr 12, 1-28",
         "id": 12
       },
       {
         "day": "Sam.",
         "theme": "Crains le Seigneur et maîtrise tes paroles",
-        "text": "Pr 15, 1-17+33",
+        "references": "Pr 15, 1-17+33",
         "id": 13
       },
       {
         "day": "Dim. 37",
-        "label": "QUATORZIEME DIMANCHE APRES PENTECÔTE (TRINITE 13). Journée de prière pour les ministères dans chaque paroisse",
-        "text": ["Ps 145, 84-9", "Es 55, 6-9", "Ph 1, 21-27", "Mt 20, 1-16"],
+        "description": "QUATORZIEME DIMANCHE APRES PENTECÔTE (TRINITE 13). Journée de prière pour les ministères dans chaque paroisse",
+        "references": [
+          "Ps 145, 84-9",
+          "Es 55, 6-9",
+          "Ph 1, 21-27",
+          "Mt 20, 1-16"
+        ],
         "theme": "RÉPONDS À L’APPEL DU SEIGNEUR ET SOUMETS-TOI À SA VOLONTÉ",
         "id": 14
       },
       {
         "day": "Lun.",
         "theme": "Cherche refuge en le Seigneur, ta forteresse",
-        "text": "Pr 18, 9-19",
+        "references": "Pr 18, 9-19",
         "id": 15
       },
       {
         "day": "Mar.",
         "theme": "Sois humble, crains le Seigneur et tu connaîtras des jours heureux",
-        "text": "Pr 22, 1-16",
+        "references": "Pr 22, 1-16",
         "id": 16
       },
       {
         "day": "Mer.",
         "theme": "Connais la sagesse et tu auras un avenir meilleur",
-        "text": "Pr 24, 3-22",
+        "references": "Pr 24, 3-22",
         "id": 17
       },
       {
         "day": "Jeu.",
         "theme": "Évite de tenir des propos malveillants à l’égard des serviteurs du Seigneur",
-        "text": "Nb 12, 1-16",
+        "references": "Nb 12, 1-16",
         "id": 18
       },
       {
         "day": "Ven.",
         "theme": "Évite de manipuler ta communauté par de faux enseignements",
-        "text": "Lc 11, 45-52",
+        "references": "Lc 11, 45-52",
         "id": 19
       },
       {
         "day": "Sam.",
         "theme": "Détourne-toi de tes péchés et tes prières seront exaucées",
-        "text": "Es 1, 15-18",
+        "references": "Es 1, 15-18",
         "id": 20
       },
       {
         "day": "Dim. 38",
-        "label": "QUINZIEME DIMANCHE APRES PENTECÔTE (TRINITE 14)",
-        "text": ["Ps 25, 4+5", "Ez 18, 25-28", "Ph 2, 1-11", "Mt 21, 28-32"],
+        "description": "QUINZIEME DIMANCHE APRES PENTECÔTE (TRINITE 14)",
+        "references": [
+          "Ps 25, 4+5",
+          "Ez 18, 25-28",
+          "Ph 2, 1-11",
+          "Mt 21, 28-32"
+        ],
         "theme": "AVEC HUMILITÉ, REVIENS AU SEIGNEUR ET FAIS SA VOLONTÉ",
         "id": 21
       },
       {
         "day": "Lun.",
         "theme": "Découvre Jésus-Christ en qui la Parole de Dieu s’est accomplie",
-        "text": "Mc 9, 1-8",
+        "references": "Mc 9, 1-8",
         "id": 22
       },
       {
         "day": "Mar.",
         "theme": "Efforce-toi de ne pas l’éloigner de ton/ta conjoint(e)",
-        "text": "Ct 1, 5-16",
+        "references": "Ct 1, 5-16",
         "id": 23
       },
       {
         "day": "Mer.",
         "theme": "Expose tes souffrances au Seigneur",
-        "text": "Jb 30, 26-31",
+        "references": "Jb 30, 26-31",
         "id": 24
       },
       {
         "day": "Jeu.",
         "theme": "Fais confiance au Seigneur qui prend soin de toi",
-        "text": "Ps 23",
+        "references": "Ps 23",
         "id": 25
       },
       {
         "day": "Ven.",
         "theme": "Découvre ton égarement et reviens au Seigneur",
-        "text": "Lc 15, 11-24",
+        "references": "Lc 15, 11-24",
         "id": 26
       },
       {
         "day": "Sam.",
         "theme": "Sache que le Seigneur rétribue selon nos actes",
-        "text": "Lc 16, 19-31",
+        "references": "Lc 16, 19-31",
         "id": 27
       },
       {
         "day": "Dim. 39",
-        "label": "SEIZIEME DIMANCHE APRES PENTECÔTE (TRINITE 15)",
-        "text": ["Ps 80, 9+10+15+16", "Es 5, 1-7", "Ph 4, 6-9", "Mt 21, 33-43"],
+        "description": "SEIZIEME DIMANCHE APRES PENTECÔTE (TRINITE 15)",
+        "references": [
+          "Ps 80, 9+10+15+16",
+          "Es 5, 1-7",
+          "Ph 4, 6-9",
+          "Mt 21, 33-43"
+        ],
         "theme": "PRODUIS DE BONS FRUITS QU’ESPÈRE LE SEIGNEUR DE TOI",
         "id": 28
       },
       {
         "day": "Lun.",
         "theme": "Sache que nos actes nous rattrapent",
-        "text": "Gn 38, 24-29",
+        "references": "Gn 38, 24-29",
         "id": 29
       },
       {
         "day": "Mar.",
         "theme": "Accueille et protège les envoyés du Seigneur",
-        "text": "Jos 2, 8-21",
+        "references": "Jos 2, 8-21",
         "id": 30
       }
     ]
@@ -1771,191 +1931,206 @@
       {
         "day": "Mer.",
         "theme": "Avec foi, va au Seigneur qui guérit",
-        "text": "Mt 8, 1-13",
+        "references": "Mt 8, 1-13",
         "id": 1
       },
       {
         "day": "Jeu.",
         "theme": "Crois et glorifie le Seigneur qui pardonne et guérit",
-        "text": "Mt 9, 1-8",
+        "references": "Mt 9, 1-8",
         "id": 2
       },
       {
         "day": "Ven.",
         "theme": "Sois le Seigneur, porteur de la nouvelle doctrine",
-        "text": "Mt 9, 9-17",
+        "references": "Mt 9, 9-17",
         "id": 3
       },
       {
         "day": "Sam.",
         "theme": "Approche-toi du Seigneur dans la détresse",
-        "text": "Mt 9, 18-26",
+        "references": "Mt 9, 18-26",
         "id": 4
       },
       {
         "day": "Dim. 40",
-        "label": "DIX SEPTIEME DIMANCHE APRES PENTECÔTE (TRINITE 16). Journée universelle de la sainte cène",
-        "text": ["Ps 23", "Es 25, 6-9", "Ph 4, 12-14", "Mt 22, 1-14"],
+        "description": "DIX SEPTIEME DIMANCHE APRES PENTECÔTE (TRINITE 16). Journée universelle de la sainte cène",
+        "references": ["Ps 23", "Es 25, 6-9", "Ph 4, 12-14", "Mt 22, 1-14"],
         "theme": "ACCEPTE DE PORTER LA JUSTICE DU SEIGNEUR POUR PARTICIPER A LA NOCE",
         "id": 5
       },
       {
         "day": "Lun.",
         "theme": "Prèche la parole du Seigneur dans l’adversité et reste-lui fidèle",
-        "text": "Mt 10, 26-33",
+        "references": "Mt 10, 26-33",
         "id": 6
       },
       {
         "day": "Mar.",
         "theme": "Viens au Seigneur qui te révèle le Père et qui allège ton fardeau",
-        "text": "Mt 11, 25-30",
+        "references": "Mt 11, 25-30",
         "id": 7
       },
       {
         "day": "Mer.",
         "theme": "Fais du bien et évite de tendre un piège à ton prochain",
-        "text": "Mt 12, 9-14",
+        "references": "Mt 12, 9-14",
         "id": 8
       },
       {
         "day": "Jeu.",
         "theme": "Garde-toi de nier la puissance du Saint-Esprit",
-        "text": "Mt 12, 22-32",
+        "references": "Mt 12, 22-32",
         "id": 9
       },
       {
         "day": "Ven.",
         "theme": "Aie confiance en le Seigneur et fixe ton regard sur lui",
-        "text": "Mt 14, 22-33",
+        "references": "Mt 14, 22-33",
         "id": 10
       },
       {
         "day": "Sam.",
         "theme": "Donne priorité à l’Evangile et honore le Seigneur avec des pensées saines",
-        "text": "Mt 15, 1-20",
+        "references": "Mt 15, 1-20",
         "id": 11
       },
       {
         "day": "Dim. 41",
-        "label": "DIX HUITIEME DIMANCHE APRES PENTECÔTE (TRINITE 17)",
-        "text": ["Ps 96, 1-3", "Es 45, 1-6", "Tl. 1, 1-5", "Mt 22, 15-21"],
+        "description": "DIX HUITIEME DIMANCHE APRES PENTECÔTE (TRINITE 17)",
+        "references": [
+          "Ps 96, 1-3",
+          "Es 45, 1-6",
+          "Tl. 1, 1-5",
+          "Mt 22, 15-21"
+        ],
         "theme": "DEMEURE FERME DANS LA FOI ET ACCOMPLIS TON DEVOIR DE CITOYEN(NE)",
         "id": 12
       },
       {
         "day": "Lun.",
         "theme": "Humilie-toi et évite les scandales",
-        "text": "Mt 18, 1-9",
+        "references": "Mt 18, 1-9",
         "id": 13
       },
       {
         "day": "Mar.",
         "theme": "Accepte l’indissolubilité du mariage",
-        "text": "Mt 19, 3-12",
+        "references": "Mt 19, 3-12",
         "id": 14
       },
       {
         "day": "Mer.",
         "theme": "Loue le Seigneur qui domine sa création",
-        "text": "Ps 104, 1-9",
+        "references": "Ps 104, 1-9",
         "id": 15
       },
       {
         "day": "Jeu.",
         "theme": "Obéis à l’ordre du Seigneur",
-        "text": "Gn 7, 1-12",
+        "references": "Gn 7, 1-12",
         "id": 16
       },
       {
         "day": "Ven.",
         "theme": "Offre des actions de grâce au Seigneur qui scelle une alliance avec la création",
-        "text": "Gn 8, 13-22",
+        "references": "Gn 8, 13-22",
         "id": 17
       },
       {
         "day": "Sam.",
         "theme": "Obéis au Seigneur qui veille sur la mission",
-        "text": "Jon 1, 1-16",
+        "references": "Jon 1, 1-16",
         "id": 18
       },
       {
         "day": "Dim. 42",
-        "label": "DIX NEUVIEME DIMANCHE APRES PENTECÔTE (TRINITE 18)",
-        "text": ["Ps 18, 3+4", "Ex 22, 20-26", "Tl. 1, 6-10", "Mt 22, 34-40"],
+        "description": "DIX NEUVIEME DIMANCHE APRES PENTECÔTE (TRINITE 18)",
+        "references": [
+          "Ps 18, 3+4",
+          "Ex 22, 20-26",
+          "Tl. 1, 6-10",
+          "Mt 22, 34-40"
+        ],
         "theme": "EXPRIME TON AMOUR AU SEIGNEUR ET A TON PROCHAIN",
         "id": 19
       },
       {
         "day": "Lun.",
         "theme": "Dans les détresses, souviens-toi des hauts faits du Seigneur",
-        "text": "Ps 77, 11-20",
+        "references": "Ps 77, 11-20",
         "id": 20
       },
       {
         "day": "Mar.",
         "theme": "Sois sans crainte, crois en le Seigneur qui apaise la tempête",
-        "text": "Lc 8, 22-25",
+        "references": "Lc 8, 22-25",
         "id": 21
       },
       {
         "day": "Mer.",
         "theme": "Reconnais que c’est le Seigneur qui t’a formé(e) et qui t’a donné vie",
-        "text": "Gn 2, 4-9",
+        "references": "Gn 2, 4-9",
         "id": 22
       },
       {
         "day": "Jeu.",
         "theme": "Choisis la voie du juste et tu auras du succès",
-        "text": "Ps 1",
+        "references": "Ps 1",
         "id": 23
       },
       {
         "day": "Ven.",
         "theme": "Obéis au Seigneur et dis la vérité même face aux intimidations",
-        "text": "Ac 5, 27-32",
+        "references": "Ac 5, 27-32",
         "id": 24
       },
       {
         "day": "Sam.",
         "theme": "Efforce-toi d’entrer dans la joie du Seigneur",
-        "text": "Ap 22, 1-5",
+        "references": "Ap 22, 1-5",
         "id": 25
       },
       {
         "day": "Dim. 43",
-        "label": "VINGTIEME DIMANCHE APRES PENTECÔTE (TRINITE 19). Dimanche de la Réforme",
-        "text": ["Ps 131", "Mt 1, 14 + 2, 8-10", "Tl. 2, 7-9", "Mt 23, 1-12"],
+        "description": "VINGTIEME DIMANCHE APRES PENTECÔTE (TRINITE 19). Dimanche de la Réforme",
+        "references": [
+          "Ps 131",
+          "Mt 1, 14 + 2, 8-10",
+          "Tl. 2, 7-9",
+          "Mt 23, 1-12"
+        ],
         "theme": "RESPECTE LES PRÉCEPTES DU SEIGNEUR ET SOIS UN MODÈLE POUR TON PROCHAIN",
         "id": 26
       },
       {
         "day": "Lun.",
         "theme": "Manifeste ta compassion envers ton prochain",
-        "text": "Lc 13, 8-19",
+        "references": "Lc 13, 8-19",
         "id": 27
       },
       {
         "day": "Mar.",
         "theme": "Recherche la communion personnelle avec le Seigneur et glorifie-le",
-        "text": "Ps 63",
+        "references": "Ps 63",
         "id": 28
       },
       {
         "day": "Mer.",
         "theme": "Prends conscience du caractère éphémère de la vie et vis sagement",
-        "text": "Ps 90, 1-12",
+        "references": "Ps 90, 1-12",
         "id": 29
       },
       {
         "day": "Jeu.",
         "theme": "Exprime ta reconnaissance au Seigneur pour ses bénédictions",
-        "text": "Ps 103, 1-14",
+        "references": "Ps 103, 1-14",
         "id": 30
       },
       {
         "day": "Ven.",
         "theme": "Compatis à la détresse de ton peuple et implore le Seigneur",
-        "text": "Jr 14, 1-10",
+        "references": "Jr 14, 1-10",
         "id": 31
       }
     ]
@@ -1967,56 +2142,61 @@
       {
         "day": "Sam.",
         "theme": "Donne au Seigneur la gloire de sa puissance et de sa bonté",
-        "text": "Ps 65",
+        "references": "Ps 65",
         "id": 1
       },
       {
         "day": "Dim. 44",
-        "label": "VINGT ET UNIEME DIMANCHE APRES PENTECÔTE (TRINITE 20). Evangelisation dans chaque paroisse",
-        "text": ["Ps 107, 1-7", "Jos 3, 7-17", "1 Th 4, 13-18", "Mt 25, 1-13"],
+        "description": "VINGT ET UNIEME DIMANCHE APRES PENTECÔTE (TRINITE 20). Evangelisation dans chaque paroisse",
+        "references": [
+          "Ps 107, 1-7",
+          "Jos 3, 7-17",
+          "1 Th 4, 13-18",
+          "Mt 25, 1-13"
+        ],
         "theme": "TU ES HONORÉ(E) EN CHRIST, SOIS SAGE DANS LA MISSION",
         "id": 2
       },
       {
         "day": "Lun.",
         "theme": "Sois indulgent(e) envers ton semblable",
-        "text": "Jn 8, 1-11",
+        "references": "Jn 8, 1-11",
         "id": 3
       },
       {
         "day": "Mar.",
         "theme": "Fais attention aux enseignants usurpateurs",
-        "text": "Mt 23, 1-12",
+        "references": "Mt 23, 1-12",
         "id": 4
       },
       {
         "day": "Mer.",
         "theme": "Reste loin de l’hypocrisie",
-        "text": "Mt 23, 13-22",
+        "references": "Mt 23, 13-22",
         "id": 5
       },
       {
         "day": "Jeu.",
         "theme": "Sois fidèle dans l’obéissance des préceptes du Seigneur",
-        "text": "Mt 23, 23-28",
+        "references": "Mt 23, 23-28",
         "id": 6
       },
       {
         "day": "Ven.",
         "theme": "Cesse de marcher sur les mauvaises traces de tes parents",
-        "text": "Mt 23, 29-39",
+        "references": "Mt 23, 29-39",
         "id": 7
       },
       {
         "day": "Sam.",
         "theme": "Efforce-toi de comprendre les signes des temps et persévère dans la foi",
-        "text": "Mt 24, 1-14",
+        "references": "Mt 24, 1-14",
         "id": 8
       },
       {
         "day": "Dim. 45",
-        "label": "VINGT DEUXIEME DIMANCHE APRES PENTECÔTE (TRINITE 21)",
-        "text": [
+        "description": "VINGT DEUXIEME DIMANCHE APRES PENTECÔTE (TRINITE 21)",
+        "references": [
           "Ps 128, 1-6",
           "Pr 31, 10-13+30+31",
           "1 Th 5, 1-6",
@@ -2028,129 +2208,134 @@
       {
         "day": "Lun.",
         "theme": "Veille et prie pour échapper aux désastres du temps",
-        "text": "Mt 24, 15-28",
+        "references": "Mt 24, 15-28",
         "id": 10
       },
       {
         "day": "Mar.",
         "theme": "Accomplis fidèlement ta tâche, le Seigneur revient",
-        "text": "Mt 24, 36-51",
+        "references": "Mt 24, 36-51",
         "id": 11
       },
       {
         "day": "Mer.",
         "theme": "Prends toutes les dispositions nécessaires pour accueillir ton Seigneur",
-        "text": "Mt 25, 1-13",
+        "references": "Mt 25, 1-13",
         "id": 12
       },
       {
         "day": "Jeu.",
         "theme": "Sois fidèle dans la gestion des biens du Seigneur",
-        "text": "Mt 25, 14-30",
+        "references": "Mt 25, 14-30",
         "id": 13
       },
       {
         "day": "Ven.",
         "theme": "Pratique l’amour altruiste pour entrer dans la vie éternelle",
-        "text": "Mt 25, 31-46",
+        "references": "Mt 25, 31-46",
         "id": 14
       },
       {
         "day": "Sam.",
         "theme": "Rends à chacun ce qui lui est digne",
-        "text": "Mt 22, 15-22",
+        "references": "Mt 22, 15-22",
         "id": 15
       },
       {
         "day": "Dim. 46",
-        "label": "VINGT TROISIEME DIMANCHE APRES PENTECÔTE (TRINITE 22)",
-        "text": ["Ps 123", "Ez 34, 11-17", "1 Co 15, 20-28", "Mt 25, 31-46"],
+        "description": "VINGT TROISIEME DIMANCHE APRES PENTECÔTE (TRINITE 22)",
+        "references": [
+          "Ps 123",
+          "Ez 34, 11-17",
+          "1 Co 15, 20-28",
+          "Mt 25, 31-46"
+        ],
         "theme": "COMPTE SUR LE BON BERGER QUI TE CONNAIT ET QUI T’ACCUEILLE DANS SON ROYAUME",
         "id": 16
       },
       {
         "day": "Lun.",
         "theme": "Aime le Seigneur de tous les temps et ton prochain de tout ton être",
-        "text": "Mt 22, 34-40",
+        "references": "Mt 22, 34-40",
         "id": 17
       },
       {
         "day": "Mar.",
         "theme": "Loue le Seigneur pour ce qu’il est et ce qu’il fait",
-        "text": "Ps 150",
+        "references": "Ps 150",
         "id": 18
       },
       {
         "day": "Mer.",
         "theme": "Exalte le Seigneur qui t’a délivré(e) par sa puissance",
-        "text": "Ez 15, 1-21",
+        "references": "Ez 15, 1-21",
         "id": 19
       },
       {
         "day": "Jeu.",
         "theme": "Adore le seul et vrai Seigneur",
-        "text": "Dn 3, 1-12",
+        "references": "Dn 3, 1-12",
         "id": 20
       },
       {
         "day": "Ven.",
         "theme": "Repens-toi pour éviter le châtiment du Seigneur",
-        "text": "Ez 26, 7-14",
+        "references": "Ez 26, 7-14",
         "id": 21
       },
       {
         "day": "Sam.",
         "theme": "Respecte les consignes du Seigneur pour bénéficier des dons de l’Esprit",
-        "text": "1 S 10, 1-8",
+        "references": "1 S 10, 1-8",
         "id": 22
       },
       {
         "day": "Dim. 47",
-        "label": "VINGT QUATRIEME DIMANCHE APRES PENTECÔTE (TRINITE 23). Dernier dimanche de l’année ecclésiastique : pensée à la mémoire des morts durant l’année dans chaque paroisse",
-        "text": ["Ps 1", "Ez 59, 16-21", "Ep 6, 10-20", "Mc 14, 1-9"],
+        "description": "VINGT QUATRIEME DIMANCHE APRES PENTECÔTE (TRINITE 23). Dernier dimanche de l’année ecclésiastique : pensée à la mémoire des morts durant l’année dans chaque paroisse",
+        "references": ["Ps 1", "Ez 59, 16-21", "Ep 6, 10-20", "Mc 14, 1-9"],
         "theme": "POSE DES ACTES QUI CONCOURENT À L’ANNONCE DE LA BONNE NOUVELLE",
         "id": 23
       },
       {
         "day": "Lun.",
         "theme": "Respecte la hiérarchie dans tes fonctions",
-        "text": "1 Ch 25, 1-7",
+        "references": "1 Ch 25, 1-7",
         "id": 24
       },
       {
         "day": "Mar.",
         "theme": "Laisse tes enfants mettre leurs talents au service du Seigneur",
-        "text": "1 S 16, 14-23",
+        "references": "1 S 16, 14-23",
         "id": 25
       },
       {
         "day": "Mer.",
         "theme": "Réjouis-toi avec ton peuple en la présence du Seigneur",
-        "text": "2 S 6, 1-5",
+        "references": "2 S 6, 1-5",
         "id": 26
       },
       {
         "day": "Jeu.",
         "theme": "Célèbre la gloire du Seigneur en communion avec les autres",
-        "text": "2 Ch 5, 2-14",
+        "references": "2 Ch 5, 2-14",
         "id": 27
       },
       {
         "day": "Ven.",
         "theme": "Rassemble ton peuple pour le culte du Seigneur",
-        "text": "2 Ch 29, 20-30",
+        "references": "2 Ch 29, 20-30",
         "id": 28
       },
       {
         "day": "Sam.",
         "theme": "Vis dans la plénitude du Saint-Esprit",
-        "text": "Ep 5, 15-20",
+        "references": "Ep 5, 15-20",
         "id": 29
       },
       {
         "day": "Dim. 48",
-        "label": "PREMIER DIMANCHE DE L’AVENT : PREMIER DIMANCHE DE L’ANNEE ECCLESIASTIQUE",
-        "text": ["Ps 122", "Ez 2, 1-5", "Rm 13, 11-14", "Mt 25, 37-46"],
+        "description": "PREMIER DIMANCHE DE L’AVENT : PREMIER DIMANCHE DE L’ANNEE ECCLESIASTIQUE",
+        "references": ["Ps 122", "Ez 2, 1-5", "Rm 13, 11-14", "Mt 25, 37-46"],
         "theme": "CONNAISSANT LES VOIES DU SEIGNEUR, PRÉPARE-TOI POUR LE JUGEMENT DERNIER",
         "id": 30
       }
@@ -2163,203 +2348,213 @@
       {
         "day": "Lun.",
         "theme": "Chante le cantique de l’Agneau immolé",
-        "text": "Ap 5, 6-14",
+        "references": "Ap 5, 6-14",
         "id": 1
       },
       {
         "day": "Mar.",
         "theme": "Reconnais ton état de pêcheur et attache-toi au Seigneur",
-        "text": "Es 64, 1-9",
+        "references": "Es 64, 1-9",
         "id": 2
       },
       {
         "day": "Mer.",
         "theme": "Évite de contester avec le Seigneur qui connaît l’avenir",
-        "text": "Es 45, 9-17",
+        "references": "Es 45, 9-17",
         "id": 3
       },
       {
         "day": "Jeu.",
         "theme": "Expose ta misère au Seigneur et demande-lui ta restauration",
-        "text": "Ps 80, 1-19",
+        "references": "Ps 80, 1-19",
         "id": 4
       },
       {
         "day": "Ven.",
         "theme": "Demande le rétablissement et le salut à ton Seigneur",
-        "text": "Ps 85",
+        "references": "Ps 85",
         "id": 5
       },
       {
         "day": "Sam.",
         "theme": "Prends soin des brebis du Seigneur pour participer au règne du Messie",
-        "text": "Jr 23, 1-8",
+        "references": "Jr 23, 1-8",
         "id": 6
       },
       {
         "day": "Dim. 49",
-        "label": "DEUXIÈME DIMANCHE DE L’AVENT. Fête de district",
-        "text": ["Ps 72, 1-7", "Es 11, 1-10", "Rm 15, 4-9", "Mt 3, 1-12"],
+        "description": "DEUXIÈME DIMANCHE DE L’AVENT. Fête de district",
+        "references": ["Ps 72, 1-7", "Es 11, 1-10", "Rm 15, 4-9", "Mt 3, 1-12"],
         "theme": "RECOIS LE SAINT-ESPRIT POUR LA VIE DU ROYAUME",
         "id": 7
       },
       {
         "day": "Lun.",
         "theme": "Sers le Seigneur qui a brisé ton joug",
-        "text": "Jr 30, 1-9",
+        "references": "Jr 30, 1-9",
         "id": 8
       },
       {
         "day": "Mar.",
         "theme": "Reconnais que le Seigneur te traite avec amour malgré tes péchés",
-        "text": "Jr 30, 10-17",
+        "references": "Jr 30, 10-17",
         "id": 9
       },
       {
         "day": "Mer.",
         "theme": "Rends grâce au Seigneur pour son projet de restauration à ton sujet",
-        "text": "Jr 30, 18-24",
+        "references": "Jr 30, 18-24",
         "id": 10
       },
       {
         "day": "Jeu.",
         "theme": "Sois rassuré(e), le Seigneur promet ta restauration",
-        "text": "Jr 31, 1-6",
+        "references": "Jr 31, 1-6",
         "id": 11
       },
       {
         "day": "Ven.",
         "theme": "Regrette tes péchés et retourne au Seigneur",
-        "text": "Jr 31, 15-22",
+        "references": "Jr 31, 15-22",
         "id": 12
       },
       {
         "day": "Sam.",
         "theme": "Grandis dans la connaissance du Seigneur qui te pardonne",
-        "text": "Jr 31, 23-34",
+        "references": "Jr 31, 23-34",
         "id": 13
       },
       {
         "day": "Dim. 50",
-        "label": "TROISIEME DIMANCHE DE L’AVENT",
-        "text": ["Ps 146, 8+9", "Es 35, 1-6+10", "Jc 5, 7-10", "Mt 11, 2-11"],
+        "description": "TROISIEME DIMANCHE DE L’AVENT",
+        "references": [
+          "Ps 146, 8+9",
+          "Es 35, 1-6+10",
+          "Jc 5, 7-10",
+          "Mt 11, 2-11"
+        ],
         "theme": "RÉJOUIS-TOI DE L’ÈRE MESSIANIQUE ET ATTENDS LE RETOUR DU SEIGNEUR",
         "id": 14
       },
       {
         "day": "Lun.",
         "theme": "Dis sans crainte ce que t’ordonne le Seigneur qui veille sur sa Parole",
-        "text": "Jr 1, 6-13",
+        "references": "Jr 1, 6-13",
         "id": 15
       },
       {
         "day": "Mar.",
         "theme": "Accepte d’être l’instrument qui révèle le Seigneur",
-        "text": "Jn 1, 19-28",
+        "references": "Jn 1, 19-28",
         "id": 16
       },
       {
         "day": "Mer.",
         "theme": "Sois un bon berger à l’exemple du Seigneur",
-        "text": "Ez 34, 11-16",
+        "references": "Ez 34, 11-16",
         "id": 17
       },
       {
         "day": "Jeu.",
         "theme": "Mène une vie de justice dans ta communauté",
-        "text": "Ez 34, 17-24",
+        "references": "Ez 34, 17-24",
         "id": 18
       },
       {
         "day": "Ven.",
         "theme": "Demeure dans l’alliance de paix du Seigneur",
-        "text": "Ez 34, 25-31",
+        "references": "Ez 34, 25-31",
         "id": 19
       },
       {
         "day": "Sam.",
         "theme": "Écoute la voix du Seigneur et suis-le",
-        "text": "Jn 10, 23-41",
+        "references": "Jn 10, 23-41",
         "id": 20
       },
       {
         "day": "Dim. 51",
-        "label": "QUATRIEME DIMANCHE DE L’AVENT",
-        "text": ["Ps 24, 7-10", "Es 7, 10-16", "Rm 1, 1-7", "Mt 1, 18-24"],
+        "description": "QUATRIEME DIMANCHE DE L’AVENT",
+        "references": [
+          "Ps 24, 7-10",
+          "Es 7, 10-16",
+          "Rm 1, 1-7",
+          "Mt 1, 18-24"
+        ],
         "theme": "PAR LA FOI, ACCEPTE LA PROMESSE DU SEIGNEUR ET FAIS SA VOLONTÉ",
         "id": 21
       },
       {
         "day": "Lun.",
         "theme": "Produis le fruit que le Seigneur attend de toi",
-        "text": "Mt 21, 18-22",
+        "references": "Mt 21, 18-22",
         "id": 22
       },
       {
         "day": "Mar.",
         "theme": "Soumets toujours tes intentions au Seigneur",
-        "text": "2 S. 7, 1-7",
+        "references": "2 S. 7, 1-7",
         "id": 23
       },
       {
         "day": "Mer.",
         "theme": "Sers le Seigneur dont la domination est éternelle",
-        "text": "Dn 7, 1-15",
+        "references": "Dn 7, 1-15",
         "id": 24
       },
       {
-        "label": "LA SAINTE NUIT",
-        "text": ["Ps 89, 2-5", "Es 62, 1-5", "Ga 4, 4-7", "Lc 2, 1-14"],
+        "description": "LA SAINTE NUIT",
+        "references": ["Ps 89, 2-5", "Es 62, 1-5", "Ga 4, 4-7", "Lc 2, 1-14"],
         "theme": "TON SAUVEUR PROMIS EST NÉ, RENDS GLOIRE A DIEU",
         "id": 24
       },
       {
         "day": "Jeu.",
-        "label": "NOËL (NATIVITE DE JESUS)",
-        "text": ["Ps 96", "Es 9, 2-7", "Tt 2, 11-14", "Lc 2, 15-20"],
+        "description": "NOËL (NATIVITE DE JESUS)",
+        "references": ["Ps 96", "Es 9, 2-7", "Tt 2, 11-14", "Lc 2, 15-20"],
         "theme": "ANNONCE LE SEIGNEUR DE TOUTES GRÂCES QUI EST NÉ",
         "id": 25
       },
       {
         "day": "Ven.",
         "theme": "Recois le témoignage sur le Seigneur et sois en communion avec lui",
-        "text": "1 Jn. 1, 1-4",
+        "references": "1 Jn. 1, 1-4",
         "id": 26
       },
       {
         "day": "Sam.",
         "theme": "Marche dans la lumière, confesse tes péchés pour être purifié(e)",
-        "text": "1 Jn. 1, 5-10",
+        "references": "1 Jn. 1, 5-10",
         "id": 27
       },
       {
         "day": "Dim. 52",
-        "label": "PREMIER DIMANCHE APRES NOEL",
-        "text": ["Ps 98, 1-3", "Es 52, 7-10", "He 1, 1-6", "Jn 1, 1-18"],
+        "description": "PREMIER DIMANCHE APRES NOEL",
+        "references": ["Ps 98, 1-3", "Es 52, 7-10", "He 1, 1-6", "Jn 1, 1-18"],
         "theme": "RECOIS LE TÉMOIGNAGE DU CHRIST ET MARCHE DANS SA LUMIÈRE",
         "id": 28
       },
       {
         "day": "Lun.",
         "theme": "Garde les commandements du Seigneur et demeure dans son amour",
-        "text": "1 Jn. 2, 1-6",
+        "references": "1 Jn. 2, 1-6",
         "id": 29
       },
       {
         "day": "Mar.",
         "theme": "Demeure dans la lumière en aimant ton prochain",
-        "text": "1 Jn. 2, 7-11",
+        "references": "1 Jn. 2, 7-11",
         "id": 30
       },
       {
         "day": "Mer.",
         "theme": "Quitte tout pour suivre le Seigneur",
-        "text": "Mt 4, 18-22",
+        "references": "Mt 4, 18-22",
         "id": 31
       },
       {
-        "label": "SAINT SYLVESTRE",
-        "text": ["Ps 128", "Es 61, 10+11", "Col 3, 12-21", "Mt 2, 13-15"],
+        "description": "SAINT SYLVESTRE",
+        "references": ["Ps 128", "Es 61, 10+11", "Col 3, 12-21", "Mt 2, 13-15"],
         "theme": "RÉJOUIS-TOI DU SEIGNEUR QUI DÉLIVRE ET MÈNE UNE VIE SAINE",
         "id": 31
       }

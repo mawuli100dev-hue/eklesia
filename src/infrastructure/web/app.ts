@@ -5,7 +5,6 @@ import session from 'express-session';
 import * as dotenv from "dotenv";
 import passport from "../../application/config/passport.config";
 
-// Import des routes
 import authRoutes from '../../presentation/routes/auth.routes';
 import bibleReadingRoutes from '../../presentation/routes/bibleReading.routes';
 import bibleTextRoutes from '../../presentation/routes/bibleText.routes';
@@ -22,16 +21,15 @@ const PORT = process.env.PORT || 5000;
 const jwtSecret = process.env.JWT_SECRET;
 
 // Middleware
-// app.use(cookieParser());
+app.use(cookieParser());
 app.use(express.json());
-// app.use(cors({
-//     origin: CLIENT_URL,
-//     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-//     credentials: true,
-//     allowedHeaders: ['Content-Type', 'Authorization'],
-// }));
+app.use(cors({
+    origin: CLIENT_URL,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    credentials: true,
+    allowedHeaders: ['Content-Type', 'Authorization'],
+}));
 
-// Vérifiez que JWT_SECRET est défini
 if (!jwtSecret) {
     throw new Error('JWT_SECRET environment variable is not defined');
 }
