@@ -4,3 +4,4 @@ node_modules
 .history
 prisma/migrations
 package-lock.json
+src/application/helper/logger/logs
