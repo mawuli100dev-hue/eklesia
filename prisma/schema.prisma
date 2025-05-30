@@ -76,7 +76,7 @@ model Message {
 
 model BibleReading {
   id          Int       @id @default(autoincrement())
-  date        DateTime  @unique
+  date        DateTime  @default(now())
   theme       String
   description String
   language    String
@@ -84,6 +84,9 @@ model BibleReading {
   // Relations
   texts     BibleText[]
   favoriteBibleReadings FavoriteBibleReading[]
+
+  // Constraints
+  @@unique([date, language])
 }
 
 model FavoriteBibleReading {

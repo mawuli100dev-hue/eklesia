@@ -11,6 +11,8 @@ import bibleReadingRoutes from '../../presentation/routes/bibleReading.routes';
 import bibleTextRoutes from '../../presentation/routes/bibleText.routes';
 import favoriteBibleReadingRoutes from '../../presentation/routes/favorite-bibleReading.routes';
 import insertBibleReadingByJsonRoutes from '../../presentation/routes/insertBibleReadingByJson.routes';
+import errorLoggingMiddleware from "../../application/middlewares/error-log/error-logging-filter";
+import logger from "../../application/helper/logger/logRotation";
 
 dotenv.config();
 const app = express();
@@ -42,6 +44,13 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
+// Create a write stream for logging
+app.use((req, res, next) => {
+    logger.info(`${req.method} ${req.url}`);
+    console.info(`${req.method} ${req.url}`);
+    next();
+});
+
 // Routes
 app.get('/', (req, res) => {
     res.send('Welcome to the Bible Reading API');
@@ -52,5 +61,16 @@ app.use('/api/bible-readings', bibleReadingRoutes);
 app.use('/api/bible-texts', bibleTextRoutes);
 app.use('/api/favorites', favoriteBibleReadingRoutes);
 app.use('/api/insert-readings', insertBibleReadingByJsonRoutes);
+
+app.use(errorLoggingMiddleware)
+
+// Middleware to handle 404 errors
+app.use((req: any, res: any) => {
+    logger.warn(`404 Not Found: ${req.method} ${req.url}`);
+    console.warn(`404 Not Found: ${req.method} ${req.url}`);
+    res
+        .status(404)
+        .send({ error: "Not Found" });
+});
 
 export default app;

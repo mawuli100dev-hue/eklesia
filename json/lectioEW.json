@@ -1,16 +1,11 @@
 [
   {
-    "title": "DZODZE 2025",
+    "title": "FE YEVE",
     "days": [
       {
         "day": "Kud.",
         "message": "FE YEVE",
-        "references": [
-          "Ps 66, 1-4",
-          "Mo IV. 6, 22-27",
-          "Gal 4, 1-7",
-          "Lu 2, 15-21"
-        ],
+        "texts": ["Ps 66, 1-4", "Mo IV. 6, 22-27", "Gal 4, 1-7", "Lu 2, 15-21"],
         "theme_message": "DE GBEFÁ DELA SI WODZI LA FE AMENUVEVE"
       },
       {
@@ -32,18 +27,13 @@
         "day": "Kwa.",
         "message": "I KWASIDA EVELIA LE YESU DZIDZI MEGBE ; KWASIDA GBATO LE DUKOMEFE ME",
         "additional_info": "Biblia nkeke le hamenofe de sia de me",
-        "references": ["Ps 72, 1-7", "Yes 60, 1-6", "Ef 3, 1-6", "Mat 2, 1-12"],
+        "texts": ["Ps 72, 1-7", "Yes 60, 1-6", "Ef 3, 1-6", "Mat 2, 1-12"],
         "theme_message": "DI BE NASE MAWU FE AMLIMANU GOME LE YESU KRISTO ME"
       },
       {
         "day": "Dzo.",
         "message": "YESU KRISTO FE DEDEFIA (EPIFANIA)",
-        "references": [
-          "Ps 146, 1+2+5",
-          "Ps 147, 1-3",
-          "Ef 1, 15-19",
-          "Yoh 1, 1-12"
-        ],
+        "texts": ["Ps 146, 1+2+5", "Ps 147, 1-3", "Ef 1, 15-19", "Yoh 1, 1-12"],
         "theme_message": "DA AKPE NA AFETO SI WO WO EFE VI TO YESU KRISTO ME"
       },
       {
@@ -74,12 +64,7 @@
       {
         "day": "Kwa.",
         "message": "2 EPIFANIA I : KWASIDA GBATO LE DEDEFIA MEGBE",
-        "references": [
-          "Ps 29, 1-4",
-          "Yes 42, 1-9",
-          "Do 10, 34-43",
-          "Mat 3, 13-17"
-        ],
+        "texts": ["Ps 29, 1-4", "Yes 42, 1-9", "Do 10, 34-43", "Mat 3, 13-17"],
         "theme_message": "DO JU DE AFETO LA JU"
       },
       {
@@ -116,12 +101,7 @@
       {
         "day": "Kwa.",
         "message": "3 EPIFANIA II : KWASIDA EVELIA LE DEDEFIA MEGBE",
-        "references": [
-          "Ps 40, 2-5",
-          "Yes 49, 1-7",
-          "Kor I. 1, 1-9",
-          "Yoh 1, 29-42"
-        ],
+        "texts": ["Ps 40, 2-5", "Yes 49, 1-7", "Kor I. 1, 1-9", "Yoh 1, 29-42"],
         "theme_message": "LO EYE DI DASE LE MAWU FE DEDETAMEDDO O SI VA EME LE YESU KRISTO ME LA JU"
       },
       {
@@ -158,7 +138,7 @@
       {
         "day": "Kwa.",
         "message": "4 EPIFANIA III : KWASIDA ETOLIA LE DEDEFIA MEGBE",
-        "references": [
+        "texts": [
           "Ps 27, 4-9",
           "Yes 8, 23-9, 1-3",
           "Kor I. 1, 10-17",
@@ -206,7 +186,7 @@
         "day": "Kwa.",
         "message": "5 EPIFANIA IV : KWASIDA ENELIA LE DEDEFIA MEGBE",
         "additional_info": "Nunolawobefe fe pleeke",
-        "references": [
+        "texts": [
           "Ps 146, 6-10",
           "Ze 3, 12+13",
           "Kor I. 1, 26-31",
@@ -247,7 +227,7 @@
       {
         "day": "Kwa.",
         "message": "6 EPIFANIA V : KWASIDA ATOLIA LE DEDEFIA MEGBE",
-        "references": [
+        "texts": [
           "Ps 111, 1-3",
           "Yes 58, 6-10",
           "Kor I. 2, 1-5",
@@ -289,7 +269,7 @@
         "day": "Kwa.",
         "message": "7 EPIFANIA VI : KWASIDA ADELIA LE DEDEFIA MEGBE",
         "additional_info": "SEPTUAGESIMA : Ipekec 70 do ngo na Yesu fe tsirrestisi (Hehedo Kwasiqa fe gomedeedze le hanenafe de sia de me)",
-        "references": [
+        "texts": [
           "Ps 99, 1-3",
           "Mo II. 24, 12-18",
           "Kor I. 2, 6-10",
@@ -331,7 +311,7 @@
         "day": "Kwa.",
         "message": "8 EPIFANIA VII : KWASIDA ADRELIA LE DEDEFIA MEGBE",
         "additional_info": "SEKSAGESIMA : Ipekec 60 do ngo na Yesu fe tsirrestisi (Hehedo Kwasiqa muwwu le hanenafe de sia de me)",
-        "references": [
+        "texts": [
           "Ps 103, 1-5",
           "Mo III. 19, 17-18",
           "Kor I. 3, 16-23",
@@ -366,7 +346,6 @@
       }
     ]
   },
-
   {
     "titre": "TEDOXE 2025",
     "dates": "2, 9-19",
@@ -374,12 +353,12 @@
       {
         "jour": "Mem.",
         "theme": "Dze si Afeto la fe ganyenye eye bobo dokuiwo",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kwa. 9",
         "theme": "EPIFANIA VIII : KWASIDA ENYILIA LE DEDEFIA MEGBE PENTEROSTEM : Jikeke 50 do ngo na Yesu fe tsiretsitsi ESTOMIII : NYE AKPOXONU NAM",
-        "references": [
+        "texts": [
           "Ps 18, 31",
           "Ps 62, 2+3",
           "Yes 49, 14+15",
@@ -387,42 +366,42 @@
           "Mat 6, 24-34"
         ],
         "sous_theme": "NYE NUTEYEWOLA NA AFETO SI LEA BE NA WO",
-        "sous_references": ["Mat 6, 19-21+33"]
+        "sous_texts": ["Mat 6, 19-21+33"]
       },
       {
         "jour": "Dzo.",
         "theme": "No agbe le Afeto la fe lobnu nu",
-        "references": ["Mat 4, 18-22"]
+        "texts": ["Mat 4, 18-22"]
       },
       {
         "jour": "Bra.",
         "theme": "To na Afeto la fe yoyo",
-        "references": ["Yak 4, 13-5, 1-6"]
+        "texts": ["Yak 4, 13-5, 1-6"]
       },
       {
         "jour": "Kuq.",
         "theme": "Tso wo tamedodowo de Afeto la si me eye wo nu nyui na hawovi",
-        "references": ["Tim I. 6, 3"]
+        "texts": ["Tim I. 6, 3"]
       },
       {
         "jour": "Yaw.",
         "theme": "Tso doje gbato na agbe mavo didi",
-        "references": ["Do 5, 1-10"]
+        "texts": ["Do 5, 1-10"]
       },
       {
         "jour": "Fid.",
         "theme": "Gblo nyatefe le nu sia nu me (Kerea me kata fe gbedododa pleeke)",
-        "references": ["Ps 112"]
+        "texts": ["Ps 112"]
       },
       {
         "jour": "Mem.",
         "theme": "Wo nu sia nu le dzodzenyenye me",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kwa. 10",
         "theme": "FUKPEKPE KWASIDA GBATO INVOKAVIT : Ayon",
-        "references": [
+        "texts": [
           "Ps 91, 15",
           "Ps 51, 13+14",
           "Mo I. 2, 15-17",
@@ -430,42 +409,42 @@
           "Mat 4, 1-11"
         ],
         "sous_theme": "TSI TRE DE TETEKPO JU TO AFETO JE NYA LA TSOTSO DE DOWOWO ME ME",
-        "sous_references": ["Er 6, 10-20"]
+        "sous_texts": ["Er 6, 10-20"]
       },
       {
         "jour": "Dzo.",
         "theme": "Do Afeto la fe gbogbonneuavonuwo hena auawowo",
-        "references": ["Kol 3, 18-4, 1"]
+        "texts": ["Kol 3, 18-4, 1"]
       },
       {
         "jour": "Bra.",
         "theme": "Vo Afeto la le kadedemenno kple amewo me",
-        "references": ["Yoh 20, 21-23"]
+        "texts": ["Yoh 20, 21-23"]
       },
       {
         "jour": "Kuq.",
         "theme": "Xo Gbogo Kokoe la hena dogbedodo la",
-        "references": ["Kor II. 5, 11-21"]
+        "texts": ["Kor II. 5, 11-21"]
       },
       {
         "jour": "Yaw.",
         "theme": "Nye Kristo fe amedodo hena avulele",
-        "references": ["Kor I. 3, 4-13"]
+        "texts": ["Kor I. 3, 4-13"]
       },
       {
         "jour": "Fid.",
         "theme": "Le de Afeto la pu wu amewo qu",
-        "references": ["Kol 3, 1-17"]
+        "texts": ["Kol 3, 1-17"]
       },
       {
         "jour": "Mem.",
         "theme": "Do amenyenye yeyea, Kristo fe nonome",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kwa. 11",
         "theme": "FUKPEKPE KWASIDA EVELIA REMINITSERE : Do pku edzi",
-        "references": [
+        "texts": [
           "Ps 25, 6",
           "Ps 33, 1-3",
           "Mo I. 12, 1-4",
@@ -473,42 +452,42 @@
           "Mat 17, 1-9"
         ],
         "sous_theme": "DO TO AFETO LA EYE BUI",
-        "sous_references": ["Mat 5, 13-20"]
+        "sous_texts": ["Mat 5, 13-20"]
       },
       {
         "jour": "Dzo.",
         "theme": "Do Afeto la de dzi to wo dowowo nyuiwo me",
-        "references": ["Lo 6, 6-11"]
+        "texts": ["Lo 6, 6-11"]
       },
       {
         "jour": "Bra.",
         "theme": "Dze nunya eye sro dowowo be nate da tso ahedada gbo",
-        "references": ["Mat 24, 42-51"]
+        "texts": ["Mat 24, 42-51"]
       },
       {
         "jour": "Kuq.",
         "theme": "No guazo hena Afeto la fe totrova",
-        "references": ["Er 6, 10-18"]
+        "texts": ["Er 6, 10-18"]
       },
       {
         "jour": "Yaw.",
         "theme": "No te sesie le xose me hena aua la wowo",
-        "references": ["Lu 22, 39-46"]
+        "texts": ["Lu 22, 39-46"]
       },
       {
         "jour": "Fid.",
         "theme": "Do gbe da eye lala Afeto la fe lobnu",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Mem.",
         "theme": "Kekelivi, no mo xexi hena Afeto la fe totrova",
-        "references": ["Tes I. 5, 1-11"]
+        "texts": ["Tes I. 5, 1-11"]
       },
       {
         "jour": "Kwa. 12",
         "theme": "FUKPEKPE KWASIDA ETOLIA OKULI : Nye jikuwo",
-        "references": [
+        "texts": [
           "Ps 25, 15",
           "Ps 95, 6-8",
           "Mo II. 17, 1-7",
@@ -516,42 +495,42 @@
           "Yoh 4, 5-14"
         ],
         "sous_theme": "VA AFETO, TSI GRAGBE VUDO LA GBO",
-        "sous_references": ["Mat 5, 27-32"]
+        "sous_texts": ["Mat 5, 27-32"]
       },
       {
         "jour": "Dzo.",
         "theme": "Gbe nu le putsu kple nyonu fe hadedemanosenu gbo",
-        "references": ["Mat 4, 1-4"]
+        "texts": ["Mat 4, 1-4"]
       },
       {
         "jour": "Bra.",
         "theme": "Nyro dokuiwo kple Afeto fe Nya la",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kuq.",
         "theme": "Wo nutsitsido si dzea Afeto la pu",
-        "references": ["Yes 58, 1-9"]
+        "texts": ["Yes 58, 1-9"]
       },
       {
         "jour": "Yaw.",
         "theme": "Mawu fe vi, no agbe kokoe",
-        "references": ["Er 5, 1-9"]
+        "texts": ["Er 5, 1-9"]
       },
       {
         "jour": "Fid.",
         "theme": "Tro de Afeto la pu le nutedeamedziwo me",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Mem.",
         "theme": "Da akpe na Afeto si de wo la",
-        "references": ["Sam I. 11, 1-7"]
+        "texts": ["Sam I. 11, 1-7"]
       },
       {
         "jour": "Kwa. 13",
         "theme": "FUKPEKPE KWASIDA ENELIA LEKTARE : Midzo dzi",
-        "references": [
+        "texts": [
           "Yes 66, 10",
           "Ps 23",
           "Sam I. 16, 10-13",
@@ -559,44 +538,43 @@
           "Yoh 9, 1-12"
         ],
         "sous_theme": "LO DE AFETO SI TROA WO JUTINYA JE DODOWO DZI",
-        "sous_references": ["Kaftu srjwo fe nyonyo", "Ha 1, 1-17"]
+        "sous_texts": ["Kaftu srjwo fe nyonyo", "Ha 1, 1-17"]
       }
     ]
   },
-
   {
     "titre": "AFOFIE 2025",
     "jours": [
       {
         "jour": "Bra.",
         "theme": "No agbe dzadze do gg na srxlede",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kud.",
         "theme": "Tia zeyiyi nyuito hena nuwowo",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Yaw.",
         "theme": "Ku kutri le Afeto la didi me eye dzo dai le efe amegbonono me",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Fid.",
         "theme": "Kafu Afeto fe nuwowo la",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Mem.",
         "theme": "Du wo dai na Afeto la le zeyiyi nyuito dai",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kwa. 14",
         "theme": "FUKPEKPE KWASIDA ATOLIA",
         "sous_theme": "VUDIKA : Dro tonu",
-        "references": [
+        "texts": [
           "Ps 43, 1",
           "Ps 130",
           "Mo II. 15, 9-18",
@@ -608,37 +586,37 @@
       {
         "jour": "Dzo.",
         "theme": "Dze si nu siwo de dzesi srswo quti",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Bra.",
         "theme": "Le de amesi nebla la ko puti",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kud.",
         "theme": "Da akpe na Afeto la le nuwowo fe gnidzedze ta",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Yaw.",
         "theme": "Di tsaddu zeyiyi hena dzidzedodo na srswo",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Fid.",
         "theme": "Nyae be womefjea lob o, de wonane",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Mem.",
         "theme": "Wo Afeto la wo sitsafe hena wo dedienono",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kwa. 15",
         "theme": "DEDAYA KWASIDA (PALMARUM)",
-        "references": [
+        "texts": [
           "Mat 21,8",
           "Ps 88, 2+3",
           "Yes 50, 4-9",
@@ -650,55 +628,45 @@
       {
         "jour": "Dzo.",
         "theme": "Nye nu si wodo wo be nanye hena hame la fe tutu",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Bra.",
         "theme": "Wo duwowo nyuiwo le zeyiyi nyuito dai",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kud.",
         "theme": "No gebe dom da da de wo hame fe istisi le googbo me ta",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Yaw.",
         "theme": "Kpo egbo be nagado susu vowo de hawovi quti o",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Fid.",
         "theme": "FIDA KOKOE",
-        "references": [
-          "Ps 22, 2-6",
-          "Yes 53, 1-6",
-          "Heb 10, 16-25",
-          "Yoh 18, 1-9"
-        ],
+        "texts": ["Ps 22, 2-6", "Yes 53, 1-6", "Heb 10, 16-25", "Yoh 18, 1-9"],
         "theme_principal": "GE DE NUBABLA YEYE SI NU YESU KRISTO UU LA ME"
       },
       {
         "jour": "Mem.",
         "theme": "De asi le wo numesi qu na Afeto si ku de tawo",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kwa. 16",
         "theme": "TSITRETSITSI KWASIDA : YESU KRITSO JE TSITRETSITSI",
-        "references": [
-          "Ps 118, 14-17",
-          "Yer 31, 1-14",
-          "Kol 3, 1-4",
-          "Yoh 20, 1-9"
-        ],
+        "texts": ["Ps 118, 14-17", "Yer 31, 1-14", "Kol 3, 1-4", "Yoh 20, 1-9"],
         "theme_principal": "TSITRETSITSI LA GRUGBO AGBE NA WO, LO GEOGBONE"
       },
       {
         "jour": "Dzo.",
         "theme": "NUWO",
         "sous_theme": "KRISTO JE TSITRETSITSI JUJCKE",
-        "references": [
+        "texts": [
           "Ps 118, 24+25",
           "Mo II. 15, 1-3",
           "Tim II. 2, 1-13",
@@ -709,33 +677,33 @@
       {
         "jour": "Bra.",
         "theme": "Esi wode wo tao nuvo me, wo dokuiwo dzodzenyenye fe nudowonu",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kud.",
         "theme": "Wo gbedozo woanye wo gbedodafe kple kafukafu tefe",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Yaw.",
         "theme": "Na Gbogbo Kokoe la nayo wo eye da akpe na Afeto la",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Fid.",
         "theme": "No agbe le Nya nyui la fe nytatefe nu",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Mem.",
         "theme": "Lo Afeto la eye wo wo adzogbedeiewo dai",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kwa. 17",
         "theme": "KWASIDA GBATO LE TSITRETSITSI MEGBE",
         "sous_theme": "KUASIMODO GENETI : Dzidzi yeye (Pet I. 1, 3)",
-        "references": [
+        "texts": [
           "Ps 118, 28+29",
           "Mo II. 15, 8-12",
           "Pet I. 1, 3-9",
@@ -746,87 +714,86 @@
       {
         "jour": "Dzo.",
         "theme": "Etsi tre kple Kristo, zo le agbe fe yeyenyenye me",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Bra.",
         "theme": "To na Afeto la fe yoyo kple xose",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kud.",
         "theme": "Dze agbagba nase Doploswo kple Afeto la fe quse gome",
-        "references": []
+        "texts": []
       }
     ]
   },
-
   {
     "titre": "DAME 2025",
     "jours": [
       {
         "jour": "Yaw.",
         "theme": "Gbe nu le ghluiwb gbo eye dze Afeto la yome",
-        "references": ["Mat 16, 24-28"]
+        "texts": ["Mat 16, 24-28"]
       },
       {
         "jour": "Fid.",
         "theme": "Do dai le wb fetu puti",
-        "references": ["Mat 20, 1-16"]
+        "texts": ["Mat 20, 1-16"]
       },
       {
         "jour": "Mem.",
         "theme": "De asi Afeto la nado wb de dzi",
-        "references": ["Mat 20, 20-28"]
+        "texts": ["Mat 20, 20-28"]
       },
       {
         "jour": "Kwa. 18",
         "theme": "KWASIDA EVELIA LE TSITRETSITSI MEGBE MISERIKORDIA-DOMINI",
         "sous_theme": "Afeto fe donenyonyo",
-        "references": [
+        "texts": [
           "Ps 16, 1-6",
           "Mo III. 26, 1-13",
           "Pet I. 1, 17-23",
           "Lu 24, 13-35"
         ],
         "theme_principal": "KB DE KIJU BE AFETO LA LE AGBE EYE BUI",
-        "sous_references": ["Mo I. 21, 8-19"]
+        "sous_texts": ["Mo I. 21, 8-19"]
       },
       {
         "jour": "Dzo.",
         "theme": "Wb de Afeto la fe lohnu dzi",
-        "references": ["Mo I. 22, 1-13"]
+        "texts": ["Mo I. 22, 1-13"]
       },
       {
         "jour": "Bra.",
         "theme": "Lo natso wb numsi xoastio wn na Afeto la",
-        "references": ["Mo I. 48, 1-11"]
+        "texts": ["Mo I. 48, 1-11"]
       },
       {
         "jour": "Kud.",
         "theme": "Di dase le nu nyui siwo Afeto la wo na wb le wb agbe me la gu",
-        "references": ["Mo II. 2, 1-10"]
+        "texts": ["Mo II. 2, 1-10"]
       },
       {
         "jour": "Yaw.",
         "theme": "Di manu be nakpo hawovi fe agbe ta",
-        "references": ["Ru 4, 13-17"]
+        "texts": ["Ru 4, 13-17"]
       },
       {
         "jour": "Fid.",
         "theme": "Kpo gome le Afeto fe dedetamedodo la me",
-        "references": ["Sam I. 3, 1-21"]
+        "texts": ["Sam I. 3, 1-21"]
       },
       {
         "jour": "Mem.",
         "theme": "Na hehe si dea bubu Afeto la gu viwowo",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kwa. 19",
         "theme": "KWASIDA ETOLIA LE TSITRETSITSI MEGBE YUBILATE",
         "sous_theme": "Mitso aseye",
-        "references": [
+        "texts": [
           "Ps 95, 1",
           "Ps 23",
           "Mo II. 34, 1-6",
@@ -834,43 +801,43 @@
           "Yoh 10, 1-10"
         ],
         "theme_principal": "DZE ALEKPLOLA NYUI SI NAA KAKADEDZI Wb DEEEEKPOKPO LA YOME",
-        "sous_references": ["Lo 31, 1-9"]
+        "sous_texts": ["Lo 31, 1-9"]
       },
       {
         "jour": "Dzo.",
         "theme": "Gbe nu le dzidzokpokpo gbegblewo gbo",
-        "references": ["Lu 9, 18-27"]
+        "texts": ["Lu 9, 18-27"]
       },
       {
         "jour": "Bra.",
         "theme": "Ke de Mawu fe Kristo gu le Yesu me eye uu eme",
-        "references": ["Lo 31, 10-20"]
+        "texts": ["Lo 31, 10-20"]
       },
       {
         "jour": "Kud.",
         "theme": "Tso wb dowowowo do dzidzo na wb afemetowo",
-        "references": ["Yoh 6, 1-15"]
+        "texts": ["Yoh 6, 1-15"]
       },
       {
         "jour": "Yaw.",
         "theme": "Do pu de Afeto si kpoa wb hiahiawo gbo la gu",
-        "references": ["Do 2, 14+36-39"]
+        "texts": ["Do 2, 14+36-39"]
       },
       {
         "jour": "Fid.",
         "theme": "Tro le wb dzi me eye xo Gbogbo Kokoe la",
-        "references": ["Ps 127"]
+        "texts": ["Ps 127"]
       },
       {
         "jour": "Mem.",
         "theme": "Tso dgle ghato na Afeto si yraa ame",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kwa. 20",
         "theme": "KWASIDA ENELIA LE TSITRETSITSI MEGBE KANTATE",
         "sous_theme": "Midzi ha (Nyonuno kple deviwo domecio fe pleeke)",
-        "references": [
+        "texts": [
           "Ps 96, 1",
           "Ps 31, 2+3",
           "Do 2, 42-47",
@@ -882,38 +849,38 @@
       {
         "jour": "Dzo.",
         "theme": "No Nya la me hena wb tstisi le gbogbo me",
-        "references": ["Lu 2, 39-52"]
+        "texts": ["Lu 2, 39-52"]
       },
       {
         "jour": "Bra.",
         "theme": "Xo Afeto fe Nya si yoa do la se",
-        "references": ["Yoh 4, 46-54"]
+        "texts": ["Yoh 4, 46-54"]
       },
       {
         "jour": "Kud.",
         "theme": "Nye ardo si vba Afeto la",
-        "references": ["Lo 31, 21-31"]
+        "texts": ["Lo 31, 21-31"]
       },
       {
         "jour": "Yaw.",
         "theme": "Tu wb agbe de Yesu Kristo, agakpe la dzi",
-        "references": ["Mat 7, 24-27"]
+        "texts": ["Mat 7, 24-27"]
       },
       {
         "jour": "Fid.",
         "theme": "Bu Nya la gu eye dee dowowo me nyatefeteo",
-        "references": ["Yos 1, 8"]
+        "texts": ["Yos 1, 8"]
       },
       {
         "jour": "Mem.",
         "theme": "Le Kristo ta, na bubu nano fome la me",
-        "references": ["Ef 6, 1-4"]
+        "texts": ["Ef 6, 1-4"]
       },
       {
         "jour": "Kwa. 21",
         "theme": "KWASIDA ATOLIA LE TSITRETSITSI MEGBE ROGATE",
         "sous_theme": "Mibia (Yoh 16, 24)",
-        "references": [
+        "texts": [
           "Ps 33, 1-3",
           "Mo V. 6, 1-9",
           "Pet I. 3, 13-22",
@@ -924,22 +891,22 @@
       {
         "jour": "Dzo.",
         "theme": "Gblo wb veveeseewo na Afeto la",
-        "references": ["Ps 88, 2-10"]
+        "texts": ["Ps 88, 2-10"]
       },
       {
         "jour": "Bra.",
         "theme": "No dzodzoe elabe Afeto drba ubuu dzodzoe",
-        "references": ["Ps 58"]
+        "texts": ["Ps 58"]
       },
       {
         "jour": "Kud.",
         "theme": "Yo eye kafu Afeto si nye wb quse kple dede",
-        "references": ["Ps 28"]
+        "texts": ["Ps 28"]
       },
       {
         "jour": "Yaw.",
         "theme": "AFETO FE DZIFOVIYI",
-        "references": [
+        "texts": [
           "Ps 47, 2+3",
           "Fia II. 2, 8-11",
           "Ef 1, 15-23",
@@ -950,16 +917,15 @@
       {
         "jour": "Fid.",
         "theme": "Gble wb mowo de Afeto si si wb tesme le la si me",
-        "references": ["Ps 31, 2-16"]
+        "texts": ["Ps 31, 2-16"]
       },
       {
         "jour": "Mem.",
         "theme": "Le wb ululi me, do pu de Afeto la gu",
-        "references": ["Ps 56"]
+        "texts": ["Ps 56"]
       }
     ]
   },
-
   {
     "titre": "MASA 2025",
     "jours": [
@@ -967,7 +933,7 @@
         "jour": "Kwa. 22",
         "designation": "KWASIDA ADELIA LE TSITRETSITSI MEGBE",
         "sous_titre": "EKSAUDI : See",
-        "references": [
+        "texts": [
           "Ps 27, 7",
           "(Hadowskadele fe pleke)",
           "Ps 27, 1-3",
@@ -980,38 +946,38 @@
       {
         "jour": "Dzo.",
         "theme": "Le xaxawo me la, yo Afetaa",
-        "references": ["Ps 57"]
+        "texts": ["Ps 57"]
       },
       {
         "jour": "Bra.",
         "theme": "De ta agu le Afeto la fe quae kata qgə",
-        "references": ["Hi 9, 1-12"]
+        "texts": ["Hi 9, 1-12"]
       },
       {
         "jour": "Kud.",
         "theme": "Dzo dzi, Afeto la doa to wó gbedododa",
-        "references": ["Lu 1, 5-14"]
+        "texts": ["Lu 1, 5-14"]
       },
       {
         "jour": "Yaw.",
         "theme": "Dzi Afeto si waó efe gugbedodo dzi la fe quitkokoe ha",
-        "references": ["Lu 1, 67-79"]
+        "texts": ["Lu 1, 67-79"]
       },
       {
         "jour": "Fid.",
         "theme": "Kafa Afeto la le efe nyuivawowo ta",
-        "references": ["Ps 66, 8-20"]
+        "texts": ["Ps 66, 8-20"]
       },
       {
         "jour": "Mem.",
         "theme": "Xo Afeto si di tao daifo la fe dasedid",
-        "references": ["Yoh 3, 11-17"]
+        "texts": ["Yoh 3, 11-17"]
       },
       {
         "jour": "Kwa. 23",
         "designation": "GBOGBO KOKOE KOKODI KWASIDA",
         "description": "Ilkeke 50 le Yesu fe tsitretstist megbe",
-        "references": [
+        "texts": [
           "Ps 104, 1-4",
           "Do 2, 1-11",
           "Kor I. 12, 3-13",
@@ -1022,7 +988,7 @@
       {
         "jour": "Dzo.",
         "designation": "GBOGBO KOKOE KOKODI IUUFOKE",
-        "references": [
+        "texts": [
           "Ps 104, 24",
           "Mo I. 1, 1-5",
           "Nyaï 2, 1-13",
@@ -1033,32 +999,32 @@
       {
         "jour": "Bra.",
         "theme": "Xo Afeto si de edokuï fia wó la eye wódo gku efe gugbedodowo dzi na wó la dzi se",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kud.",
         "theme": "Di gbogbonenuwo vevie",
-        "references": ["Fia II. 2, 9-14"]
+        "texts": ["Fia II. 2, 9-14"]
       },
       {
         "jour": "Yaw.",
         "theme": "Do to Afeto fe nya si gbugbo naa agbe la",
-        "references": ["Xez 37, 1-14"]
+        "texts": ["Xez 37, 1-14"]
       },
       {
         "jour": "Fid.",
         "theme": "Li wó gku de Afeto la dzi eye no te sesie le xose me",
-        "references": ["Heb 12, 1-3"]
+        "texts": ["Heb 12, 1-3"]
       },
       {
         "jour": "Mem.",
         "theme": "Ló nakpe fu le Kristo ta be nakpo gome le efe quitkokoe me",
-        "references": ["Pet I. 4, 12-14"]
+        "texts": ["Pet I. 4, 12-14"]
       },
       {
         "jour": "Kwa. 24",
         "designation": "KWASIDA GBATO LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE)",
-        "references": [
+        "texts": [
           "Ps 88, 2-6",
           "Mo II. 34, 4-9",
           "Kor II. 13, 11-13",
@@ -1069,37 +1035,37 @@
       {
         "jour": "Dzo.",
         "theme": "Da akpe na Afetaa si wo wó nunolae na Mawu",
-        "references": ["Nyaï 1, 4-8"]
+        "texts": ["Nyaï 1, 4-8"]
       },
       {
         "jour": "Bra.",
         "theme": "Do to Afeto si gbugboa wó do te la",
-        "references": ["Xez 11, 17-20"]
+        "texts": ["Xez 11, 17-20"]
       },
       {
         "jour": "Kud.",
         "theme": "Kplo hawóvi va hena gododo Afeto la",
-        "references": ["Yoh 1, 43-51"]
+        "texts": ["Yoh 1, 43-51"]
       },
       {
         "jour": "Yaw.",
         "theme": "Dzo dzi, Afeto la tsi wó fukpekpewo nu",
-        "references": ["Yoel 2, 23-27"]
+        "texts": ["Yoel 2, 23-27"]
       },
       {
         "jour": "Fid.",
         "theme": "Eto ku me yi agbe la me, zo le Gbogbo Kokoe la fe kpokplo te",
-        "references": ["Ro 8, 1-17"]
+        "texts": ["Ro 8, 1-17"]
       },
       {
         "jour": "Mem.",
         "theme": "Etsi tre kple Kristo, di dzifonuwo",
-        "references": ["Kol 3, 1-11"]
+        "texts": ["Kol 3, 1-11"]
       },
       {
         "jour": "Kwa. 25",
         "designation": "KWASIDA EVELIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 1)",
-        "references": [
+        "texts": [
           "Ps 147, 12-14",
           "Mo V. 8, 2+3+11-14",
           "Kor I. 10, 16+17",
@@ -1110,126 +1076,115 @@
       {
         "jour": "Dzo.",
         "theme": "Tro le wó dzi me eye kpo gome le wó hame fe agbenono me",
-        "references": ["Do 2, 37-47"]
+        "texts": ["Do 2, 37-47"]
       },
       {
         "jour": "Bra.",
         "theme": "De geefa Nya la wyo manomee, Afeto la do gugbe be yeano kpli wó",
-        "references": ["Do 18, 4-11"]
+        "texts": ["Do 18, 4-11"]
       },
       {
         "jour": "Kud.",
         "theme": "Lé de Afeto la gu kplikpa eye kpe de mawunyakakadaqu",
-        "references": ["Do 11, 19-26"]
+        "texts": ["Do 11, 19-26"]
       },
       {
         "jour": "Yaw.",
         "theme": "Na Gbogbo la nakplo wó yi de nyatefe la kata me",
-        "references": ["Yoh 16, 7-15"]
+        "texts": ["Yoh 16, 7-15"]
       },
       {
         "jour": "Fid.",
         "theme": "Nye nutewola le wó dodensi me eye wo de Afeto la fe dodowo dzi",
-        "references": ["Kro II. 34, 14-21"]
+        "texts": ["Kro II. 34, 14-21"]
       },
       {
         "jour": "Mem.",
         "theme": "Wo do la le Gbogbo Kokoe la fe dzodeame me nu",
-        "references": ["Zax 4, 1-7"]
+        "texts": ["Zax 4, 1-7"]
       },
       {
         "jour": "Kwa. 26",
         "designation": "KWASIDA ETÒLIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 2)",
-        "references": [
-          "Ps 145, 1-9",
-          "Zax 9, 9+10",
-          "Ro 8, 11-13",
-          "Mat 11, 25-30"
-        ],
+        "texts": ["Ps 145, 1-9", "Zax 9, 9+10", "Ro 8, 11-13", "Mat 11, 25-30"],
         "theme_principal": "DZO DZI AFETO LA WO WÓ AGBE WODZOE TO GBOGBO LA ME"
       },
       {
         "jour": "Dzo.",
         "theme": "No dzidzokpokpo me, Afeto la tro wónonome",
-        "references": ["Yer 31, 7-14"]
+        "texts": ["Yer 31, 7-14"]
       }
     ]
   },
-
   {
     "titre": "SIAMLOM 2025",
     "jours": [
       {
         "jour": "Bra.",
         "theme": "Dzo dzi, Afeto la tè wò futowo da tao gbowò eye wò gbugbo wò do tè",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kud.",
         "theme": "Tro yi Afeto si yoa do wò la gbo",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Yaw.",
         "theme": "Ku kutri le gbefadede Nya nyui la me kple xese",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Fid.",
         "theme": "Tso kaba eye yi dadogo wò Dela la",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Mem.",
         "theme": "Xo Afeto si de efe qutikokoe fia la dzi se",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kwa. 27",
         "designation": "KWASIDA ENELIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 3)",
-        "references": [
-          "Ps 65, 5",
-          "Yes 55, 10-11",
-          "Ro 8, 18-23",
-          "Mat 13, 1-23"
-        ],
+        "texts": ["Ps 65, 5", "Yes 55, 10-11", "Ro 8, 18-23", "Mat 13, 1-23"],
         "theme_principal": "XO NYA GRAGBE LA BENA NATSE KU SI WOLE MO KPOM NA LA"
       },
       {
         "jour": "Dzo.",
         "theme": "Do to Yesu Kristo, Mawu fe Vi maljoma gbo",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Bra.",
         "theme": "Sro Afeto la fe dokubbo eye tso efe nufrafia de dawowo me",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kud.",
         "theme": "Wo nyui na hawóvi le dzudzogbe",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Yaw.",
         "theme": "Wò dome netro de hawóvi fe vevesese qu",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Fid.",
         "theme": "Xo Afeto si si puse le be woatso ke eye woayo do la dzi se",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Mem.",
         "theme": "Tso ke hawóvi tso dzi blibo me abe ale si Afeto la tso ke wò ene",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kwa. 28",
         "designation": "KWASIDA ATÓLIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 4)",
         "description": "Lámest kwasida gometzedze le hamenfe de sia de me",
-        "references": [
+        "texts": [
           "Ps 139, 1-2+23+24",
           "Xez 44, 6-8",
           "Ro 8, 26+27",
@@ -1240,38 +1195,38 @@
       {
         "jour": "Dzo.",
         "theme": "Abe nuku nyui la ene la, lo nàno agbe kple ame bubuwo",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Bra.",
         "theme": "Kpo egbo be nàgabu dokubwo ame dzodzoe le Mawu qkume o",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kud.",
         "theme": "Wo de Afeto la fe dodowo dzi le dagbededo la me",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Yaw.",
         "theme": "Nye anyigba nyui la eye tse ku",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Fid.",
         "theme": "Tro le wò dzi me eye tse ku nyui",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Mem.",
         "theme": "Dara wò dzi do hena nya la xozo kple gomesese",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kwa. 29",
         "designation": "KWASIDA ADELIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 5)",
         "description": "Lámest kwasida fe mawowu le hamenfe de sia de me",
-        "references": [
+        "texts": [
           "Ps 119, 1-2",
           "Fia 1.3, 7-12",
           "Ro 8, 28-30",
@@ -1282,37 +1237,37 @@
       {
         "jour": "Dzo.",
         "theme": "Ku kutri le gbeddoda me, Afeto la drba tonu dzodzoe",
-        "references": ["Lu 18, 1-8"]
+        "texts": ["Lu 18, 1-8"]
       },
       {
         "jour": "Bra.",
         "theme": "Di näse Afeto la fe lododowo game",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kud.",
         "theme": "Ge de Afeto la fe fiadjfe didi me kple movevidojo",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Yaw.",
         "theme": "Do to eye tso dzimetctro fe gbedeasi la de dawowo me",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Fid.",
         "theme": "Le de Afeto si dea dzifofiadjfe la fe nuzlazlawo fia wò la qu",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Mem.",
         "theme": "De mo woayo nu sia nu si le dzodzoe",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kwa. 30",
         "designation": "KWASIDA ADRELIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 6)",
-        "references": [
+        "texts": [
           "Ps 145, 14-16",
           "Yes 55, 1-3",
           "Ro 8, 35-39",
@@ -1323,47 +1278,46 @@
       {
         "jour": "Dzo.",
         "theme": "Dze sii be Yesu enye Mesia si wod gbefae la",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Bra.",
         "theme": "Wo nu siwo so de Afeto la fe lolonu nu",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Kud.",
         "theme": "Di be nádze Afeto la qu eye menye amewo qu o",
-        "references": []
+        "texts": []
       },
       {
         "jour": "Yaw.",
         "theme": "Kpe de hawóvi qu le quitila kple gbogbome uawowo me",
-        "references": []
+        "texts": []
       }
     ]
   },
-
   {
     "programme": {
       "titre": "DASIAMIME 2025",
       "jours": [
         {
-          "numero": 1,
+          "id": 1,
           "jour": "Fid.",
           "theme": "Megavo o, Afeto la waa ana na wo",
-          "references": ["Mo V. 20, 1-9"]
+          "texts": ["Mo V. 20, 1-9"]
         },
         {
-          "numero": 2,
+          "id": 2,
           "jour": "Mem.",
           "theme": "Le anaveo pili la di putifafa eye kpo nu siwo foxla wo la ta",
-          "references": ["Mo V. 20, 10-20"]
+          "texts": ["Mo V. 20, 10-20"]
         },
         {
-          "numero": 3,
+          "id": 3,
           "jour": "Kwa. 31",
           "designation": "KWASIDA ENYILIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 7)",
-          "references": [
+          "texts": [
             "Ps 85, 8",
             "Fia I. 19, 9-13a",
             "Ro 9, 1-5",
@@ -1372,46 +1326,46 @@
           "theme_principal": "LE AFETO LA DZI XOSE ME DE ASI XEAWO KATA XI"
         },
         {
-          "numero": 4,
+          "id": 4,
           "jour": "Dzo.",
           "theme": "Xo Afeto si una dziqdua la dzi se",
-          "references": ["Uon 7, 9-22"]
+          "texts": ["Uon 7, 9-22"]
         },
         {
-          "numero": 5,
+          "id": 5,
           "jour": "Bra.",
           "theme": "Tro va Afeto si waa ana na wo la gbo",
-          "references": ["Sam 1, 7, 1-17"]
+          "texts": ["Sam 1, 7, 1-17"]
         },
         {
-          "numero": 6,
+          "id": 6,
           "jour": "Kud.",
           "theme": "Wo de Afeto la fe se dzi be nasi le efe tohehe nu",
-          "references": ["Xab 1, 1-11"]
+          "texts": ["Xab 1, 1-11"]
         },
         {
-          "numero": 7,
+          "id": 7,
           "jour": "Yaw.",
           "theme": "Kpo nyui be nagado nugbe de hawovi pu o",
-          "references": ["Mo 1, 37, 12-28"]
+          "texts": ["Mo 1, 37, 12-28"]
         },
         {
-          "numero": 8,
+          "id": 8,
           "jour": "Fid.",
           "theme": "Yo Afeto la le revisi sesewo me",
-          "references": ["Uon 16, 23-31"]
+          "texts": ["Uon 16, 23-31"]
         },
         {
-          "numero": 9,
+          "id": 9,
           "jour": "Mem.",
           "theme": "Tro le wo dzi me bene woade wo",
-          "references": ["Lu 13, 1-5"]
+          "texts": ["Lu 13, 1-5"]
         },
         {
-          "numero": 10,
+          "id": 10,
           "jour": "Kwa. 32",
           "designation": "KWASIDA ASIEKELIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 8)",
-          "references": [
+          "texts": [
             "Ps 67, 2+3",
             "Yes 56, 1-7",
             "Ro 11, 13-15+29-32",
@@ -1420,46 +1374,46 @@
           "theme_principal": "DZE SII BE NU VOWOLA NENYE EYE DI AFETO LA JE NUBLANUIKPOKPO"
         },
         {
-          "numero": 11,
+          "id": 11,
           "jour": "Dzo.",
           "theme": "Vo Afeto la be naga bia hlo na qbkuiwó",
-          "references": ["Sam 1, 24, 1-15"]
+          "texts": ["Sam 1, 24, 1-15"]
         },
         {
-          "numero": 12,
+          "id": 12,
           "jour": "Bra.",
           "theme": "Lo nakpe fu le Nya nyui la ta eye do gbe da e wo futowo fe nuvo keke ta",
-          "references": ["Do 7, 54-8, 1-4"]
+          "texts": ["Do 7, 54-8, 1-4"]
         },
         {
-          "numero": 13,
+          "id": 13,
           "jour": "Kud.",
           "theme": "De mo Afeto la fe putikokoe nadze lo wo nuwwowo me",
-          "references": ["Do 14, 8-21"]
+          "texts": ["Do 14, 8-21"]
         },
         {
-          "numero": 14,
+          "id": 14,
           "jour": "Yaw.",
           "theme": "Va Afeto la gbo eye kpo gome le efe dometstro la me",
-          "references": ["Ro 9, 1-18"]
+          "texts": ["Ro 9, 1-18"]
         },
         {
-          "numero": 15,
+          "id": 15,
           "jour": "Fid.",
           "theme": "Di Mawu fe dzadzenyenye to Yesu Kristo dzi xoxo se me M",
-          "references": []
+          "texts": []
         },
         {
-          "numero": 16,
+          "id": 16,
           "jour": "Mem.",
           "theme": "Du eme be Yesu Kristo enye Afeto be nakpo dede",
-          "references": ["Ro 10, 1-13"]
+          "texts": ["Ro 10, 1-13"]
         },
         {
-          "numero": 17,
+          "id": 17,
           "jour": "Kwa. 33",
           "designation": "KWASIDA EWOLIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 9)",
-          "references": [
+          "texts": [
             "Ps 138, 4-6",
             "Mo I. 49, 1-9",
             "Ro 11, 33-36",
@@ -1468,94 +1422,89 @@
           "theme_principal": "DZE SI EYE WO NU LE AFETO SI DRGA TONU DZODZOE LE EEOKUIJUDEDE NU LA"
         },
         {
-          "numero": 18,
+          "id": 18,
           "jour": "Dzo.",
           "theme": "Xo se eye wo de Nyanyui la dzi be nakpo dede",
-          "references": ["Ro 10, 14-21"]
+          "texts": ["Ro 10, 14-21"]
         },
         {
-          "numero": 19,
+          "id": 19,
           "jour": "Bra.",
           "theme": "Xo Afeto la dzi se be nano ame ne nutewola siwo suso le amenuvexi sia me la dome",
-          "references": []
+          "texts": []
         },
         {
-          "numero": 20,
+          "id": 20,
           "jour": "Kud.",
           "theme": "Nye nutefewola eye no te seste le Afeto la fe domenyo la me",
-          "references": ["Ro 11, 13-24"]
+          "texts": ["Ro 11, 13-24"]
         },
         {
-          "numero": 21,
+          "id": 21,
           "jour": "Yaw.",
           "theme": "Tso qbkuiwó na hena wo subsusbo do le munana si nexo la nu",
-          "references": ["Ro 12, 1-8"]
+          "texts": ["Ro 12, 1-8"]
         },
         {
-          "numero": 22,
+          "id": 22,
           "jour": "Fid.",
           "theme": "Di be yeano kadede nyui me kple amewo kata",
-          "references": ["Ro 12, 9-21"]
+          "texts": ["Ro 12, 9-21"]
         },
         {
-          "numero": 23,
+          "id": 23,
           "jour": "Mem.",
           "theme": "Nye dukamevi nyui",
-          "references": ["Ro 13, 1-7"]
+          "texts": ["Ro 13, 1-7"]
         },
         {
-          "numero": 24,
+          "id": 24,
           "jour": "Kwa. 34",
           "designation": "KWASIDA WUIDEKELIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 10)",
-          "references": [
-            "Ps 63, 2-4",
-            "Yer 20, 2-9",
-            "Ro 12, 1+2",
-            "Mat 16, 21-27"
-          ],
+          "texts": ["Ps 63, 2-4", "Yer 20, 2-9", "Ro 12, 1+2", "Mat 16, 21-27"],
           "theme_principal": "KPO NYUIE BE NAATSI TRE DE AFETO LA JE DEEETAMEDODO JU O"
         },
         {
-          "numero": 25,
+          "id": 25,
           "jour": "Dzo.",
           "theme": "Lo hawovi eye no agbe le Afeto fe Nya la nu",
-          "references": ["Ro 13, 8-14"]
+          "texts": ["Ro 13, 8-14"]
         },
         {
-          "numero": 26,
+          "id": 26,
           "jour": "Bra.",
           "theme": "Kpo nyule be nagado vlo hawovi le nu siwo me wokpo kakade dzi le la o",
-          "references": ["Ro 14, 1-6"]
+          "texts": ["Ro 14, 1-6"]
         },
         {
-          "numero": 27,
+          "id": 27,
           "jour": "Kud.",
           "theme": "No agbe na Afeto si nele akogta na ge la",
-          "references": ["Ro 14, 7-12"]
+          "texts": ["Ro 14, 7-12"]
         },
         {
-          "numero": 28,
+          "id": 28,
           "jour": "Yaw.",
           "theme": "Le Kristo me, bu hawovi pu eye kafu Afeto la",
-          "references": ["Ro 15, 1-13"]
+          "texts": ["Ro 15, 1-13"]
         },
         {
-          "numero": 29,
+          "id": 29,
           "jour": "Fid.",
           "theme": "De gbefa Nya nyui la na ame siwo mese kpo wo ha",
-          "references": ["Ro 15, 14-21"]
+          "texts": ["Ro 15, 14-21"]
         },
         {
-          "numero": 30,
+          "id": 30,
           "jour": "Mem.",
           "theme": "Le de hawovi si le hiahia me la pu",
-          "references": ["Ro 15, 22-29"]
+          "texts": ["Ro 15, 22-29"]
         },
         {
-          "numero": 31,
+          "id": 31,
           "jour": "Kwa. 35",
           "designation": "KWASIDA WUEVELIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 11)",
-          "references": [
+          "texts": [
             "Ps 95, 1+2",
             "Mo II. 33, 7-9",
             "Ro 13, 8-10",
@@ -1571,95 +1520,90 @@
       "titre": "ANVONO 2025",
       "jours": [
         {
-          "numero": 1,
+          "id": 1,
           "jour": "Dzo.",
           "theme": "Uli le gbedododa me hena dagbededa la fe daidzedze kpokpo",
-          "references": ["Ro 15, 30-33"]
+          "texts": ["Ro 15, 30-33"]
         },
         {
-          "numero": 2,
+          "id": 2,
           "jour": "Bra.",
           "theme": "De wó lois na wó hadawalawo fia le dagbededa la me",
-          "references": ["Ro 16, 1-16"]
+          "texts": ["Ro 16, 1-16"]
         },
         {
-          "numero": 3,
+          "id": 3,
           "jour": "Kud.",
           "theme": "Te dokuiwo da tso ame siwo dea mama amewo dome le hame la me la goo",
-          "references": ["Lo 16, 17-27"]
+          "texts": ["Lo 16, 17-27"]
         },
         {
-          "numero": 4,
+          "id": 4,
           "jour": "Yaw.",
           "theme": "Si le hadede gbegblewo goo",
-          "references": ["Lo 1, 8-19"]
+          "texts": ["Lo 1, 8-19"]
         },
         {
-          "numero": 5,
+          "id": 5,
           "jour": "Fid.",
           "theme": "Do to eye is na nunya fe ameyoyo be nasi le gkeke vowo nu",
-          "references": ["Lo 1, 20-33"]
+          "texts": ["Lo 1, 20-33"]
         },
         {
-          "numero": 6,
+          "id": 6,
           "jour": "Mem.",
           "theme": "Di nunya si naa wonaa agbe le Afeta la vovo me",
-          "references": ["Lo 2, 1-22"]
+          "texts": ["Lo 2, 1-22"]
         },
         {
-          "numero": 7,
+          "id": 7,
           "jour": "Kwa. 36",
           "designation": "KWASIDA WUIETOLIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 12)",
-          "references": [
-            "Ps 114",
-            "Mo 1.50, 15-21",
-            "Ro 14, 7-9",
-            "Mat 18, 21-35"
-          ],
+          "texts": ["Ps 114", "Mo 1.50, 15-21", "Ro 14, 7-9", "Mat 18, 21-35"],
           "theme_principal": "AFETO LA TSO KE WO, WO HA TSO KB"
         },
         {
-          "numero": 8,
+          "id": 8,
           "jour": "Dzo.",
           "theme": "Di Afeta la tso wó dai bibo me, ekem aña wó alesi nàno agbee",
-          "references": ["Lo 3, 1-12"]
+          "texts": ["Lo 3, 1-12"]
         },
         {
-          "numero": 9,
+          "id": 9,
           "jour": "Bra.",
           "theme": "No kadede nyui me kple hawóvi eye tro le ame vòdj yome",
-          "references": ["Lo 3, 27-35"]
+          "texts": ["Lo 3, 27-35"]
         },
         {
-          "numero": 10,
+          "id": 10,
           "jour": "Kud.",
           "theme": "Ke de nunya vu eye lo efe nufiamewo",
-          "references": ["Lo 8, 1-21"]
+          "texts": ["Lo 8, 1-21"]
         },
         {
-          "numero": 11,
+          "id": 11,
           "jour": "Yaw.",
           "theme": "Tia nunya fe mo be nàzu nunyala",
-          "references": ["Lo 10, 1-17"]
+          "texts": ["Lo 10, 1-17"]
         },
         {
-          "numero": 12,
+          "id": 12,
           "jour": "Fid.",
           "theme": "Lo mokaname eye sidzedze anye wó gome",
-          "references": ["Lo 12, 1-28"]
+          "texts": ["Lo 12, 1-28"]
         },
         {
-          "numero": 13,
+          "id": 13,
           "jour": "Mem.",
           "theme": "Vs Afeta la eye lé be na wó nufofowo",
-          "references": ["Lo 15, 1-17+33"]
+          "texts": ["Lo 15, 1-17+33"]
         },
         {
-          "numero": 14,
+          "id": 14,
           "jour": "Kwa. 37",
           "designation": "KWASIDA WUENELIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 13)",
           "description": "Gbedododa de Hamedowo ta gkeke le hamenafe de sia de me",
-          "references": [
+          "texts": [
             "Ps 145, 8+9",
             "Yes 55, 6-9",
             "Fil 1, 21-27",
@@ -1668,46 +1612,46 @@
           "theme_principal": "TO NA AFETO LA FE YOYO EYE BOBO DOKUIWO DE EFE LOLONU TE"
         },
         {
-          "numero": 15,
+          "id": 15,
           "jour": "Dzo.",
           "theme": "Di sitsofe le Afeta, wó mo sesé la me",
-          "references": ["Lo 18, 9-19"]
+          "texts": ["Lo 18, 9-19"]
         },
         {
-          "numero": 16,
+          "id": 16,
           "jour": "Bra.",
           "theme": "Bobo dokuiwo, vo Afeta la eye akpo gkeke nyuiwo",
-          "references": ["Lo 22, 1-16"]
+          "texts": ["Lo 22, 1-16"]
         },
         {
-          "numero": 17,
+          "id": 17,
           "jour": "Kud.",
           "theme": "Dze si nunya eye tso me nyui asu asi wó",
-          "references": ["Lo 24, 3-22"]
+          "texts": ["Lo 24, 3-22"]
         },
         {
-          "numero": 18,
+          "id": 18,
           "jour": "Yaw.",
           "theme": "Kpo ego be nàgagbo nya viowo de Afeta fe dolawo qu o",
-          "references": ["Mo IV. 12, 1-16"]
+          "texts": ["Mo IV. 12, 1-16"]
         },
         {
-          "numero": 19,
+          "id": 19,
           "jour": "Fid.",
           "theme": "Kpo ego be nàgaflu wó hame la to anatsonufiafiawo me o",
-          "references": ["Lu 11, 45-52"]
+          "texts": ["Lu 11, 45-52"]
         },
         {
-          "numero": 20,
+          "id": 20,
           "jour": "Mem.",
           "theme": "Tro le wó nu vowo yome eye woado to wó gbedododawo",
-          "references": ["Yes 1, 15-18"]
+          "texts": ["Yes 1, 15-18"]
         },
         {
-          "numero": 21,
+          "id": 21,
           "jour": "Kwa. 38",
           "designation": "KWASIDA WUIATOLIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 14)",
-          "references": [
+          "texts": [
             "Ps 25, 4+5",
             "Xez 18, 25-28",
             "Fil 2, 1-11",
@@ -1716,46 +1660,46 @@
           "theme_principal": "TRO VA AFETO LA GBO KPLE DOKUIBOBO EYE WO EFE LOLONU"
         },
         {
-          "numero": 22,
+          "id": 22,
           "jour": "Dzo.",
           "theme": "Ke de Afeta Yesu Kristo si me Mawu fe Nya la wu nu le qu",
-          "references": ["Mar 9, 1-8"]
+          "texts": ["Mar 9, 1-8"]
         },
         {
-          "numero": 23,
+          "id": 23,
           "jour": "Bra.",
           "theme": "Dze agbagba be nàgate da tso sröwó goo o",
-          "references": ["Ha 1, 5-16"]
+          "texts": ["Ha 1, 5-16"]
         },
         {
-          "numero": 24,
+          "id": 24,
           "jour": "Kud.",
           "theme": "De wó vevesesewo fia Afeta la",
-          "references": ["Hi 30, 26-31"]
+          "texts": ["Hi 30, 26-31"]
         },
         {
-          "numero": 25,
+          "id": 25,
           "jour": "Yaw.",
           "theme": "Do qu de Afeta si lea be na wó la qu",
-          "references": ["Ps 23"]
+          "texts": ["Ps 23"]
         },
         {
-          "numero": 26,
+          "id": 26,
           "jour": "Fid.",
           "theme": "De dzesi wó mo tatra eye tro va Afeta la goo",
-          "references": ["Lu 15, 11-24"]
+          "texts": ["Lu 15, 11-24"]
         },
         {
-          "numero": 27,
+          "id": 27,
           "jour": "Mem.",
           "theme": "Nyae be Afeta la doa etefe le miafe nuwanawo nu",
-          "references": ["Lu 16, 19-31"]
+          "texts": ["Lu 16, 19-31"]
         },
         {
-          "numero": 28,
+          "id": 28,
           "jour": "Kwa. 39",
           "designation": "KWASIDA WUIADELIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 15)",
-          "references": [
+          "texts": [
             "Ps 80, 9+10+15+16",
             "Yes 5, 1-7",
             "Fil 4, 6-9",
@@ -1764,16 +1708,16 @@
           "theme_principal": "TSE KU NYUI SIWO AFETO LA LE MO KPOM NA TSO GBO WO LA"
         },
         {
-          "numero": 29,
+          "id": 29,
           "jour": "Dzo.",
           "theme": "Nyae be miafe nuwanawo trona tsoa mi",
-          "references": ["Mo 1.38, 24-29"]
+          "texts": ["Mo 1.38, 24-29"]
         },
         {
-          "numero": 30,
+          "id": 30,
           "jour": "Bra.",
           "theme": "Xo Afeta la fe amedadowo eye kpo wo ta",
-          "references": ["Yos 2, 8-21"]
+          "texts": ["Yos 2, 8-21"]
         }
       ]
     }
@@ -1783,131 +1727,121 @@
       "titre": "KELE 2025",
       "jours": [
         {
-          "numero": 1,
+          "id": 1,
           "jour": "Kud.",
           "theme": "Yi Afeto si yaa do la gbo kple xsee",
-          "references": ["Mat 8, 1-13"]
+          "texts": ["Mat 8, 1-13"]
         },
         {
-          "numero": 2,
+          "id": 2,
           "jour": "Yaw.",
           "theme": "Xo se eye do to Afeto si iss kena eye woyaa do la de dzi",
-          "references": ["Mat 9, 1-8"]
+          "texts": ["Mat 9, 1-8"]
         },
         {
-          "numero": 3,
+          "id": 3,
           "jour": "Fid.",
           "theme": "Dze Afeto, ame si iss nufiafia yeye ve la yome",
-          "references": ["Mat 9, 9-17"]
+          "texts": ["Mat 9, 9-17"]
         },
         {
-          "numero": 4,
+          "id": 4,
           "jour": "Mem.",
           "theme": "Te de Afeto la qu le wo xaxa me",
-          "references": ["Mat 9, 18-26"]
+          "texts": ["Mat 9, 18-26"]
         },
         {
-          "numero": 5,
+          "id": 5,
           "jour": "Kwa. 40",
           "designation": "KWASIDA WUJADRELIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 16)",
           "description": "Afeto fe kplopudede plebe le xerem me kaifa",
-          "references": [
-            "Ps 23",
-            "Yes 25, 6-9",
-            "Fil 4, 12-14",
-            "Mat 22, 1-14"
-          ],
+          "texts": ["Ps 23", "Yes 25, 6-9", "Fil 4, 12-14", "Mat 22, 1-14"],
           "theme_principal": "LO NADO AFETO LA JE DEODEDENYENTE BE NAKPO GOME LE GROBEKPLO LA JU"
         },
         {
-          "numero": 6,
+          "id": 6,
           "jour": "Dzo.",
           "theme": "De gleefa Afeto fe Nya la le fukpekpe me eye nye nutefewala ne",
-          "references": ["Mat 10, 26-33"]
+          "texts": ["Mat 10, 26-33"]
         },
         {
-          "numero": 7,
+          "id": 7,
           "jour": "Bra.",
           "theme": "Va Afeto si dea Fofo la fia wo eye wowaa wo agba la wodzoe la gbo",
-          "references": ["Mat 11, 25-30"]
+          "texts": ["Mat 11, 25-30"]
         },
         {
-          "numero": 8,
+          "id": 8,
           "jour": "Kud.",
           "theme": "Wo nu nyui eye kpo egbo be nagatre mo na hawovi o",
-          "references": ["Mat 12, 9-14"]
+          "texts": ["Mat 12, 9-14"]
         },
         {
-          "numero": 9,
+          "id": 9,
           "jour": "Yaw.",
           "theme": "Kpo egbo be nagagbe nu le Gbogbo Kokoe la fe guse gbo o",
-          "references": ["Mat 12, 22-32"]
+          "texts": ["Mat 12, 22-32"]
         },
         {
-          "numero": 10,
+          "id": 10,
           "jour": "Fid.",
           "theme": "Do qu de Afeto la qu eye li gku de edzi",
-          "references": ["Mat 14, 22-33"]
+          "texts": ["Mat 14, 22-33"]
         },
         {
-          "numero": 11,
+          "id": 11,
           "jour": "Mem.",
           "theme": "Tso ngfe gbato na Nya nyui la eye de bubu Afetola qu kple susu dzadzewo",
-          "references": ["Mat 15, 1-20"]
+          "texts": ["Mat 15, 1-20"]
         },
         {
-          "numero": 12,
+          "id": 12,
           "jour": "Kwa. 41",
           "designation": "KWASIDA WUJENYILIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 17)",
-          "references": [
-            "Ps 96, 1-3",
-            "Yes 45, 1-6",
-            "Tes 1, 1-5",
-            "Mat 22, 15-21"
-          ],
+          "texts": ["Ps 96, 1-3", "Yes 45, 1-6", "Tes 1, 1-5", "Mat 22, 15-21"],
           "theme_principal": "NO TE SESIE LE XOSE ME EYE WO WODUMEVINYENTE JE DODEASI"
         },
         {
-          "numero": 13,
+          "id": 13,
           "jour": "Dzo.",
           "theme": "Bobo dokuiwo eye glee nu le nudianuwo gbo",
-          "references": ["Mat 18, 1-9"]
+          "texts": ["Mat 18, 1-9"]
         },
         {
-          "numero": 14,
+          "id": 14,
           "jour": "Bra.",
           "theme": "Lo de srddepe si womakaka o la dzi",
-          "references": ["Mat 19, 3-12"]
+          "texts": ["Mat 19, 3-12"]
         },
         {
-          "numero": 15,
+          "id": 15,
           "jour": "Kud.",
           "theme": "Kath Afetas si ko fe eje nuwowo la ta",
-          "references": ["Ps 104, 1-9"]
+          "texts": ["Ps 104, 1-9"]
         },
         {
-          "numero": 16,
+          "id": 16,
           "jour": "Yaw.",
           "theme": "Wo de Afeto la fe dojo dzi",
-          "references": ["Mo 1, 7, 1-12"]
+          "texts": ["Mo 1, 7, 1-12"]
         },
         {
-          "numero": 17,
+          "id": 17,
           "jour": "Fid.",
           "theme": "Tso akpedada sa vce na Afeto sibla nu kple nuwowo la",
-          "references": ["Mo 1, 8, 13-22"]
+          "texts": ["Mo 1, 8, 13-22"]
         },
         {
-          "numero": 18,
+          "id": 18,
           "jour": "Mem.",
           "theme": "Do to Afeto si le guazo le dopebedo la qu",
-          "references": ["Yo 1, 1-16"]
+          "texts": ["Yo 1, 1-16"]
         },
         {
-          "numero": 19,
+          "id": 19,
           "jour": "Kwa. 42",
           "designation": "KWASIDA WUJASKEELIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 18)",
-          "references": [
+          "texts": [
             "Ps 18, 3-4",
             "Mo 11, 22, 20-26",
             "Tes 1, 1, 6-10",
@@ -1916,47 +1850,47 @@
           "theme_principal": "DE WO LOLO NA AFETO LA KPLE HAWOVI FIA"
         },
         {
-          "numero": 20,
+          "id": 20,
           "jour": "Dzo.",
           "theme": "Le xaxawo me la, do gku Afeto la fe nudzotsuwowowo dzi",
-          "references": ["Ps 77, 11-20"]
+          "texts": ["Ps 77, 11-20"]
         },
         {
-          "numero": 21,
+          "id": 21,
           "jour": "Bra.",
           "theme": "Megavo o, xo Afeto si tsia ahom nu la dzi se",
-          "references": ["Lu 8, 22-25"]
+          "texts": ["Lu 8, 22-25"]
         },
         {
-          "numero": 22,
+          "id": 22,
           "jour": "Kud.",
           "theme": "Dze sii be Afeto lae wo wo eye eyae na agbe wo",
-          "references": ["Mo 1, 2, 4-9"]
+          "texts": ["Mo 1, 2, 4-9"]
         },
         {
-          "numero": 23,
+          "id": 23,
           "jour": "Yaw.",
           "theme": "Tia ame dzadzoe fe mo ekem akpo dzidzedze",
-          "references": ["Ps 1"]
+          "texts": ["Ps 1"]
         },
         {
-          "numero": 24,
+          "id": 24,
           "jour": "Fid.",
           "theme": "Do to Afeto la eye glob nytatefe la le vovodonamewo ago ke ha",
-          "references": ["Do 5, 27-32"]
+          "texts": ["Do 5, 27-32"]
         },
         {
-          "numero": 25,
+          "id": 25,
           "jour": "Mem.",
           "theme": "Uli be nage de Afeto la fe dzidzo me",
-          "references": ["Nyad 22, 1-5"]
+          "texts": ["Nyad 22, 1-5"]
         },
         {
-          "numero": 26,
+          "id": 26,
           "jour": "Kwa. 43",
           "designation": "KWASIDA BLAEVELIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 19)",
           "description": "Hamedydyka kwasiqa",
-          "references": [
+          "texts": [
             "Ps 131",
             "Mai 1, 14-1, 8-10",
             "Tes 1, 2, 7-9",
@@ -1965,34 +1899,34 @@
           "theme_principal": "WO DE AFETO LA JE SEDEDEWO DZI EYE NYE KPODEJU NA HAWOVI"
         },
         {
-          "numero": 27,
+          "id": 27,
           "jour": "Dzo.",
           "theme": "De wo dametrotro de hawovi qu fia",
-          "references": ["Lu 13, 8-19"]
+          "texts": ["Lu 13, 8-19"]
         },
         {
-          "numero": 28,
+          "id": 28,
           "jour": "Bra.",
           "theme": "Di wo hadedeme nono kple Afeto la eye doe de dzi",
-          "references": ["Ps 63"]
+          "texts": ["Ps 63"]
         },
         {
-          "numero": 29,
+          "id": 29,
           "jour": "Kud.",
           "theme": "De dzesi agbea fe kpujnyenye eye no agbe nunytatee",
-          "references": ["Ps 90, 1-12"]
+          "texts": ["Ps 90, 1-12"]
         },
         {
-          "numero": 30,
+          "id": 30,
           "jour": "Yaw.",
           "theme": "De wo akpedada fia Afeto la le eje yayrawo ta",
-          "references": ["Ps 103, 1-14"]
+          "texts": ["Ps 103, 1-14"]
         },
         {
-          "numero": 31,
+          "id": 31,
           "jour": "Fid.",
           "theme": "Wo dame natro de wo duko fe xaxa qu eye yo Afeto la",
-          "references": ["Yer 14, 1-10"]
+          "texts": ["Yer 14, 1-10"]
         }
       ]
     }
@@ -2002,17 +1936,17 @@
       "titre": "ADECMEKPOXE 2025",
       "jours": [
         {
-          "numero": 1,
+          "id": 1,
           "jour": "Mem.",
           "theme": "Tso Afeto la fe quse kple efe nyuiwowo fe quitikokoe me",
-          "references": ["Ps 65"]
+          "texts": ["Ps 65"]
         },
         {
-          "numero": 2,
+          "id": 2,
           "jour": "Kwa. 44",
           "designation": "KWASIDA BLAEVE VO DEKELIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 20)",
           "description": "Manumyalaka le Hamenzie de sia de me",
-          "references": [
+          "texts": [
             "Ps 107, 1-7",
             "Yos 3, 7-17",
             "Tes I. 4, 13-18",
@@ -2021,46 +1955,46 @@
           "theme_principal": "WODE BUSU JUWO LE KRISTO ME, DZE NUNYA LE DOGBEDEDO LA ME"
         },
         {
-          "numero": 3,
+          "id": 3,
           "jour": "Dzo.",
           "theme": "Kpo nubianui na hawovi",
-          "references": ["Yoh 8, 1-11"]
+          "texts": ["Yoh 8, 1-11"]
         },
         {
-          "numero": 4,
+          "id": 4,
           "jour": "Bra.",
           "theme": "Kpo nyuie le nufiala bubutefedzilawo puti",
-          "references": ["Mat 23, 1-12"]
+          "texts": ["Mat 23, 1-12"]
         },
         {
-          "numero": 5,
+          "id": 5,
           "jour": "Kud.",
           "theme": "No adzoge too alakpanuwowowo gbo",
-          "references": ["Mat 23, 13-22"]
+          "texts": ["Mat 23, 13-22"]
         },
         {
-          "numero": 6,
+          "id": 6,
           "jour": "Yaw.",
           "theme": "Nye nutefewola le Afeto la fe sewo dzi wowo me",
-          "references": ["Mat 23, 23-28"]
+          "texts": ["Mat 23, 23-28"]
         },
         {
-          "numero": 7,
+          "id": 7,
           "jour": "Fid.",
           "theme": "Dzudzo dziwolawo fe afotofe gbegblewo toto",
-          "references": ["Mat 23, 29-39"]
+          "texts": ["Mat 23, 29-39"]
         },
         {
-          "numero": 8,
+          "id": 8,
           "jour": "Mem.",
           "theme": "Dze agbagba be nase yeyistawo fe dresswo gome eye ku kutri le xose me",
-          "references": ["Mat 24, 1-14"]
+          "texts": ["Mat 24, 1-14"]
         },
         {
-          "numero": 9,
+          "id": 9,
           "jour": "Kwa. 45",
           "designation": "KWASIDA BLAEVE VO EVELIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 21)",
-          "references": [
+          "texts": [
             "Ps 128, 1-6",
             "Lo 31, 10-13+30+31",
             "Tes I. 5, 1-6",
@@ -2069,46 +2003,46 @@
           "theme_principal": "KEKELIVI, DO JU DE AFETO LA JU EYE DEVI WO TALENTOWO"
         },
         {
-          "numero": 10,
+          "id": 10,
           "jour": "Dzo.",
           "theme": "No pudzo eye do gbe da be nasi le yeyizia fe afokuwo nu",
-          "references": ["Mat 24, 15-28"]
+          "texts": ["Mat 24, 15-28"]
         },
         {
-          "numero": 11,
+          "id": 11,
           "jour": "Bra.",
           "theme": "Wo wo dodessi nyatefekee, Afeto la atrova",
-          "references": ["Mat 24, 36-51"]
+          "texts": ["Mat 24, 36-51"]
         },
         {
-          "numero": 12,
+          "id": 12,
           "jour": "Kud.",
           "theme": "Dara nu siwo kata le vevie la do hena wo Afeto la xxzo",
-          "references": ["Mat 25, 1-13"]
+          "texts": ["Mat 25, 1-13"]
         },
         {
-          "numero": 13,
+          "id": 13,
           "jour": "Yaw.",
           "theme": "Nye nutefewola le Afeto la fe nunssiwo dzikpokpo me",
-          "references": ["Mat 25, 14-30"]
+          "texts": ["Mat 25, 14-30"]
         },
         {
-          "numero": 14,
+          "id": 14,
           "jour": "Fid.",
           "theme": "Tso haviblo momakpo na tefedodo de dowowo me be nage de agbe mavo la me",
-          "references": ["Mat 25, 31-46"]
+          "texts": ["Mat 25, 31-46"]
         },
         {
-          "numero": 15,
+          "id": 15,
           "jour": "Mem.",
           "theme": "Tso nu si dze na ame sia me la ne",
-          "references": ["Mat 22, 15-22"]
+          "texts": ["Mat 22, 15-22"]
         },
         {
-          "numero": 16,
+          "id": 16,
           "jour": "Kwa. 46",
           "designation": "KWASIDA BLAEVE VO ETOLIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 22)",
-          "references": [
+          "texts": [
             "Ps 123",
             "Xez 34, 11-17",
             "Kor I. 15, 20-28",
@@ -2117,95 +2051,90 @@
           "theme_principal": "KA DE ALEKPLOLA NYUI LA SI NYA WO EYE WOXO WO DE EFE FIADUJE ME LA DZI"
         },
         {
-          "numero": 17,
+          "id": 17,
           "jour": "Dzo.",
           "theme": "Lo yeyiziawo kata fe Afeto kple hawovi kple wo amenyenye kata",
-          "references": ["Mat 22, 34-40"]
+          "texts": ["Mat 22, 34-40"]
         },
         {
-          "numero": 18,
+          "id": 18,
           "jour": "Bra.",
           "theme": "Kafu Afeto la le nu si wonye kple nu si wowana la ta",
-          "references": ["Ps 150"]
+          "texts": ["Ps 150"]
         },
         {
-          "numero": 19,
+          "id": 19,
           "jour": "Kud.",
           "theme": "Do Afeto si de wo kple efe quse la de dzi",
-          "references": ["Mo II. 15, 1-21"]
+          "texts": ["Mo II. 15, 1-21"]
         },
         {
-          "numero": 20,
+          "id": 20,
           "jour": "Yaw.",
           "theme": "Subo Afeto deka ho vava la ko",
-          "references": ["Dan 3, 1-12"]
+          "texts": ["Dan 3, 1-12"]
         },
         {
-          "numero": 21,
+          "id": 21,
           "jour": "Fid.",
           "theme": "Tro le wo dzi me be nasi le Afeto la fe dziku nu",
-          "references": ["Xez 26, 7-14"]
+          "texts": ["Xez 26, 7-14"]
         },
         {
-          "numero": 22,
+          "id": 22,
           "jour": "Mem.",
           "theme": "Wo de Afeto la fe dobowo dzi be nakpo gome le Gbogbo la fe numanawo me",
-          "references": ["Sam I. 10, 1-8"]
+          "texts": ["Sam I. 10, 1-8"]
         },
         {
-          "numero": 23,
+          "id": 23,
           "jour": "Kwa. 47",
           "designation": "KWASIDA BLAEVE VO ENELIA LE GBOGBO KOKOE KOKODI MEGBE (TRINITATE 23)",
           "description": "Hame fea fexusida nibeto : nhudojo ame siwo ku le hamenje de sia de me le fea me dzi",
-          "references": ["Ps 1", "Yes 59, 16-21", "Ef 6, 10-20", "Mar 14, 1-9"],
+          "texts": ["Ps 1", "Yes 59, 16-21", "Ef 6, 10-20", "Mar 14, 1-9"],
           "theme_principal": "WO NU SIWO AWO DO ADUADU HENA NYANYUI LA KAKA"
         },
         {
-          "numero": 24,
+          "id": 24,
           "jour": "Dzo.",
           "theme": "De bubu dodo de nafe koko qu le wo dowowowo me",
-          "references": ["Kro I. 25, 1-7"]
+          "texts": ["Kro I. 25, 1-7"]
         },
         {
-          "numero": 25,
+          "id": 25,
           "jour": "Bra.",
           "theme": "De mo viwoowo nasubo Afeto la kple wofe quietewo",
-          "references": ["Sam I. 16, 14-23"]
+          "texts": ["Sam I. 16, 14-23"]
         },
         {
-          "numero": 26,
+          "id": 26,
           "jour": "Kud.",
           "theme": "Kpo dzidzo kple wo duko le Afeto la qku me",
-          "references": ["Sam II. 6, 1-5"]
+          "texts": ["Sam II. 6, 1-5"]
         },
         {
-          "numero": 27,
+          "id": 27,
           "jour": "Yaw.",
           "theme": "Kafu Afeto la fe quitikokoe le hadede me kple ame bubuwo",
-          "references": ["Kro II. 5, 2-14"]
+          "texts": ["Kro II. 5, 2-14"]
         },
         {
-          "numero": 28,
+          "id": 28,
           "jour": "Fid.",
           "theme": "Fo wo duko nu fu na Afeto la subosubo",
-          "references": ["Kro II. 29, 20-30"]
+          "texts": ["Kro II. 29, 20-30"]
         },
         {
-          "numero": 29,
+          "id": 29,
           "jour": "Mem.",
           "theme": "No agbe le Gbogbo Kokoe la fe blihodede me",
-          "references": ["Ef 5, 15-20"]
+          "texts": ["Ef 5, 15-20"]
         },
         {
-          "numero": 30,
+          "id": 30,
           "jour": "Kwa. 48",
           "designation": "ADVENTO KWASIDA GBATO : HAME FEA FE KWASIDA GBATO",
-          "references": [
-            "Ps 122",
-            "Yes 2, 1-5",
-            "Ro 13, 11-14",
-            "Mat 25, 37-46"
-          ],
+          "texts": ["Ps 122", "Yes 2, 1-5", "Ro 13, 11-14", "Mat 25, 37-46"],
           "theme_principal": "ESI NENYA AFETO LA FE MOWO JUTI TA, DZRA DO NA NUWUWU UNUDODRO"
         }
       ]
@@ -2216,95 +2145,90 @@
       "titre": "DZOME 2025",
       "jours": [
         {
-          "numero": 1,
+          "id": 1,
           "jour": "Dzo.",
           "theme": "Dzi alevi si wowu la fe ha",
-          "references": ["Nyad 5, 6-14"]
+          "texts": ["Nyad 5, 6-14"]
         },
         {
-          "numero": 2,
+          "id": 2,
           "jour": "Bra.",
           "theme": "Dze si wo nuwswalaryewe eye le de Afeto la pu",
-          "references": ["Yes 64, 1-9"]
+          "texts": ["Yes 64, 1-9"]
         },
         {
-          "numero": 3,
+          "id": 3,
           "jour": "Kud.",
           "theme": "Kpo egbo be nagault nya kple Afeto si nya tso me la o",
-          "references": ["Yes 45, 9-17"]
+          "texts": ["Yes 45, 9-17"]
         },
         {
-          "numero": 4,
+          "id": 4,
           "jour": "Yaw.",
           "theme": "Xle wo fukpekpe fra Afeto la eye biae wo gbugbogadote",
-          "references": ["Ps 80, 1-19"]
+          "texts": ["Ps 80, 1-19"]
         },
         {
-          "numero": 5,
+          "id": 5,
           "jour": "Fid.",
           "theme": "Bia gbugbogadote kple dede tso Afeto la gbo",
-          "references": ["Ps 85"]
+          "texts": ["Ps 85"]
         },
         {
-          "numero": 6,
+          "id": 6,
           "jour": "Mem.",
           "theme": "Le be na Afeto la fe alazwo be nakpo gome le Mesia la fe fiatudu me",
-          "references": ["Yer 23, 1-8"]
+          "texts": ["Yer 23, 1-8"]
         },
         {
-          "numero": 7,
+          "id": 7,
           "jour": "Kwa. 49",
           "designation": "ADVENTO KWASIDA EVELIA",
           "description": "Nutome plekenyui",
-          "references": [
-            "Ps 72, 1-7",
-            "Yes 11, 1-10",
-            "Ro 15, 4-9",
-            "Mat 3, 1-12"
-          ],
+          "texts": ["Ps 72, 1-7", "Yes 11, 1-10", "Ro 15, 4-9", "Mat 3, 1-12"],
           "theme_principal": "XO GBOGBO KOKOE LA HENA FIADUJE LA JE AGBE"
         },
         {
-          "numero": 8,
+          "id": 8,
           "jour": "Dzo.",
           "theme": "Subo Afeto si qe wo kokuti la",
-          "references": ["Yer 30, 1-9"]
+          "texts": ["Yer 30, 1-9"]
         },
         {
-          "numero": 9,
+          "id": 9,
           "jour": "Bra.",
           "theme": "Le wo nuwswo godo ha la, nyae, be Afeto la waa nu de quwo kple lolo",
-          "references": ["Yer 30, 10-17"]
+          "texts": ["Yer 30, 10-17"]
         },
         {
-          "numero": 10,
+          "id": 10,
           "jour": "Kud.",
           "theme": "Da akpe na Afeto la le efe gbugbogadote dodo de quwo ta",
-          "references": ["Yer 30, 18-24"]
+          "texts": ["Yer 30, 18-24"]
         },
         {
-          "numero": 11,
+          "id": 11,
           "jour": "Yaw.",
           "theme": "Ka de dai, Afeto do wo gbugbogado te quebe na wo",
-          "references": ["Yer 31, 1-6"]
+          "texts": ["Yer 31, 1-6"]
         },
         {
-          "numero": 12,
+          "id": 12,
           "jour": "Fid.",
           "theme": "Se veve de wo nuwswo ta eye trwa Afeto la gbo",
-          "references": ["Yer 31, 15-22"]
+          "texts": ["Yer 31, 15-22"]
         },
         {
-          "numero": 13,
+          "id": 13,
           "jour": "Mem.",
           "theme": "Tai le Afeto si tso ke wo la nyanya me",
-          "references": ["Yer 31, 23-34"]
+          "texts": ["Yer 31, 23-34"]
         },
         {
-          "numero": 14,
+          "id": 14,
           "jour": "Kwa. 50",
           "designation": "ADVENTO KWASIDA ETOLIA",
-          "references": [
+          "texts": [
             "Ps 146, 8-9",
             "Yes 35, 1-6+10",
             "Yak 5, 7-10",
@@ -2313,71 +2237,66 @@
           "theme_principal": "DZO DZI LE MESIA JE KEYIXI JUTI EYE LALA AFETO LA JE TROTEOYA"
         },
         {
-          "numero": 15,
+          "id": 15,
           "jour": "Dzo.",
           "theme": "Glo nu si Afeto si le guazo le efe Nya qu la do na wo la vovomanomee",
-          "references": ["Yer 1, 6-13"]
+          "texts": ["Yer 1, 6-13"]
         },
         {
-          "numero": 16,
+          "id": 16,
           "jour": "Bra.",
           "theme": "Lo nanye dowmu si dea Afeto la flana la",
-          "references": ["Yoh 1, 19-28"]
+          "texts": ["Yoh 1, 19-28"]
         },
         {
-          "numero": 17,
+          "id": 17,
           "jour": "Kud.",
           "theme": "Nye aksplola nyui abe Afeto la ene",
-          "references": ["Xez 34, 11-16"]
+          "texts": ["Xez 34, 11-16"]
         },
         {
-          "numero": 18,
+          "id": 18,
           "jour": "Yaw.",
           "theme": "No dzodzoenyewe fe agbe le wo hame la me",
-          "references": ["Xez 34, 17-24"]
+          "texts": ["Xez 34, 17-24"]
         },
         {
-          "numero": 19,
+          "id": 19,
           "jour": "Fid.",
           "theme": "No Afeto fe gutifafa nubabla la me",
-          "references": ["Xez 34, 25-31"]
+          "texts": ["Xez 34, 25-31"]
         },
         {
-          "numero": 20,
+          "id": 20,
           "jour": "Mem.",
           "theme": "Do to Afeto la fe gebe eye dze eyome",
-          "references": ["Yoh 10, 23-41"]
+          "texts": ["Yoh 10, 23-41"]
         },
         {
-          "numero": 21,
+          "id": 21,
           "jour": "Kwa. 51",
           "designation": "ADVENTO KWASIDA ENELIA",
-          "references": [
-            "Ps 24, 7-10",
-            "Yes 7, 10-16",
-            "Ro 1, 1-7",
-            "Mat 1, 18-24"
-          ],
+          "texts": ["Ps 24, 7-10", "Yes 7, 10-16", "Ro 1, 1-7", "Mat 1, 18-24"],
           "theme_principal": "TO XOSE ME, LO DE AFETO LA JE JUGBEDODO DZI EYE WO EFE LOLONU"
         },
         {
-          "numero": 22,
+          "id": 22,
           "jour": "Dzo.",
           "theme": "Tse ku si Afeto la le mo kpom na tso gbowo la",
-          "references": ["Mat 21, 18-22"]
+          "texts": ["Mat 21, 18-22"]
         },
         {
-          "numero": 23,
+          "id": 23,
           "jour": "Bra.",
           "theme": "Tso wo tamensusuwo do Afeto la gkume se sia xi",
-          "references": ["Sam II. 7, 1-7"]
+          "texts": ["Sam II. 7, 1-7"]
         },
         {
-          "numero": 24,
+          "id": 24,
           "jour": "Kud.",
           "designation": "ZAKOKOE LA",
           "theme": "Subo Afeto si fe daidudu ano anyi dea",
-          "references": [
+          "texts": [
             "Dan 7, 1-15",
             "Ps 89, 2-5",
             "Yes 62, 1-5",
@@ -2387,54 +2306,49 @@
           "theme_principal": "WODZI WO DELA SI JUGGE WODO LA, TSO JUTIKOKOE NA MAWU"
         },
         {
-          "numero": 25,
+          "id": 25,
           "jour": "Yaw.",
           "designation": "BLUNYA : YESU JE DZIDZI",
-          "references": ["Ps 96", "Yes 9, 2-7", "Ti 2, 11-14", "Lu 2, 15-20"],
+          "texts": ["Ps 96", "Yes 9, 2-7", "Ti 2, 11-14", "Lu 2, 15-20"],
           "theme_principal": "DE GREJA AMENUVEWE KATA JE AFETO SI WODZI LA"
         },
         {
-          "numero": 26,
+          "id": 26,
           "jour": "Fid.",
           "theme": "Xo dase si wodi le Afeto la pu eye no hadede me kplii",
-          "references": ["Yoh I. 1, 1-4"]
+          "texts": ["Yoh I. 1, 1-4"]
         },
         {
-          "numero": 27,
+          "id": 27,
           "jour": "Mem.",
           "theme": "Zo le kekeli la me, u wo nuwswo me eye woako puti wo",
-          "references": ["Yoh I. 1, 5-10"]
+          "texts": ["Yoh I. 1, 5-10"]
         },
         {
-          "numero": 28,
+          "id": 28,
           "jour": "Kwa. 52",
           "designation": "KWASIDA GBATO LE YESU DZIDZ I MEGBE",
-          "references": [
-            "Ps 98, 1-3",
-            "Yes 52, 7-10",
-            "Heb 1, 1-6",
-            "Yoh 1, 1-18"
-          ],
+          "texts": ["Ps 98, 1-3", "Yes 52, 7-10", "Heb 1, 1-6", "Yoh 1, 1-18"],
           "theme_principal": "XO KRISTO JE DASEDIDI EYE ZO LE EFE KEKELI ME"
         },
         {
-          "numero": 29,
+          "id": 29,
           "jour": "Dzo.",
           "theme": "Dzra Afeto la fe sededewo do eye no efe lolo la me",
-          "references": ["Yoh I. 2, 1-6"]
+          "texts": ["Yoh I. 2, 1-6"]
         },
         {
-          "numero": 30,
+          "id": 30,
           "jour": "Bra.",
           "theme": "No kekeli la me to hawovi lolo me",
-          "references": ["Yoh I. 2, 7-11"]
+          "texts": ["Yoh I. 2, 7-11"]
         },
         {
-          "numero": 31,
+          "id": 31,
           "jour": "Kud.",
           "designation": "FE KPEKPE",
           "theme": "Gble nu sia nu di ne nadze Afeto la yome",
-          "references": [
+          "texts": [
             "Mat 4, 18-22",
             "Ps 128",
             "Yes 61, 10+11",

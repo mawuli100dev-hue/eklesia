@@ -1,3 +1,4 @@
+import { Prisma } from "@prisma/client";
 import prisma from "../../../prisma/client/prisma.service";
 import { FavoriteBibleReading } from "../../domain/entities/favorite-bibleReading.entity";
 import { BaseService } from "./base.service";
@@ -24,6 +25,14 @@ class FavoriteBibleReadingService extends BaseService<FavoriteBibleReading> {
             user: prismaFavoriteReading.user,
             bibleReading: prismaFavoriteReading.bibleReading
         });
+    }
+
+    async create(data: Partial<FavoriteBibleReading>): Promise<FavoriteBibleReading> {
+        const { bibleReading, user, ...principalData } = data;
+        const createdFavorite = await prisma.favoriteBibleReading.create({
+            data: principalData as Prisma.FavoriteBibleReadingCreateInput,
+        });
+        return this.prismaToModel(createdFavorite);
     }
 
     async findAll(): Promise<FavoriteBibleReading[]> {
