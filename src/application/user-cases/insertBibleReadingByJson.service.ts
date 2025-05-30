@@ -6,11 +6,10 @@ export interface MonthData {
     title: string;
     beginDay: number;
     days: Array<{
-        day: string;
         theme: string;
-        text: string | string[];
+        references: string | string[];
         content?: string; // Contenu du texte biblique
-        label?: string;
+        description?: string;
         id?: number;
     }>;
 }
@@ -49,15 +48,15 @@ class InsertBibleReadingByJson {
                     const bibleReading = await bibleReadingService.create({
                         date: date,
                         theme: reading.theme,
-                        description: reading.label || '',
+                        description: reading.description || '',
                         language: language,
                         texts: []
                     });
 
                     // Traiter les textes bibliques
-                    if (Array.isArray(reading.text)) {
-                        for (let k = 0; k < reading.text.length; k++) {
-                            const textRef = reading.text[k];
+                    if (Array.isArray(reading.references)) {
+                        for (let k = 0; k < reading.references.length; k++) {
+                            const textRef = reading.references[k];
                             await bibleTextService.create({
                                 reference: textRef,
                                 content: reading.content, // Le contenu sera ajouté plus tard
@@ -65,9 +64,9 @@ class InsertBibleReadingByJson {
                                 readingId: bibleReading.id
                             });
                         }
-                    } else if (reading.text) {
+                    } else if (reading.references) {
                         await bibleTextService.create({
-                            reference: reading.text,
+                            reference: reading.references,
                             content: reading.content, // Le contenu sera ajouté plus tard
                             language: language,
                             readingId: bibleReading.id

@@ -497,26 +497,38 @@
 
 ```json
 {
-  "data": [
+  "title": "string;",
+  "beginDay": "number;",
+  "days": [
     {
-      "month": "string",
-      "readings": [
-        {
-          "date": "string",
-          "theme": "string",
-          "description": "string",
-          "texts": [
-            {
-              "reference": "string",
-              "content": "string"
-            }
-          ]
-        }
-      ]
+      "theme": "string;",
+      "references": "string | string[];",
+      "content?": "string;",
+      "description?": "string;",
+      "id?": "number;"
     }
-  ],
-  "lang": "string"
+  ]
 }
+```
+
+```json
+[
+  {
+    "title": "JANVIER 2025",
+    "beginDay": 1,
+    "days": [
+      {
+        "description": "NOUVEL AN",
+        "references": ["Ps 66, 1-4", "Nb 6, 22-27", "Ga 4, 1-7", "Lc 2, 15-21"],
+        "theme": "ANNONCE LA GRÂCE DU SAUVEUR QUI EST NÉ"
+      },
+      {
+        "theme": "Reste vigilant(e) en toutes circonstances",
+        "references": "S 19, 8-18"
+      }
+    ]
+  }
+]
 ```
 
 **Notes**:
