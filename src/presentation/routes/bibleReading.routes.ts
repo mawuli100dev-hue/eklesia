@@ -5,7 +5,7 @@ import bibleReadingController from '../controllers/bibleReading.controller';
 const router = Router();
 
 // Routes protégées par authentification
-// router.use(authenticateToken);
+router.use(authenticateToken);
 
 // Routes GET
 router.get('/', bibleReadingController.getAllReadings);

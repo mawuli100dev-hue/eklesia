@@ -5,7 +5,7 @@ import favoriteBibleReadingController from '../controllers/favorite-bibleReading
 const router = Router();
 
 // Routes protégées par authentification
-// router.use(authenticateToken);
+router.use(authenticateToken);
 
 // Routes GET
 router.get('/', favoriteBibleReadingController.getAllFavorites);

@@ -5,7 +5,7 @@ import bibleTextController from '../controllers/bibleText.controller';
 const router = Router();
 
 // Routes protégées par authentification
-// router.use(authenticateToken);
+router.use(authenticateToken);
 
 // Routes GET
 router.get('/', bibleTextController.getAllTexts);

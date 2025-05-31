@@ -5,7 +5,7 @@ import insertBibleReadingByJsonController from '../controllers/insertBibleReadin
 const router = Router();
 
 // Routes protégées par authentification
-// router.use(authenticateToken);
+router.use(authenticateToken);
 
 // Route POST pour l'insertion des lectures
 router.post('/', insertBibleReadingByJsonController.insertReadings);
