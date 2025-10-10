@@ -11,8 +11,8 @@ router.use(authenticateToken);
 router.get('/', favoriteBibleReadingController.getAllFavorites);
 router.get('/:id', favoriteBibleReadingController.getFavoriteById);
 router.get('/:id/relations', favoriteBibleReadingController.getFavoriteWithRelations);
-router.get('/user/:userId', favoriteBibleReadingController.getFavoritesByUserId);
-router.get('/user/:userId/with-readings', favoriteBibleReadingController.getFavoritesByUserIdWithBibleReading);
+router.get('/user', favoriteBibleReadingController.getFavoritesByUserId);
+router.get('/user/with-readings', favoriteBibleReadingController.getFavoritesByUserIdWithBibleReading);
 
 // Routes POST, DELETE
 router.post('/', favoriteBibleReadingController.createFavorite);

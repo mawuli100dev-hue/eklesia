@@ -428,25 +428,23 @@
 - 404: Lecture favorite non trouvée
 - 500: Erreur serveur
 
-### GET `/favorites/user/:userId`
+### GET `/favorites/user/`
 
 **Description**: Récupère toutes les lectures favorites d'un utilisateur spécifique
-**Paramètres**:
 
-- `userId`: number (dans l'URL)
-  **Réponse**: Tableau de lectures favorites (même format que GET `/`)
-  **Codes de réponse**:
+**Réponse**: Tableau de lectures favorites (même format que GET `/`)
+**Codes de réponse**:
+
 - 200: Lectures favorites trouvées
 - 500: Erreur serveur
 
-### GET `/favorites/user/:userId/with-readings`
+### GET `/favorites/user/with-readings`
 
 **Description**: Récupère toutes les lectures favorites d'un utilisateur avec les détails des lectures bibliques associées
-**Paramètres**:
 
-- `userId`: number (dans l'URL)
-  **Réponse**: Tableau de lectures favorites avec détails des lectures (même format que GET `/`)
-  **Codes de réponse**:
+**Réponse**: Tableau de lectures favorites avec détails des lectures (même format que GET `/`)
+**Codes de réponse**:
+
 - 200: Lectures favorites trouvées avec détails
 - 500: Erreur serveur
 
@@ -457,7 +455,6 @@
 
 ```json
 {
-  "userId": "number",
   "bibleReadingId": "number"
 }
 ```
