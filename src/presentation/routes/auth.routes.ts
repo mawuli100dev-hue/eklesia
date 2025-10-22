@@ -22,9 +22,9 @@ router.get(
 router.post('/sign', authController.sign);
 router.post('/login', authController.login);
 
-// Middleware pour protéger les routes
 router.get('/refresh-token', authController.refreshToken);
 
+// Middleware pour protéger les routes
 router.use(authenticateToken)
 
 router.get('/logout', authController.logout);

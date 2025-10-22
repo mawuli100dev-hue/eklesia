@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import passport from '../../application/config/passport.config';
 import authService from '../../application/services/auth.service';
+import userService from '../../application/services/user.service';
 import jwt from 'jsonwebtoken';
 import { User } from '../../domain/entities/user.entity';
 
@@ -79,11 +80,11 @@ class AuthController {
                 maxAge: 60 * 60 * 1000, // 1 heure
             });
 
-            res.status(201).json(user);
+            res.status(201).json({ message: "success", user: { name: user.name, email: user.email } });
         } catch (error: unknown) {
             if (error instanceof Error) {
                 console.log("error: ", error.message);
-                res.status(401).json({ message: error.message });
+                res.status(401).json({ message: error.message, user: null });
             } else {
                 res.status(500).json({ message: 'Unknown error occurred' });
             }
@@ -113,7 +114,7 @@ class AuthController {
                 maxAge: 60 * 60 * 1000, // 1 heure
             });
 
-            res.status(200).json({ message: "success" });
+            res.status(200).json({ message: "success", user: { name: user.name, email: user.email } });
 
         } catch (error: unknown) {
             if (error instanceof Error) {

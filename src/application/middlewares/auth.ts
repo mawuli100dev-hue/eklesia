@@ -17,6 +17,7 @@ function authenticateToken(req: any, res: any, next: NextFunction): void {
     jwt.verify(accessToken, jwtSecret, (err: any, user: any) => {
         if (err) return res.sendStatus(403); // Non autorisé
         req.user = user;
+        console.log('user111: ', req.user.id);
         next();
     });
 }

@@ -54,9 +54,8 @@ class FavoriteBibleReadingController {
     }
 
     public getFavoritesByUserId = async (req: any, res: Response): Promise<void> => {
-        const { userId } = req.params;
         try {
-            const favorites = await favoriteBibleReadingService.findByUserId(parseInt(userId));
+            const favorites = await favoriteBibleReadingService.findByUserId(req.user.id);
             res.status(200).json(favorites);
         } catch (error) {
             console.error('Erreur lors de la récupération des favoris de l\'utilisateur:', error);
@@ -65,9 +64,8 @@ class FavoriteBibleReadingController {
     }
 
     public getFavoritesByUserIdWithBibleReading = async (req: any, res: Response): Promise<void> => {
-        const { userId } = req.params;
         try {
-            const favorites = await favoriteBibleReadingService.findByUserIdWithBibleReading(parseInt(userId));
+            const favorites = await favoriteBibleReadingService.findByUserIdWithBibleReading(req.user.id);
             res.status(200).json(favorites);
         } catch (error) {
             console.error('Erreur lors de la récupération des favoris avec lectures:', error);
@@ -76,10 +74,10 @@ class FavoriteBibleReadingController {
     }
 
     public createFavorite = async (req: any, res: Response): Promise<void> => {
-        const { userId, bibleReadingId } = req.body;
+        const { bibleReadingId } = req.body;
         try {
             const favorite = await favoriteBibleReadingService.create({
-                userId,
+                userId: req.user.id,
                 bibleReadingId
             });
             console.log('Favori créé avec succès:', favorite);
